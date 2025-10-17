@@ -1,129 +1,166 @@
-# Toxic-Detection-PCB - Product Brief
+# Toxic-Detection-PCB – Product Brief
 
 ## Revision
 
-| Revision | Date | Author | Comment |
-|----------|------|--------|---------|
-| 0.1.     | Oct 16 | Paul Capgras | First draft |
+| Revision | Date   | Author       | Comment     |
+| -------- | ------ | ------------ | ----------- |
+| 0.1      | Oct 16 | Paul Capgras | First draft |
 
-## 1. Motivations
+---
 
-This project aims to design a new PCB board to interface with 2 sets of 4 chemical sensors used to detect toxic gases in the air.
+## 1. Motivation
 
-The previous electronic interface used to transmit the data measured by the sensors up to a cloud database was the TELLUS Network Sensor Solutions revision 3.2.
-This solution is now limited because it only provides one interface for the AFE of the sensor - supporting therefore only 4 sensors instead of 8.
-The current workaround was to use to 2 TELLUS card instead of 1 and to connect them in a controler/target architecture.
+This project aims to design a new PCB to interface with **2 sets of 4 chemical sensors** used to detect toxic gases in the air.
 
-In parallel, first AI models were developped and pushed on an STM32 to do realt time detection of toxic gases. These algorithms were tested on an STM32 development board but can not be embedded in the current TELLUS card because the only MCU available - an esp32 - is not powerfull enough to run this new software.
+The previous electronic interface, **TELLUS Network Sensor Solutions (rev. 3.2)**, is now limited because it provides only one interface for the sensor AFE, thus supporting only four sensors instead of eight.
+The current workaround uses **two TELLUS boards** connected in a controller/target architecture.
 
-A new revision of the Tellus card is therefore required with the two main goals:
+In parallel, the first AI models have been developed and deployed on an **STM32** to perform real-time toxic gas detection. These algorithms were tested on an STM32 development board but **cannot be embedded** in the current TELLUS board, as the onboard **ESP32** MCU is not powerful enough to run this new software.
 
-- to support 2 sets of 4 chemical sensors by providing two interfaces.
-- to support a computing chip powerfull enough to support this new software requirements
+A new revision of the TELLUS board is therefore required, with two main goals:
+
+* Support **2 sets of 4 chemical sensors** by providing two AFE interfaces.
+* Integrate a **computing chip powerful enough** to handle the new software requirements.
+
+---
 
 ## 2. Functional Description
 
-The device will be used to interface with 2 set of 4 chemical sensors and a temperature sensor.
-Every 10s, a measure of the 8 sensors is performed.
-Every minute, a wifi communication is performed to push its data to the cloud - mode of operation 1 - or to a computer connected to the local wifi - mode of operation 2.
+The device will interface with **two sets of four chemical sensors** and **one temperature sensor**.
 
-Data treatment can also be enabled and performed on the chip before transmitting the data to the external world using wifi.
+* Every **10 seconds**, a measurement of the eight sensors is performed.
+* Every **minute**, a Wi-Fi communication occurs to push data to:
 
-The device will be powered through an USB-C connector. The external power supply can be a transformer or a battery. This external power is out of the scope of this project.
+  * **Mode 1:** the cloud database, or
+  * **Mode 2:** a local computer connected via Wi-Fi.
 
-The device will contain a computing chip, powerfull enough to run small AI models. The AI algorithms will be designed to operate on a STM32H755.
+Data processing can also be enabled and performed on the onboard MCU before transmission via Wi-Fi.
 
-The device can be reprogrammed as many times as user want.
+The device will be **powered through a USB-C connector**. The external power source (transformer or battery) is **out of scope** for this project.
 
-The device will provide power for a ventilator.
+The device will include a **computing chip powerful enough to run small AI models**, such as the **STM32H755**.
+It will be **reprogrammable** as many times as the user desires.
 
-The device might provide a Lora connexion.
+Additional features:
 
-## 3. Electrical specifications
+* Provide **power for a ventilator**.
+* Optionally support a **LoRa connection**.
 
-- Input power : 5V through an USB-C connector.
-- Maximum power consumption : Not defined.
+---
 
-## 4. Mechanical and form factor
+## 3. Electrical Specifications
 
-- Board dimensions: Must fit in the box.
-- Mouting holes : Yes, 4, predefined sizes : no.
-- Connector placement contraints : None.
-- Other mechanical constraints : No.
+* **Input power:** 5 V via USB-C connector
+* **Maximum power consumption:** TBD
+
+---
+
+## 4. Mechanical and Form Factor
+
+* **Board dimensions:** Must fit within the predefined box (TBD).
+* **Mounting holes:** Yes (4 total, size TBD).
+* **Connector placement constraints:** None.
+* **Other mechanical constraints:** None.
+
+---
 
 ## 5. Interface & Connectivity
 
-- 2 interfaces for AFE 4-sensors
-- 1 interface for powering a vent
-- 1 Lora interface
-- 1 USB-C connector for power
-- interfaces to flash
+* 2 interfaces for 4-sensor AFEs
+* 1 interface to power a ventilator
+* 1 LoRa interface (optional)
+* 1 USB-C connector for power
+* Programming/debug interfaces
 
-## 6. System block diagram
+---
 
-Later
+## 6. System Block Diagram
 
-## 7. Design constraints
+TBD
 
-- PCB layers : up to 4.
-- IEMI/EMC requirements : no
-- Safety certifications : no
-- Standard certifications : no
-- ESD protection : yes when required.
+---
+
+## 7. Design Constraints
+
+* **PCB layers:** Up to 4
+* **EMI/EMC requirements:** None
+* **Safety certifications:** None
+* **Standard certifications:** None
+* **ESD protection:** Yes, where required
+
+---
 
 ## 8. Power Architecture
 
-Nothing special to define at this stage for this project.
+No specific requirements at this stage.
 
-## 9. Firmware / software considerations
+---
 
-- Existing projects were developped using ESP32_WROOM and STM32H755.
-- The wifi stack is using MQTT.
+## 9. Firmware / Software Considerations
 
-## 10. Testing & validation
+* Existing projects were developed using **ESP32-WROOM** and **STM32H755**.
+* The Wi-Fi stack uses **MQTT** protocol.
 
-- All signals should be accessible for probing.
-- All power lines should be easily accessible.
-- Debug bus should be easily observable.
+---
+
+## 10. Testing & Validation
+
+* All signals should be accessible for probing.
+* All power lines should be easily accessible.
+* The debug bus should be clearly exposed for observation.
+
+---
 
 ## 11. Deliverables
 
-- Component choice
-- Specification
-- Schematic
-- PCB layout
-- BOM
-- Gerber files
-- Firmware
+* Component selection
+* Specification document
+* Schematic
+* PCB layout
+* Bill of Materials (BOM)
+* Gerber files
 
-## 12. Manufacturing and Assembling
+---
 
-- Manufacturing : external
-- Assembling : [TBD] do we assemble in the lab or not?
+## 12. Manufacturing & Assembly
+
+* **Manufacturing:** External
+* **Assembly:** TBD (to decide whether in-lab or outsourced)
+
+---
 
 ## 13. Questions
 
-- The TELLUS Network Sensor Solutions board has a lot more features than what is required in [Motivation](#1-motivations). Please tell me if I should keep some features. Default answer is no.
-  - Microphone - do not keep
-  - Temperature and humidity sensor - do not keep
-  - Connector for a PM sensor (MOLEX-53261-0871) - do not keep
-  - User button - do not keep
-  - Termal probe - do not keep
-  - E sim interface - do not keep
-  - GNSS antenna - do not keep
-  - Main antenna - do not keep
-  - BG77 module - do not keep
-  - GPS module - do not keep
-  - GPS antenna - do not keep
+The **TELLUS Network Sensor Solutions board** includes more features than required for this project (see [Motivation](#1-motivation)).
+Unless stated otherwise, these will **not be retained**.
 
-- Do we keep a microSDCard connector?
-- Are we planning to assemble the PCB in the lab or not?
-- What is the confidentiality level of the project? Can it be open-source when finished?
+| Feature                                | Keep? |
+| -------------------------------------- | ----- |
+| Microphone                             | No    |
+| Temperature & humidity sensor          | No    |
+| PM sensor connector (MOLEX-53261-0871) | No    |
+| User button                            | No    |
+| Thermal probe                          | No    |
+| eSIM interface                         | No    |
+| GNSS antenna                           | No    |
+| Main antenna                           | No    |
+| BG77 module                            | No    |
+| GPS module                             | No    |
+| GPS antenna                            | No    |
+
+Additional open points:
+
+* Should we include a **microSD card connector**?
+* Will the PCB be **assembled in the lab** or externally?
+
+---
 
 ## Appendix
 
-**Why a measure every 10s?**
-Because realtime operation is required for many applications and air evolution is slow enough to have a frequency of 0.1Hz.
+### Why a measurement every 10 seconds?
 
-**Why can't we process the data on the cloud?**
-Because the project aims to target a wide range of application, some of them might not be linked to a cloud and might require immediate and local notification if a chemical is detected (alarm, lights, ...)
+Because real-time operation is required for many applications, and the evolution of air composition is slow enough to justify a sampling frequency of **0.1 Hz**.
+
+### Why can’t we process the data in the cloud?
+
+Because the project targets applications that may **not have cloud connectivity** and might require **immediate, local alerts** (e.g., alarms, warning lights).
