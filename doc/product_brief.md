@@ -114,9 +114,10 @@ No specific requirements at this stage.
 ## 11. Deliverables
 
 * Component selection
-* Specification document
 * Schematic
+* Schematic design notes
 * PCB layout
+* Layout design notes
 * Bill of Materials (BOM)
 * Gerber files
 
