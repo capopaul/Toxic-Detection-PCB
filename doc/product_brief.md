@@ -4,7 +4,7 @@
 
 | Revision | Date   | Author       | Comment     |
 | -------- | ------ | ------------ | ----------- |
-| 0.1      | Oct 16 | Paul Capgras | First draft |
+| v4.0     | Oct 16 | Paul Capgras | First draft |
 
 ---
 
