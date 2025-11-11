@@ -5,6 +5,7 @@
 | Revision | Date   | Author       | Comment     |
 | -------- | ------ | ------------ | ----------- |
 | v4.0     | Oct 16 | Paul Capgras | First draft |
+| v4.1     | Nov 10 | Paul Capgras | Take into account review from Tharnath, Raven and PE. |
 
 ---
 
@@ -33,6 +34,8 @@ The device will interface with **two sets of four chemical sensors** and **one t
 
   * **Mode 1:** the cloud database, or
   * **Mode 2:** a local computer connected via Wi-Fi.
+
+Measurement includes the device position using GNSS.
 
 Data processing can also be enabled and performed on the onboard MCU before transmission via Wi-Fi.
 
@@ -68,6 +71,9 @@ Additional features:
 
 * 2 interfaces for 4-sensor AFEs
 * 1 interface to power a ventilator
+* 1 GNSS device
+* 1 SD card device
+* 1 EEPROM / flash
 * 1 LoRa interface (optional)
 * 1 USB-C connector for power
 * Programming/debug interfaces
@@ -76,7 +82,7 @@ Additional features:
 
 ## 6. System Block Diagram
 
-TBD
+![Block diagram](images/AirU_System_Diagram.jpg)
 
 ---
 
@@ -149,12 +155,7 @@ Unless stated otherwise, these will **not be retained**.
 | GPS module                             | No    |
 | GPS antenna                            | No    |
 
-Additional open points:
-
-* Should we include a **microSD card connector**?
-* Will the PCB be **assembled in the lab** or externally?
-
----
+**A GNSS module should be kept.**
 
 ## Appendix
 
@@ -165,3 +166,13 @@ Because real-time operation is required for many applications, and the evolution
 ### Why can’t we process the data in the cloud?
 
 Because the project targets applications that may **not have cloud connectivity** and might require **immediate, local alerts** (e.g., alarms, warning lights).
+
+### Should we include a **microSD card connector**?
+
+Yes.
+
+### Will the PCB be **assembled in the lab** or externally?
+
+In house for prototyping, external for production.
+
+### What is the confidentiality level of the project? Once finished, can it be open-source?
