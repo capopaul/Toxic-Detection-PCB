@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ESDA6V1U1RL
+D TVS Diode Array Uni-Directional ESDA6V1U1RL Hex, 200W SOIC 8-Pin
+K
+F https://www.st.com/resource/en/datasheet/esda6v1u1.pdf
+$ENDCMP
+#
+#End Doc Library

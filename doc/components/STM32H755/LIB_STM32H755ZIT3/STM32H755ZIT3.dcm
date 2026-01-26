@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STM32H755ZIT3
+D High-performance and DSP with DP-FPU, Arm Cortex-M7 + Cortex-M4 MCU with 2MBytes of Flash memory, 1MB RAM, 480 MHz CPU, Art Accelerator, L1 cache, external memory interface, large set of peripherals  including a Crypto accelerator, SMPS
+K
+F https://www.st.com/resource/en/datasheet/stm32h755bi.pdf
+$ENDCMP
+#
+#End Doc Library

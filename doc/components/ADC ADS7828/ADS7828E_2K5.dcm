@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADS7828E_2K5
+D TEXAS INSTRUMENTS - ADS7828E/2K5 - ADC, OCTAL, SAR, 12BIT, 50KSPS, TSSOP-16
+K
+F http://www.ti.com/lit/ds/symlink/ads7828.pdf
+$ENDCMP
+#
+#End Doc Library
