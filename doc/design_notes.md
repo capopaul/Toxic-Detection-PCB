@@ -1,5 +1,11 @@
 # Toxic Detection PCB - Schematic design notes
 
+## Revision
+
+| Revision | Date   | Author       | Comment     |
+| -------- | ------ | ------------ | ----------- |
+| v4.0     | 2026 Feb 10 | Paul Capgras | First draft |
+
 ## Purpose
 
 The purpose of *Toxic Detection PCB - Schematic design notes* is to document the design choices and provide details on the project.
