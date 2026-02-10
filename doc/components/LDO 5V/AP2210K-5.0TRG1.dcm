@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AP2210K-5.0TRG1
+D LDO Voltage Regulators 300mA CMOS LDO 5.0V 250mV
+K
+F https://www.diodes.com//assets/Datasheets/AP2210.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -6492,16 +6492,6 @@
 		)
 		(uuid "ffbfd20c-b174-4577-9397-a37807341acf")
 	)
-	(label "STM32_JTAG_JTMS"
-		(at 161.29 147.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0613a9f0-2693-4b3e-9a19-2ee13b5763f0")
-	)
 	(label "STM32_VCAP"
 		(at 142.24 168.91 270)
 		(effects
@@ -6531,16 +6521,6 @@
 			(justify left bottom)
 		)
 		(uuid "20cfce3e-e07f-4586-a971-c350f5b1ef8a")
-	)
-	(label "STM32_USART1_TX"
-		(at 161.29 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "287f74a0-e297-4bae-9611-eaec11d6fb04")
 	)
 	(label "STM32_SMPS_VIN"
 		(at 54.61 96.52 180)
@@ -6581,16 +6561,6 @@
 			(justify right bottom)
 		)
 		(uuid "408c550d-c0e8-47e5-8b92-ee2f31ded653")
-	)
-	(label "STM32_JTAG_JTCK"
-		(at 161.29 144.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4102c3a8-491d-4e0a-baf3-f1c5b8b74756")
 	)
 	(label "STM32_1V2"
 		(at 214.63 142.24 180)
@@ -6692,16 +6662,6 @@
 		)
 		(uuid "91d55708-0b2a-40f5-bc65-dc243d8262b7")
 	)
-	(label "STM32_USART1_RX"
-		(at 161.29 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9ae81aa6-b0df-442d-9524-84e0a620d792")
-	)
 	(label "STM32_SMPS_VOUT"
 		(at 218.44 121.92 0)
 		(effects
@@ -6762,16 +6722,6 @@
 		)
 		(uuid "ac868efc-f1dc-4edd-a71f-a9819b35b1bf")
 	)
-	(label "STM32_JTAG_JTDO"
-		(at 99.06 36.83 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "af341967-0219-4384-b710-302fc6c988f1")
-	)
 	(label "STM32_PH1_OSC_OUT"
 		(at 274.32 77.47 180)
 		(effects
@@ -6781,26 +6731,6 @@
 			(justify right bottom)
 		)
 		(uuid "b25210e9-9ab9-4f3f-a2bb-4f7813e498bb")
-	)
-	(label "STM32_JTAG_JTDI"
-		(at 161.29 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b44c370b-b248-4d5a-acdb-47caaccddaff")
-	)
-	(label "STM32_USB_D-"
-		(at 161.29 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b807a746-ceac-4c7a-9660-3e7c12ea4d84")
 	)
 	(label "STM32_VCAP"
 		(at 224.79 147.32 0)
@@ -6831,16 +6761,6 @@
 			(justify right bottom)
 		)
 		(uuid "cfccb7a0-890f-4ee7-b4d3-fdf5224e7848")
-	)
-	(label "STM32_USB_D+"
-		(at 161.29 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d5c9559e-2eee-4134-8f2d-b24521dc3034")
 	)
 	(label "STM32_NRST"
 		(at 54.61 124.46 180)
@@ -6932,15 +6852,396 @@
 		)
 		(uuid "f9cc841b-9b6b-4cff-a40b-7452ccde2cbf")
 	)
-	(label "STM32_JTAG_NJTRST"
-		(at 96.52 36.83 90)
+	(global_label "STM32_USB_D-"
+		(shape input)
+		(at 161.29 78.74 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "fd093fbf-4f1a-42a5-a73b-783c2f84e875")
+		(uuid "10b037ac-22b5-4200-9360-64afe5636f73")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 178.9103 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2C_SDA"
+		(shape bidirectional)
+		(at 30.48 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1f560362-5b4a-4964-8ef2-0d881089cede")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 20.32 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "STM32_JTAG_JTCK"
+		(shape input)
+		(at 161.29 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "29849c32-0a03-4310-9c0e-c97e092f7687")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.0269 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "STM32_USART1_TX"
+		(shape input)
+		(at 161.29 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "40b65812-54dc-4062-a4f5-bde20cb75a54")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.5107 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD_D0"
+		(shape input)
+		(at 30.48 44.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right)
+		)
+		(uuid "52224a38-f28c-4607-a5a5-e18d6d184628")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 21.7467 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD_CLK"
+		(shape input)
+		(at 30.48 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right)
+		)
+		(uuid "5294c7b6-25f0-4f7f-b892-8fc6ae06a2c8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 20.6799 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PWR_EN_AFE_1"
+		(shape input)
+		(at 30.48 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5bd31e73-cc62-4ad5-8fc2-9f7fcc372c45")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 20.32 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD_CMD"
+		(shape input)
+		(at 30.48 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right)
+		)
+		(uuid "648673c2-8c06-4856-a9e0-e08281b525df")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 20.265 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "STM32_JTAG_JTDI"
+		(shape input)
+		(at 161.29 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7e20abb6-9198-477f-a2c3-bdfe114dd6ea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.3617 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "STM32_JTAG_NJTRST"
+		(shape input)
+		(at 96.52 36.83 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "80319030-57af-40cc-a4f8-3f0fc5565b35")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.52 14.8555 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "STM32_JTAG_JTDO"
+		(shape input)
+		(at 99.06 36.83 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9192fdb4-d80f-4a96-965c-f5fa072880a8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.06 17.0326 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "STM32_JTAG_JTMS"
+		(shape input)
+		(at 161.29 147.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "91af6f5e-6f0f-4a57-a216-481f4efee22b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.1478 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD_CD"
+		(shape input)
+		(at 30.48 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right)
+		)
+		(uuid "99be5b93-052d-4b05-8bb7-a4290c3396a0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 21.6874 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PWR_EN_FAN"
+		(shape input)
+		(at 30.48 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b17b5d13-5f65-4da1-9f55-f10cc7db217d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 20.32 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2C_SCL"
+		(shape input)
+		(at 30.48 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b98321aa-7732-45fc-9e75-06d6eaf8c771")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 20.32 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "STM32_USART1_RX"
+		(shape input)
+		(at 161.29 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cb6c7875-dbcd-4fb1-8a67-669483f6bf4a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.8131 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "STM32_USB_D+"
+		(shape input)
+		(at 161.29 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ed2a55b7-b1b7-4ccf-91ec-cd1cae44ae75")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 178.9103 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PWR_EN_AFE_0"
+		(shape input)
+		(at 30.48 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f1b83665-fdc6-46a5-a336-c97c24b7e54c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 20.32 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+3V3")

@@ -424,11 +424,19 @@
     ],
     [
       "95b8711c-5291-498d-8026-2e6ba416b2b5",
-      "ESP_sheet"
+      "Features_sheet"
     ],
     [
       "8cf4a9a8-5e05-43e1-a28a-857e9901ce9a",
       "STM32_Sheet"
+    ],
+    [
+      "8a21aef4-28b7-4c2c-a193-8d6c9cde0c99",
+      "AFE_Sensor_Sheet"
+    ],
+    [
+      "cdc94fa3-b749-4315-ad45-c9b116ac9c9a",
+      "Power_And_Connectors_Sheet"
     ]
   ],
   "text_variables": {}

@@ -1,0 +1,33 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 79107-7205
+#/2085174/1460655/2.50/12/4/Connector
+DEF 79107-7205 J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "79107-7205" 750 200 50 H V L CNN
+F2 "791077205" 750 100 50 H I L CNN
+F3 "https://www.molex.com/pdm_docs/sd/791077205_sd.pdf" 750 0 50 H I L CNN
+F4 "Headers & Wire Housings MGrid VRec DR W/OPg W/OPgs .38AuLF 12Ckt" 750 -100 50 H I L CNN "Description"
+F5 "4.69" 750 -200 50 H I L CNN "Height"
+F6 "538-79107-7205" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Molex/79107-7205?qs=twZKxcNrvDYEJ65%2FtIoaGw%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Molex" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "79107-7205" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X A1 A1 900 0 200 L 50 50 0 0 P
+X A2 A2 900 -100 200 L 50 50 0 0 P
+X A3 A3 900 -200 200 L 50 50 0 0 P
+X A4 A4 900 -300 200 L 50 50 0 0 P
+X A5 A5 900 -400 200 L 50 50 0 0 P
+X A6 A6 900 -500 200 L 50 50 0 0 P
+X B1 B1 0 0 200 R 50 50 0 0 P
+X B2 B2 0 -100 200 R 50 50 0 0 P
+X B3 B3 0 -200 200 R 50 50 0 0 P
+X B4 B4 0 -300 200 R 50 50 0 0 P
+X B5 B5 0 -400 200 R 50 50 0 0 P
+X B6 B6 0 -500 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -600 200 -600 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

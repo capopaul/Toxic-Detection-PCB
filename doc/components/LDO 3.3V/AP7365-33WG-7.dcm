@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AP7365-33WG-7
+D DiodesZetex AP7365-33WG-7, LDO Voltage Regulator, 600mA, 3.3 V +/-2%, 2  6 Vin, 5-Pin SOT-25
+K
+F https://componentsearchengine.com/Datasheets/1/AP7365-33WG-7.pdf
+$ENDCMP
+#
+#End Doc Library

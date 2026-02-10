@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP NCP716BCSN500T1G
-D Wide Input Voltage Range: Up to 24V; Ultra-Low Quiescent current: 3.2uA Typical; Fixed Output Voltage Options: from 3.0V to 5.0V; Power Supply Rejection Ratio: 55dB @ 100kHz; Package: TSOP-5 / SOT-23-5
-K
-F https://www.onsemi.com/pub/Collateral/NCP716BC-D.PDF
-$ENDCMP
-#
-#End Doc Library

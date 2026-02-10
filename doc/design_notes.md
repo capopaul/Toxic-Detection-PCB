@@ -8,11 +8,13 @@ The purpose of *Toxic Detection PCB - Schematic design notes* is to document the
 
 ## Component choice
 
-### MCU
+All the key components are based on previous board design: Revision 3.3.
+
+STM32H755ZIT3 is chosen as the Machine Learning applications have been tested on the Nucleo-h755zi development board which contains the STM32H755ZIT3.
 
 ## Electronic schematic
 
-### STM32H755
+### STM32H755ZIT3
 
 #### Power supply
 
@@ -54,7 +56,7 @@ Let's setup UART and USB for this board.
 
 Schematic:
 ![Schematic STM32 boot and reset](images/schematic_stm32_boot_and_reset.png)
-![Peripherics](images/schematic_peripherics_uart_usb.png)
+![Peripherals](images/schematic_stm32_peripherals_uart_usb.png)
 
 References:
 ![STM32 boot pin connection](images/stm32_boot_pin_connection.png)
@@ -86,10 +88,40 @@ The load capacitance of this clock is 12.5pF. So the capacitors are 5pF to have 
 
 JTAG interface:
 
+Schematic:
+![Schematic JTAG for STM32 debug](images/schematic_jtag.png)
+References:
 ![STM32 Debug JTAG interface](images/stm32_jtag_debug.png)
+![STM32 Debug JTAG interface 2](images/stm32_jtag_debug_2.png)
+
+### AFE connectors
+
+Schematic:
+![Schematic AFE sensors](images/schematic_afe_sensor.png)
+
+References:
+This design is based on the previous board revision (3.3), on [AFE Datasheet](external/alphasense_afe_datasheet_en_1.pdf) and components datasheets.
+![AFE pin layout](images/AFE_pin_layout.png)
 
 
-### STM32H755ZIT3
+### LDOs
+
+Schematic:
+![Scheamtic LDO](images/schematic_ldo.png)
+
+References:
+![Datasheet LDO 5V](images/datasheet_ldo_5v.png)
+![Datasheet LDO 3.3V](images/datasheet_ldo_3V3.png)
+
+Note [Datasheet LDO 3.3V](components/LDO%203.3V/DIOD-S-A0003512613-1.pdf) says that pin 4 should be unconnected when using a fix LDO.
+
+### Power Gating
+
+Schematic:
+![Schematic Power Gating](images/schematic_power_gating.png)
+
+References:
+![Datasheet Power Gating](images/datasheet_power_gating.png)
 
 ## ESP32 Pin Assignments
 

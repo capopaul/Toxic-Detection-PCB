@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS2054BDR
+D Quad Current-Limited Power-Distribution Switches
+K
+F http://www.ti.com/lit/gpn/tps2054b
+$ENDCMP
+#
+#End Doc Library
