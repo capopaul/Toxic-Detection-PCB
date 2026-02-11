@@ -4403,6 +4403,30 @@
 		)
 		(uuid "1dc92ea0-27c9-4095-b7e2-453e1ce24981")
 	)
+	(text "AVAILABLE"
+		(exclude_from_sim no)
+		(at 185.9355 21.6554 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+				(thickness 0.3023)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "307ceec5-1981-4036-b246-586d4e5ceb63")
+	)
+	(text "BME (T,H,P)"
+		(exclude_from_sim no)
+		(at 166.37 36.83 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a704dfa-97e4-4c81-8240-ee630af88ff2")
+	)
 	(text "Boot and reset"
 		(exclude_from_sim no)
 		(at 276.098 14.986 0)
@@ -4412,6 +4436,19 @@
 			)
 		)
 		(uuid "3a8fc16a-9b02-4704-9d91-ccc6a6ed663a")
+	)
+	(text "HEX"
+		(exclude_from_sim no)
+		(at 218.8174 21.6798 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+				(thickness 0.3023)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "65146480-c359-41a7-bf12-aeee08b09028")
 	)
 	(text "220pF close to SMPS_VOUT pin"
 		(exclude_from_sim no)
@@ -4434,6 +4471,19 @@
 		)
 		(uuid "8f63d673-6d1a-4cf9-b3d8-c1cd27caead4")
 	)
+	(text "DEVICE"
+		(exclude_from_sim no)
+		(at 170.18 21.59 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+				(thickness 0.3023)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "939d6739-8599-4728-b033-c9762d137db7")
+	)
 	(text "Caps should be placed close"
 		(exclude_from_sim no)
 		(at 224.79 110.998 0)
@@ -4443,6 +4493,17 @@
 			)
 		)
 		(uuid "9bf04650-9d27-43d5-b9fb-1aa034ccbb25")
+	)
+	(text "LED Controller"
+		(exclude_from_sim no)
+		(at 166.37 46.736 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "a0f7db1b-5e43-4a89-a6f9-7933d6072963")
 	)
 	(text "Core can be power using internal SMPS, or LDO."
 		(exclude_from_sim no)
@@ -4484,6 +4545,39 @@
 		)
 		(uuid "b6ab1003-c739-4ec3-93da-7d02cfe9434f")
 	)
+	(text "ADC_1\n"
+		(exclude_from_sim no)
+		(at 166.37 31.75 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "d14f498c-181b-4bb7-b93c-9727707f2b36")
+	)
+	(text "I2C Address Map"
+		(exclude_from_sim no)
+		(at 186.69 16.51 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "db5ef5f5-9025-4281-be2d-16500cd95447")
+	)
+	(text "IO Expander"
+		(exclude_from_sim no)
+		(at 166.37 41.91 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "e1747720-a66f-4544-9488-d751ee4c4c93")
+	)
 	(text "Caps should be placed close to VDD_LDO"
 		(exclude_from_sim no)
 		(at 268.732 110.49 0)
@@ -4493,6 +4587,30 @@
 			)
 		)
 		(uuid "e215ece5-4f15-4fc2-916a-e2cca0ecb46b")
+	)
+	(text "ADC_0\n"
+		(exclude_from_sim no)
+		(at 166.37 26.67 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "eba4efa3-9c60-45ae-b40a-36e23749fc8e")
+	)
+	(text "FIXED"
+		(exclude_from_sim no)
+		(at 203.7933 21.7531 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+				(thickness 0.3023)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "f05b6b6a-5c54-4cf7-bb10-a715d944d5a7")
 	)
 	(junction
 		(at 240.03 85.09)
@@ -4872,6 +4990,16 @@
 		)
 		(uuid "05ec9e04-d82d-4dfd-84f4-61409d425bab")
 	)
+	(polyline
+		(pts
+			(xy 163.83 48.26) (xy 199.39 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "089961c3-1e36-459b-8e04-92404c9ed7fc")
+	)
 	(wire
 		(pts
 			(xy 41.91 139.7) (xy 55.88 139.7)
@@ -5031,6 +5159,16 @@
 			(type default)
 		)
 		(uuid "16ff06b0-527a-46d2-a57b-ffdeb01e2d42")
+	)
+	(polyline
+		(pts
+			(xy 163.83 17.78) (xy 163.83 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "170f6b7b-4bb7-49cf-b41e-f8f7eda119ab")
 	)
 	(wire
 		(pts
@@ -5262,6 +5400,16 @@
 		)
 		(uuid "39150b54-6865-4d6c-9d87-49e7055b737c")
 	)
+	(polyline
+		(pts
+			(xy 163.83 22.86) (xy 227.33 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3942bd44-3311-4bde-b873-47fdb7bd9e94")
+	)
 	(wire
 		(pts
 			(xy 109.22 167.64) (xy 109.22 177.8)
@@ -5332,6 +5480,16 @@
 		)
 		(uuid "3cc870c2-5585-4da1-9f4b-56b59cbed096")
 	)
+	(polyline
+		(pts
+			(xy 227.33 17.78) (xy 227.33 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cdd264b-b28c-48da-8e26-9fdafb410d53")
+	)
 	(wire
 		(pts
 			(xy 162.56 101.6) (xy 162.56 99.06)
@@ -5381,6 +5539,16 @@
 			(type default)
 		)
 		(uuid "44405f2a-8177-4646-a0c4-76274e51c105")
+	)
+	(polyline
+		(pts
+			(xy 199.39 17.78) (xy 214.63 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47a4d7bb-bd78-4166-a029-9ab21f8ed195")
 	)
 	(wire
 		(pts
@@ -5441,6 +5609,16 @@
 			(type default)
 		)
 		(uuid "529be053-e563-42c2-9c63-44db3fc764df")
+	)
+	(polyline
+		(pts
+			(xy 199.39 48.26) (xy 227.33 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "547390fd-c203-440e-8ddc-d11681918cd9")
 	)
 	(wire
 		(pts
@@ -5852,6 +6030,26 @@
 		)
 		(uuid "8fdc7b35-40e5-4b40-bd6a-9af26ddcf026")
 	)
+	(polyline
+		(pts
+			(xy 214.63 17.78) (xy 227.33 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fe8ef64-55d1-4829-bcc5-7090a829c853")
+	)
+	(polyline
+		(pts
+			(xy 184.15 17.78) (xy 199.39 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "915c19a6-002d-4ee9-8c2d-2bbd6a209fe8")
+	)
 	(wire
 		(pts
 			(xy 261.62 156.21) (xy 261.62 158.75)
@@ -5901,6 +6099,16 @@
 			(type default)
 		)
 		(uuid "972a61ea-6500-471e-a5d8-64373972c045")
+	)
+	(polyline
+		(pts
+			(xy 199.39 17.78) (xy 199.39 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "978a6e41-e606-439a-a28e-47dd928df9e8")
 	)
 	(wire
 		(pts
@@ -5962,6 +6170,16 @@
 		)
 		(uuid "9e62884e-d927-4c20-8037-e6bdfdd934b1")
 	)
+	(polyline
+		(pts
+			(xy 214.63 17.78) (xy 214.63 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0c33d38-99c8-4b26-8732-12d678f1fc05")
+	)
 	(wire
 		(pts
 			(xy 53.34 86.36) (xy 53.34 91.44)
@@ -6021,6 +6239,16 @@
 			(type default)
 		)
 		(uuid "a5be568c-9abf-47e6-a610-ff8af0b6b265")
+	)
+	(polyline
+		(pts
+			(xy 163.83 17.78) (xy 184.15 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a68aa2bd-42f0-4e9c-88fa-efe5eec873ad")
 	)
 	(wire
 		(pts
@@ -6151,6 +6379,16 @@
 			(type default)
 		)
 		(uuid "b5a93ee7-802d-4239-aaf2-f49545c85a93")
+	)
+	(polyline
+		(pts
+			(xy 227.33 48.26) (xy 227.33 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5e1fcf7-1049-4a4b-b3bb-c3d0247e2f42")
 	)
 	(wire
 		(pts
@@ -6421,6 +6659,16 @@
 			(type default)
 		)
 		(uuid "f110901e-7f66-410e-8c4a-eafc252fd399")
+	)
+	(polyline
+		(pts
+			(xy 184.15 17.78) (xy 184.15 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f42974c1-0315-4099-a7bf-1d9c55c5e506")
 	)
 	(wire
 		(pts
@@ -6852,6 +7100,50 @@
 		)
 		(uuid "f9cc841b-9b6b-4cff-a40b-7452ccde2cbf")
 	)
+	(global_label "ESP32_SPI_MISO"
+		(shape input)
+		(at 31.75 26.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "064acba7-a346-4710-9af0-c7130b9b39bd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 13.1016 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ESP32_SPI_MOSI"
+		(shape input)
+		(at 31.75 24.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0d9d7656-8dac-4fb8-8826-084d2c83d6f0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 13.1016 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "STM32_USB_D-"
 		(shape input)
 		(at 161.29 78.74 0)
@@ -6870,6 +7162,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "STM32_ESP32_IRQ_2"
+		(shape input)
+		(at 31.75 20.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "173f6639-3508-4002-bf44-6fca48417fa7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 9.3522 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6895,7 +7209,7 @@
 			)
 		)
 	)
-	(global_label "STM32_JTAG_JTCK"
+	(global_label "JTAG_TCK"
 		(shape input)
 		(at 161.29 144.78 0)
 		(fields_autoplaced yes)
@@ -6907,7 +7221,7 @@
 		)
 		(uuid "29849c32-0a03-4310-9c0e-c97e092f7687")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.0269 144.78 0)
+			(at 173.0442 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6935,6 +7249,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ESP32_SPI_CS"
+		(shape input)
+		(at 31.75 31.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4f8df03a-8569-4f3e-8d33-a3d032ec6185")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 15.2183 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7026,7 +7362,7 @@
 			)
 		)
 	)
-	(global_label "STM32_JTAG_JTDI"
+	(global_label "STM32_JTAG_TDI"
 		(shape input)
 		(at 161.29 142.24 0)
 		(fields_autoplaced yes)
@@ -7038,7 +7374,7 @@
 		)
 		(uuid "7e20abb6-9198-477f-a2c3-bdfe114dd6ea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.3617 142.24 0)
+			(at 179.3941 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7070,7 +7406,7 @@
 			)
 		)
 	)
-	(global_label "STM32_JTAG_JTDO"
+	(global_label "STM32_JTAG_TDO__TO__ESP32_JTAG_TDI"
 		(shape input)
 		(at 99.06 36.83 90)
 		(fields_autoplaced yes)
@@ -7082,7 +7418,7 @@
 		)
 		(uuid "9192fdb4-d80f-4a96-965c-f5fa072880a8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.06 17.0326 90)
+			(at 99.06 -3.2872 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7092,7 +7428,7 @@
 			)
 		)
 	)
-	(global_label "STM32_JTAG_JTMS"
+	(global_label "JTAG_TMS"
 		(shape input)
 		(at 161.29 147.32 0)
 		(fields_autoplaced yes)
@@ -7104,12 +7440,34 @@
 		)
 		(uuid "91af6f5e-6f0f-4a57-a216-481f4efee22b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.1478 147.32 0)
+			(at 173.1651 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "STM32_ESP32_IRQ_1"
+		(shape input)
+		(at 31.75 17.78 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "97cf79eb-dc14-47da-aff0-6b422ec5e16b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 9.3522 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7196,6 +7554,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ESP32_SPI_SCLK"
+		(shape input)
+		(at 31.75 29.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e1442926-1931-411a-a65d-5169fc4adc0a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 12.9202 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
