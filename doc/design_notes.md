@@ -192,6 +192,8 @@ This table contains all the pin assignments. It was updated during layout to mak
 | IO13           | I/O |                   | jtag_tck      |
 | IO14           | I/O |                   | jtag_tms      |
 | IO15           | I/O |                   | jtag_tdo      |
+| IO16           | I/O | esp32_led_0       |               |
+| IO17           | I/O |                   |               |
 | IO18           | I/O | esp32_spi_sclk    |               |
 | IO19           | I/O | esp32_spi_miso    |               |
 | IO21           | I/O |                   |               |
