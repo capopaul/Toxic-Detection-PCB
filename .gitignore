@@ -39,6 +39,10 @@ fp-info-cache
 # Local project settings
 *.kicad_prl
 
-.DS_Store
+# ============
+# Custom gitignore
+# ============
 
+.DS_Store
 doc/external/
+SW/

@@ -103,6 +103,12 @@ References:
 ![STM32 Debug JTAG interface](images/stm32_jtag_debug.png)
 ![STM32 Debug JTAG interface 2](images/stm32_jtag_debug_2.png)
 
+#### STM32 Flash
+
+An external 32MB NOR flash is added.
+
+![Schematic NOR Flash](images/schematic_nor_flash.png)
+
 #### STM32 Pin assignments
 
 |IO°             |Type | Active Mode       | Debug/Bringup |
