@@ -7100,6 +7100,27 @@
 		)
 		(uuid "f9cc841b-9b6b-4cff-a40b-7452ccde2cbf")
 	)
+	(global_label "SAM_M10Q_EXTINT"
+		(shape input)
+		(at 31.75 7.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0195baa1-8c23-4c90-a4e5-72849deb889b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 21.59 7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ESP32_SPI_MISO"
 		(shape input)
 		(at 31.75 26.67 180)
@@ -7144,6 +7165,27 @@
 			)
 		)
 	)
+	(global_label "SAM_M10Q_NRST"
+		(shape input)
+		(at 31.75 5.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "10a49074-1374-445c-a304-76d1f83cdbad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 21.59 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "STM32_USB_D-"
 		(shape input)
 		(at 161.29 78.74 0)
@@ -7162,6 +7204,27 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SAM_M10Q_UART_RX"
+		(shape input)
+		(at 31.75 12.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "166a8d1b-de4f-41af-8228-05cc49a89aac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 21.59 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7446,6 +7509,27 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SAM_M10Q_UART_TX"
+		(shape input)
+		(at 31.75 10.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "93364fd9-6d3e-465d-97e4-6c8b7a2cf6b5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 21.59 10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)

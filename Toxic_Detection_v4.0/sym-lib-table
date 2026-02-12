@@ -15,4 +15,5 @@
   (lib (name "TPS2054BDR")(type "KiCad")(uri "/Users/Paul/Documents/Mes-Projets/2026/Toxic_Detection_PCB/doc/components/Power Gating TPS2054BDR/TPS2054BDR.kicad_sym")(options "")(descr ""))
   (lib (name "AP2210K-5_0TRG1")(type "KiCad")(uri "/Users/Paul/Documents/Mes-Projets/2026/Toxic_Detection_PCB/doc/components/LDO 5V/AP2210K-5_0TRG1.kicad_sym")(options "")(descr ""))
   (lib (name "AP7365-33WG-7")(type "KiCad")(uri "/Users/Paul/Documents/Mes-Projets/2026/Toxic_Detection_PCB/doc/components/LDO 3.3V/AP7365-33WG-7.kicad_sym")(options "")(descr ""))
+  (lib (name "SAM-M10Q-00B")(type "KiCad")(uri "/Users/Paul/Documents/Mes-Projets/2026/Toxic_Detection_PCB/doc/components/GNSS module and antenna/SAM-M10Q-00B.kicad_sym")(options "")(descr ""))
 )

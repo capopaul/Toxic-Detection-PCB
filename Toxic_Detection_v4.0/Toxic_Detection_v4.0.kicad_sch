@@ -12,7 +12,7 @@
 	)
 	(lib_symbols)
 	(sheet
-		(at 132.08 24.13)
+		(at 72.39 25.4)
 		(size 40.64 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28,7 +28,7 @@
 		)
 		(uuid "8a21aef4-28b7-4c2c-a193-8d6c9cde0c99")
 		(property "Sheetname" "AFE_Sensor_Sheet"
-			(at 132.08 23.4184 0)
+			(at 72.39 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37,7 +37,7 @@
 			)
 		)
 		(property "Sheetfile" "sensor_sheet.kicad_sch"
-			(at 132.08 52.6546 0)
+			(at 72.39 53.9246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54,7 +54,7 @@
 		)
 	)
 	(sheet
-		(at 77.47 24.13)
+		(at 17.78 25.4)
 		(size 48.26 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -70,7 +70,7 @@
 		)
 		(uuid "8cf4a9a8-5e05-43e1-a28a-857e9901ce9a")
 		(property "Sheetname" "STM32_Sheet"
-			(at 77.47 23.4184 0)
+			(at 17.78 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -79,7 +79,7 @@
 			)
 		)
 		(property "Sheetfile" "stm32_sheet.kicad_sch"
-			(at 77.47 52.6546 0)
+			(at 17.78 53.9246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -96,7 +96,7 @@
 		)
 	)
 	(sheet
-		(at 24.13 24.13)
+		(at 116.84 25.4)
 		(size 45.72 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -112,7 +112,7 @@
 		)
 		(uuid "95b8711c-5291-498d-8026-2e6ba416b2b5")
 		(property "Sheetname" "Features_sheet"
-			(at 24.13 23.4184 0)
+			(at 116.84 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -121,7 +121,7 @@
 			)
 		)
 		(property "Sheetfile" "features_sheet.kicad_sch"
-			(at 24.13 52.6546 0)
+			(at 116.84 53.9246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -138,8 +138,8 @@
 		)
 	)
 	(sheet
-		(at 177.8 24.13)
-		(size 40.64 27.94)
+		(at 166.37 25.4)
+		(size 43.18 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -154,7 +154,7 @@
 		)
 		(uuid "cdc94fa3-b749-4315-ad45-c9b116ac9c9a")
 		(property "Sheetname" "Power_And_Connectors_Sheet"
-			(at 177.8 23.4184 0)
+			(at 166.37 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -163,7 +163,7 @@
 			)
 		)
 		(property "Sheetfile" "power_and_connectors.kicad_sch"
-			(at 177.8 52.6546 0)
+			(at 166.37 53.9246 0)
 			(effects
 				(font
 					(size 1.27 1.27)

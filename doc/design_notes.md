@@ -14,9 +14,11 @@ The purpose of *Toxic Detection PCB - Schematic design notes* is to document the
 
 ## Component choice
 
-All the key components are based on previous board design: Revision 3.3.
+Many components are based on previous board design: Revision 3.3.
 
-STM32H755ZIT3 is chosen as the Machine Learning applications have been tested on the Nucleo-h755zi development board which contains the STM32H755ZIT3.
+* MCU: STM32H755ZIT3 is chosen as the Machine Learning applications have been tested on the Nucleo-h755zi development board which contains the STM32H755ZIT3.
+* WIFI: ESP32-WROOM-32E is picked because it is easy to use.
+* GNSS: SAM-M10Q is selected because it includes both GNSS module and antenna.
 
 ## Electronic schematic
 
@@ -136,9 +138,9 @@ Schematic:
 References:
 ![Datasheet Power Gating](images/datasheet_power_gating.png)
 
-## ESP32-WROOM-32E-N16
+### ESP32-WROOM-32E-N16
 
-### ESP32 Booting and programming
+#### ESP32 Booting and programming
 
 Schematic:
 ![Schematic ESP32 booting](images/schematic_esp32_booting.png)
@@ -153,11 +155,11 @@ References:
 
 - DevKitC V4.
 
-### ESP32 Debug
+#### ESP32 Debug
 
 Debug can be performed via JTAG. See STM32 debug section.
 
-### STM32 - ESP32 communication
+#### STM32 - ESP32 communication
 
 To communicate with the ESP from the STM32, decision is made to use SPI because it is fast and the ESP32 has SPI slave available natively.
 
@@ -168,7 +170,7 @@ The General Purpose SPI can behave in slave mode. For them any GPIO is possible,
 Schematic:
 ![Schematic ESP32](images/schematic_esp32.png)
 
-### ESP32 Pin assignments
+#### ESP32 Pin assignments
 
 This table contains all the pin assignments. It was updated during layout to make rooting easier.
 
@@ -198,3 +200,11 @@ This table contains all the pin assignments. It was updated during layout to mak
 | IO35           | I   |                   |               |
 | IO36 SENSOR_VP | I   |                   |               |
 | IO39 SENSOR_VN | I   |                   |               |
+
+### GNSS module and antenna : SAM-M10Q
+
+Schematic:
+![Schematic SAM-M10Q](images/schematic_samm10q.png)
+
+References:
+![SAM M10Q](images/sam-m10q.png)
