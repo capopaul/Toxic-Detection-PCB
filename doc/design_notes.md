@@ -109,12 +109,6 @@ An external 32MB NOR flash is added.
 
 ![Schematic NOR Flash](images/schematic_nor_flash.png)
 
-#### STM32 Pin assignments
-
-|IO°             |Type | Active Mode       | Debug/Bringup |
-|----------------|-----|-------------------|---------------|
-| IO0            | I/O |                   |               |
-
 ### AFE connectors
 
 Schematic:

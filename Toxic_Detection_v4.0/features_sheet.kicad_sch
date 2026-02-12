@@ -130,6 +130,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "+3V3_2"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_2_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_2_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x11_Pin"
 			(pin_names
 				(offset 1.016)
@@ -2715,128 +2840,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3V3"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3V3"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3V3_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3V3_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "+3V3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GNDD"
 			(power)
 			(pin_numbers
@@ -3134,6 +3137,12 @@
 		(uuid "8c8a0400-5a2f-4428-8ca1-ac2aad63e663")
 	)
 	(junction
+		(at 35.56 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9da06388-eb0b-4881-8afd-90013864fd0c")
+	)
+	(junction
 		(at 109.22 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3176,22 +3185,10 @@
 		(uuid "df3f5b52-a07a-4919-9ccf-7f9cf8acb2e6")
 	)
 	(junction
-		(at 30.48 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e544ef7f-4ea7-4cdf-ac1f-14cd0302f234")
-	)
-	(junction
 		(at 34.29 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e929e8c2-3d37-455d-b79e-892c3ff9e2f8")
-	)
-	(junction
-		(at 20.32 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "efb95a61-896f-4753-be4f-19dbad5866b1")
 	)
 	(junction
 		(at 240.03 38.1)
@@ -3329,7 +3326,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 58.42) (xy 20.32 52.07)
+			(xy 20.32 54.61) (xy 20.32 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3409,6 +3406,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 52.07) (xy 40.64 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "583db97d-5964-423b-80eb-e09ec4f432c1")
+	)
+	(wire
+		(pts
 			(xy 228.6 38.1) (xy 220.98 38.1)
 		)
 		(stroke
@@ -3429,17 +3436,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 58.42) (xy 27.94 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62795df1-3795-46f9-afe6-5928fbc976b3")
-	)
-	(wire
-		(pts
-			(xy 34.29 52.07) (xy 34.29 53.34)
+			(xy 35.56 52.07) (xy 35.56 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3456,16 +3453,6 @@
 			(type default)
 		)
 		(uuid "669981ee-91af-41eb-8d86-67b0f1bbfdb2")
-	)
-	(wire
-		(pts
-			(xy 30.48 52.07) (xy 30.48 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f496fb6-a728-46f7-b6ac-52ccbeabe3b6")
 	)
 	(wire
 		(pts
@@ -3529,7 +3516,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 52.07) (xy 40.64 52.07)
+			(xy 34.29 52.07) (xy 35.56 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3566,16 +3553,6 @@
 			(type default)
 		)
 		(uuid "90d58995-9b61-4995-8c68-198b3134aa06")
-	)
-	(wire
-		(pts
-			(xy 22.86 58.42) (xy 20.32 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "972a6863-c3d3-4dcd-92d6-ca8372d5f8c9")
 	)
 	(wire
 		(pts
@@ -3719,7 +3696,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 59.69) (xy 34.29 58.42)
+			(xy 35.56 59.69) (xy 35.56 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3756,16 +3733,6 @@
 			(type default)
 		)
 		(uuid "d47d45f0-22f3-4863-885a-c2ee25d3be15")
-	)
-	(wire
-		(pts
-			(xy 17.78 58.42) (xy 20.32 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da13ea79-6e28-4d8c-a261-c77eeb77c1ad")
 	)
 	(wire
 		(pts
@@ -4655,7 +4622,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21eb9c6d-7fb1-48bb-957f-e8ab1c9e7e13")
-		(property "Reference" "C4"
+		(property "Reference" "C3"
 			(at 66.04 22.8662 0)
 			(effects
 				(font
@@ -4664,7 +4631,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 66.04 25.4062 0)
 			(effects
 				(font
@@ -4673,7 +4640,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 63.5 24.13 0)
 			(effects
 				(font
@@ -4709,7 +4676,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/95b8711c-5291-498d-8026-2e6ba416b2b5"
-					(reference "C4")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -4743,7 +4710,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x11_P2.54mm_Vertical"
 			(at 36.83 120.65 0)
 			(effects
 				(font
@@ -4888,7 +4855,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3616787f-206e-4d0b-a1a3-2484d4acfb6b")
-		(property "Reference" "C5"
+		(property "Reference" "C4"
 			(at 242.316 30.988 0)
 			(effects
 				(font
@@ -4906,7 +4873,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 240.03 31.75 0)
 			(effects
 				(font
@@ -4942,23 +4909,24 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/95b8711c-5291-498d-8026-2e6ba416b2b5"
-					(reference "C5")
+					(reference "C4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_name "+3V3_2")
 		(lib_id "power:+3V3")
-		(at 53.34 19.05 0)
+		(at 33.02 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3a313224-11d9-4078-8cbd-d8be4039fbe2")
-		(property "Reference" "#U$03"
-			(at 53.34 19.05 0)
+		(uuid "3aa8d6ed-3426-4538-ac06-e4631b08573b")
+		(property "Reference" "#PWR0134"
+			(at 33.02 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4967,16 +4935,15 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 52.07 16.51 0)
+			(at 33.02 73.66 0)
 			(effects
 				(font
-					(size 1.27 1.0795)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "Footprint" "AirU_v3.0:"
-			(at 53.34 19.05 0)
+		(property "Footprint" ""
+			(at 33.02 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4985,7 +4952,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 19.05 0)
+			(at 33.02 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4993,8 +4960,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 53.34 19.05 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 33.02 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5003,12 +4970,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "00009ead-b91d-431b-83c3-07376afda142")
+			(uuid "9ff36206-4e4d-4297-8a87-4e0c40312534")
 		)
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/95b8711c-5291-498d-8026-2e6ba416b2b5"
-					(reference "#U$03")
+					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
@@ -5082,7 +5049,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 34.29 59.69 0)
+		(at 35.56 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5091,7 +5058,7 @@
 		(fields_autoplaced yes)
 		(uuid "52e0b5e1-453e-4865-a68f-95fd93240ad6")
 		(property "Reference" "#PWR03"
-			(at 34.29 66.04 0)
+			(at 35.56 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5100,7 +5067,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 34.29 63.5 0)
+			(at 35.56 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5108,7 +5075,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 59.69 0)
+			(at 35.56 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5117,7 +5084,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 59.69 0)
+			(at 35.56 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5126,7 +5093,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 34.29 59.69 0)
+			(at 35.56 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5141,6 +5108,72 @@
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/95b8711c-5291-498d-8026-2e6ba416b2b5"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3V3_2")
+		(lib_id "power:+3V3")
+		(at 62.23 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "55716704-a19b-4489-91b0-69513e0e3490")
+		(property "Reference" "#PWR0132"
+			(at 62.23 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 62.23 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 62.23 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aaedbe6b-a490-4e80-b6fd-40ff729759a5")
+		)
+		(instances
+			(project "Toxic_Detection_v4.0"
+				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/95b8711c-5291-498d-8026-2e6ba416b2b5"
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -5240,7 +5273,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 34.29 48.26 0)
 			(effects
 				(font
@@ -5308,7 +5341,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SAMM10Q00B"
+		(property "Footprint" "GNSS module and antenna:SAMM10Q00B"
 			(at 247.65 140.64 0)
 			(effects
 				(font
@@ -5523,73 +5556,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 25.4 58.42 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7a146aa0-0fda-4bf6-ba1d-ecc61107c586")
-		(property "Reference" "C1"
-			(at 25.4 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 25.4 62.992 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 25.4 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 25.4 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b309a209-815f-4e61-a18f-42542c97cebb")
-		)
-		(pin "2"
-			(uuid "8a2cfb48-9365-4761-a662-8dd61ec19523")
-		)
-		(instances
-			(project "Toxic_Detection_v4.0"
-				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/95b8711c-5291-498d-8026-2e6ba416b2b5"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Jumper:Jumper_3_Open")
 		(at 33.02 83.82 90)
 		(unit 1)
@@ -5663,72 +5629,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 62.23 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "87c2f869-2ee3-4818-8634-c35eb5c55b83")
-		(property "Reference" "#U$04"
-			(at 62.23 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 60.96 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "AirU_v3.0:"
-			(at 62.23 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 62.23 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "60064175-b5c4-4fc5-865e-7d287186dbf6")
-		)
-		(instances
-			(project "Toxic_Detection_v4.0"
-				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/95b8711c-5291-498d-8026-2e6ba416b2b5"
-					(reference "#U$04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ESP32-WROOM-32E-N16:ESP32-WROOM-32E-N16")
 		(at 71.12 35.56 0)
 		(unit 1)
@@ -5754,7 +5654,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ESP32WROOM32EN16"
+		(property "Footprint" "ESP32-WROOM-32E-N16:ESP32WROOM32EN16"
 			(at 105.41 130.48 0)
 			(effects
 				(font
@@ -5984,72 +5884,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 34.29 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9069ad00-2631-4f5f-894e-4acda9ab5a42")
-		(property "Reference" "#U$02"
-			(at 34.29 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 33.02 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "AirU_v3.0:"
-			(at 34.29 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 34.29 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "516f25ce-3c59-4170-96be-0ebe0eddf3dd")
-		)
-		(instances
-			(project "Toxic_Detection_v4.0"
-				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/95b8711c-5291-498d-8026-2e6ba416b2b5"
-					(reference "#U$02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 25.4 52.07 0)
 		(unit 1)
@@ -6075,7 +5909,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 25.4 46.99 0)
 			(effects
 				(font
@@ -6119,7 +5953,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 34.29 55.88 0)
+		(at 35.56 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6127,8 +5961,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f988b98-d8a0-40df-913f-8aba4e18f84d")
-		(property "Reference" "C2"
-			(at 36.83 54.6162 0)
+		(property "Reference" "C1"
+			(at 38.1 54.6162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6136,8 +5970,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 36.83 57.1562 0)
+		(property "Value" "100nF"
+			(at 38.1 57.1562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6145,8 +5979,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 34.29 55.88 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 35.56 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6155,7 +5989,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 34.29 55.88 0)
+			(at 35.56 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6164,7 +5998,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 34.29 55.88 0)
+			(at 35.56 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6181,7 +6015,7 @@
 		(instances
 			(project ""
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/95b8711c-5291-498d-8026-2e6ba416b2b5"
-					(reference "C2")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -6264,7 +6098,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab5dd58e-a5d7-4626-adfc-6f9c35ca801d")
-		(property "Reference" "C3"
+		(property "Reference" "C2"
 			(at 55.88 22.8662 0)
 			(effects
 				(font
@@ -6282,7 +6116,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 53.34 24.13 0)
 			(effects
 				(font
@@ -6318,7 +6152,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/95b8711c-5291-498d-8026-2e6ba416b2b5"
-					(reference "C3")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -6326,7 +6160,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 17.78 58.42 0)
+		(at 20.32 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6335,7 +6169,7 @@
 		(fields_autoplaced yes)
 		(uuid "b16b0fd4-81e5-49cb-801c-8fdd91c80a72")
 		(property "Reference" "#PWR01"
-			(at 17.78 64.77 0)
+			(at 20.32 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6344,7 +6178,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 17.78 62.23 0)
+			(at 20.32 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6352,7 +6186,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 17.78 58.42 0)
+			(at 20.32 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6361,7 +6195,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 17.78 58.42 0)
+			(at 20.32 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6370,7 +6204,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 17.78 58.42 0)
+			(at 20.32 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6523,16 +6357,17 @@
 		)
 	)
 	(symbol
+		(lib_name "+3V3_2")
 		(lib_id "power:+3V3")
-		(at 33.02 77.47 0)
+		(at 53.34 19.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ed1766e4-4de7-4ef8-a9d6-910e2d4d82f6")
-		(property "Reference" "#U$01"
-			(at 33.02 77.47 0)
+		(uuid "e28c5afd-7122-4556-b104-3af55ca12daa")
+		(property "Reference" "#PWR0131"
+			(at 53.34 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6541,16 +6376,15 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 31.75 74.93 0)
+			(at 53.34 15.24 0)
 			(effects
 				(font
-					(size 1.27 1.0795)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "Footprint" "AirU_v3.0:"
-			(at 33.02 77.47 0)
+		(property "Footprint" ""
+			(at 53.34 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6559,7 +6393,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 77.47 0)
+			(at 53.34 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6567,8 +6401,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 33.02 77.47 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 53.34 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6577,12 +6411,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "36958eec-9b87-485b-90dc-7e4d7482d4e0")
+			(uuid "ff3e0a60-0a40-4cfb-9c6b-a8a942f62d1f")
 		)
 		(instances
-			(project "Toxic_Detection_v4.0"
+			(project ""
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/95b8711c-5291-498d-8026-2e6ba416b2b5"
-					(reference "#U$01")
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
@@ -6649,6 +6483,72 @@
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/95b8711c-5291-498d-8026-2e6ba416b2b5"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3V3_2")
+		(lib_id "power:+3V3")
+		(at 34.29 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5b5ca8c-8550-4bec-b220-a78013f8b66e")
+		(property "Reference" "#PWR0133"
+			(at 34.29 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 34.29 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 34.29 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33e8d321-1624-4d15-a057-51060cd9c1a5")
+		)
+		(instances
+			(project "Toxic_Detection_v4.0"
+				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/95b8711c-5291-498d-8026-2e6ba416b2b5"
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)

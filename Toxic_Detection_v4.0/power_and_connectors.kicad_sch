@@ -5,6 +5,131 @@
 	(uuid "8a9f2670-850e-4a9b-9c6a-3860c32f8449")
 	(paper "A4")
 	(lib_symbols
+		(symbol "+3V3_2"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_2_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_2_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "AP2210K-5_0TRG1:AP2210K-5.0TRG1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -410,102 +535,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "AirU_Pro:5.0V"
-			(power)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board no)
-			(property "Reference" "#5.0V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "5.0V"
-				(at -1.524 1.016 0)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "AirU_v3.0:"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "5.0V_1_0"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "5.0V"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
 							)
 						)
 					)
@@ -4509,6 +4538,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -5303,6 +5457,12 @@
 		(uuid "166293c7-1d85-4989-a5f8-20341934bfff")
 	)
 	(junction
+		(at 62.23 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19fd03c6-432a-4423-9de4-972621627b47")
+	)
+	(junction
 		(at 273.05 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5321,10 +5481,22 @@
 		(uuid "218eafc6-0431-46d5-9381-51ffdcdcc3e2")
 	)
 	(junction
+		(at 55.88 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2269ea84-eaec-4838-87df-b508f843ab68")
+	)
+	(junction
 		(at 261.62 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "26926978-869b-47c2-95bf-57845c27134d")
+	)
+	(junction
+		(at 43.18 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ac93b00-31f7-48ea-b452-c36c59e3221b")
 	)
 	(junction
 		(at 256.54 96.52)
@@ -5351,6 +5523,12 @@
 		(uuid "392820c5-c35d-4a8e-b3ca-d895853b6b06")
 	)
 	(junction
+		(at 36.83 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "392d85b3-7813-4402-8986-a1a4c62c95d8")
+	)
+	(junction
 		(at 60.96 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5375,6 +5553,12 @@
 		(uuid "4727c4d7-a496-40ed-b02c-e00bcad138be")
 	)
 	(junction
+		(at 135.89 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48bae8d9-b73d-4545-919d-8606f03777ac")
+	)
+	(junction
 		(at 100.33 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5384,7 +5568,7 @@
 		(at 204.47 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5fbe6572-e5f8-4aec-b51a-cf227287d523")
+		(uuid "700d2905-021d-4df6-ac3b-965b9ece07b0")
 	)
 	(junction
 		(at 21.59 190.5)
@@ -5427,6 +5611,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9dd5c17c-be4c-4059-bf7a-5efdd829b8c7")
+	)
+	(junction
+		(at 30.48 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0e99e37-ea5d-4567-a262-d6a499d25e38")
 	)
 	(junction
 		(at 29.21 53.34)
@@ -5475,6 +5665,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c33d7e86-745f-4d44-8fbd-65b25c909128")
+	)
+	(junction
+		(at 49.53 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4579669-d235-49e6-b0ef-7c80bcfe1fe6")
 	)
 	(junction
 		(at 157.48 140.97)
@@ -5573,6 +5769,12 @@
 		(uuid "f86bd68e-539e-4d8f-ad8b-63ae2d8ad494")
 	)
 	(junction
+		(at 274.32 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f93ff24c-cf8b-400f-8088-1d996219e0d9")
+	)
+	(junction
 		(at 254 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5595,8 +5797,16 @@
 		(uuid "276b522e-c8dd-44c0-81e0-b99d7287530b")
 	)
 	(no_connect
+		(at 90.17 102.87)
+		(uuid "2c347c1e-d249-4317-982f-5b46410dcebf")
+	)
+	(no_connect
 		(at 41.91 167.64)
 		(uuid "368feb80-37f0-4ac4-9581-66046cc91547")
+	)
+	(no_connect
+		(at 90.17 105.41)
+		(uuid "47bb0a8e-0511-413a-b034-8538a9b09918")
 	)
 	(no_connect
 		(at 41.91 180.34)
@@ -5768,7 +5978,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 59.69) (xy 35.56 59.69)
+			(xy 27.94 59.69) (xy 36.83 59.69)
 		)
 		(stroke
 			(width 0)
@@ -5798,7 +6008,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 62.23) (xy 54.61 38.1)
+			(xy 55.88 62.23) (xy 55.88 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5808,7 +6018,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 40.64) (xy 67.31 40.64)
+			(xy 48.26 40.64) (xy 49.53 40.64)
 		)
 		(stroke
 			(width 0)
@@ -5968,7 +6178,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 58.42) (xy 29.21 58.42)
+			(xy 26.67 58.42) (xy 30.48 58.42)
 		)
 		(stroke
 			(width 0)
@@ -6148,6 +6358,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 33.02) (xy 100.33 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37ff6942-cf2c-48e1-b835-2f4df07dcdbd")
+	)
+	(wire
+		(pts
 			(xy 238.76 39.37) (xy 238.76 43.18)
 		)
 		(stroke
@@ -6168,7 +6388,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 43.18) (xy 67.31 43.18)
+			(xy 41.91 43.18) (xy 43.18 43.18)
 		)
 		(stroke
 			(width 0)
@@ -6198,7 +6418,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 62.23) (xy 48.26 40.64)
+			(xy 49.53 62.23) (xy 49.53 40.64)
 		)
 		(stroke
 			(width 0)
@@ -6288,6 +6508,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 88.9) (xy 276.86 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a15bfc2-f86c-4411-bf76-a0d88db3f515")
+	)
+	(wire
+		(pts
 			(xy 157.48 146.05) (xy 167.64 146.05)
 		)
 		(stroke
@@ -6345,6 +6575,16 @@
 			(type default)
 		)
 		(uuid "4ffbed62-ae35-4136-b628-8d1c0c94121d")
+	)
+	(wire
+		(pts
+			(xy 36.83 48.26) (xy 35.56 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "522ceb2d-1515-4226-bf00-8ffe2f9c9851")
 	)
 	(wire
 		(pts
@@ -6488,7 +6728,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 33.02) (xy 60.96 67.31)
+			(xy 62.23 33.02) (xy 62.23 67.31)
 		)
 		(stroke
 			(width 0)
@@ -6508,7 +6748,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 48.26) (xy 35.56 48.26)
+			(xy 21.59 48.26) (xy 35.56 48.26)
 		)
 		(stroke
 			(width 0)
@@ -6548,6 +6788,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 40.64) (xy 67.31 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7025aa62-ab8c-436a-8c8f-3394ab766ef6")
+	)
+	(wire
+		(pts
 			(xy 137.16 181.61) (xy 137.16 180.34)
 		)
 		(stroke
@@ -6578,7 +6828,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 59.69) (xy 35.56 48.26)
+			(xy 36.83 59.69) (xy 36.83 48.26)
 		)
 		(stroke
 			(width 0)
@@ -6595,6 +6845,16 @@
 			(type default)
 		)
 		(uuid "796e5a79-daad-4b5f-bce3-6c726b4e3125")
+	)
+	(wire
+		(pts
+			(xy 36.83 48.26) (xy 67.31 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aecc653-2944-44df-91e3-5819b7a3a9f8")
 	)
 	(wire
 		(pts
@@ -6625,16 +6885,6 @@
 			(type default)
 		)
 		(uuid "7d12de2d-2040-4ae4-a742-8134681909ae")
-	)
-	(wire
-		(pts
-			(xy 29.21 53.34) (xy 67.31 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7da6ef20-8f13-406c-bd96-894b702d52c8")
 	)
 	(wire
 		(pts
@@ -6678,7 +6928,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 38.1) (xy 67.31 38.1)
+			(xy 54.61 38.1) (xy 55.88 38.1)
 		)
 		(stroke
 			(width 0)
@@ -6695,16 +6945,6 @@
 			(type default)
 		)
 		(uuid "846702a2-1b80-453b-9acf-2f9af56865b8")
-	)
-	(wire
-		(pts
-			(xy 273.05 88.9) (xy 276.86 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8694c36f-4273-45be-9774-26f4d36e3edf")
 	)
 	(wire
 		(pts
@@ -6788,6 +7028,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 53.34) (xy 29.21 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fd80fbb-b41f-4c22-bd19-4e37783c04d3")
+	)
+	(wire
+		(pts
 			(xy 100.33 171.45) (xy 99.06 171.45)
 		)
 		(stroke
@@ -6815,6 +7065,16 @@
 			(type default)
 		)
 		(uuid "91aad7e1-b12b-4842-ae62-ad4a10c23960")
+	)
+	(wire
+		(pts
+			(xy 274.32 88.9) (xy 273.05 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91e9b4d8-621e-4f12-9726-9bb68517afa8")
 	)
 	(wire
 		(pts
@@ -6958,7 +7218,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 60.96) (xy 41.91 60.96)
+			(xy 29.21 60.96) (xy 43.18 60.96)
 		)
 		(stroke
 			(width 0)
@@ -7038,7 +7298,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 60.96) (xy 41.91 43.18)
+			(xy 43.18 60.96) (xy 43.18 43.18)
 		)
 		(stroke
 			(width 0)
@@ -7058,17 +7318,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 48.26) (xy 67.31 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae95b76a-04c4-404e-83fe-8c9a24c9ae89")
-	)
-	(wire
-		(pts
-			(xy 134.62 110.49) (xy 144.78 110.49)
+			(xy 134.62 110.49) (xy 135.89 110.49)
 		)
 		(stroke
 			(width 0)
@@ -7128,7 +7378,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 62.23) (xy 54.61 62.23)
+			(xy 63.5 62.23) (xy 55.88 62.23)
 		)
 		(stroke
 			(width 0)
@@ -7145,16 +7395,6 @@
 			(type default)
 		)
 		(uuid "b1ef5225-7d67-4bd0-9b02-53f48149580d")
-	)
-	(wire
-		(pts
-			(xy 60.96 33.02) (xy 100.33 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2d8433b-45a6-4cc9-a727-586c3a641ad6")
 	)
 	(wire
 		(pts
@@ -7298,6 +7538,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 43.18) (xy 67.31 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c373b3c6-5712-479b-982e-738cc98f8ce1")
+	)
+	(wire
+		(pts
 			(xy 129.54 167.64) (xy 130.81 167.64)
 		)
 		(stroke
@@ -7378,7 +7628,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 53.34) (xy 29.21 58.42)
+			(xy 30.48 53.34) (xy 30.48 58.42)
 		)
 		(stroke
 			(width 0)
@@ -7458,6 +7708,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 53.34) (xy 67.31 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d513eb55-679e-41cc-8e49-6d24e8b8d0ae")
+	)
+	(wire
+		(pts
 			(xy 71.12 177.8) (xy 100.33 177.8)
 		)
 		(stroke
@@ -7508,13 +7768,33 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 111.76) (xy 134.62 110.49)
+			(xy 135.89 111.76) (xy 135.89 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "dbebeca4-5668-4716-9172-02d2cffa9711")
+	)
+	(wire
+		(pts
+			(xy 135.89 110.49) (xy 144.78 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbf00624-79d1-4c8c-a0b1-3e7d496fcb6a")
+	)
+	(wire
+		(pts
+			(xy 55.88 38.1) (xy 67.31 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc189af8-fdf9-4e3d-b905-11736da9ebd4")
 	)
 	(wire
 		(pts
@@ -7658,6 +7938,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 67.31) (xy 60.96 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eed0374c-dccf-4c35-b205-93267b2e41f7")
+	)
+	(wire
+		(pts
 			(xy 132.08 138.43) (xy 132.08 132.08)
 		)
 		(stroke
@@ -7698,7 +7988,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 62.23) (xy 48.26 62.23)
+			(xy 30.48 62.23) (xy 49.53 62.23)
 		)
 		(stroke
 			(width 0)
@@ -7725,6 +8015,16 @@
 			(type default)
 		)
 		(uuid "f83ea038-e4d9-4b7e-881d-a4b9f6fa75a2")
+	)
+	(wire
+		(pts
+			(xy 62.23 33.02) (xy 60.96 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8c4e2e6-7241-41e0-a66a-9e3f377582bc")
 	)
 	(wire
 		(pts
@@ -7990,7 +8290,7 @@
 	)
 	(global_label "SD_CLK"
 		(shape input)
-		(at 22.86 48.26 180)
+		(at 21.59 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8000,7 +8300,7 @@
 		)
 		(uuid "24ee236e-e688-4fa3-9967-685bb052cce7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 13.0599 48.26 0)
+			(at 11.7899 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8545,7 +8845,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05114fe6-d1cb-47a0-97ad-ebdb5e5d2ad3")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR0108"
 			(at 163.83 184.15 0)
 			(effects
 				(font
@@ -8595,7 +8895,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#PWR0109")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -8628,7 +8928,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 266.7 154.94 0)
 			(effects
 				(font
@@ -8695,7 +8995,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 25.4 102.87 0)
 			(effects
 				(font
@@ -8753,7 +9053,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e15bb1a-1287-4568-ae73-f3c2ff8d34c5")
-		(property "Reference" "C47"
+		(property "Reference" "C46"
 			(at 160.02 142.2462 0)
 			(effects
 				(font
@@ -8771,7 +9071,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 157.48 143.51 0)
 			(effects
 				(font
@@ -8807,7 +9107,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "C47")
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -8880,6 +9180,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 273.05 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "10e249ed-a732-4d5d-95fe-5c2804c02279")
+		(property "Reference" "#PWR0138"
+			(at 273.05 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_AFE_1"
+			(at 276.86 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 273.05 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "361c3aea-8704-459b-a23f-37d2bf23bbd4")
+		)
+		(instances
+			(project "Toxic_Detection_v4.0"
+				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
+					(reference "#PWR0138")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 276.86 92.71 0)
 		(unit 1)
@@ -8888,7 +9253,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "114154eb-c84a-4efd-b1f6-058750a1b35b")
-		(property "Reference" "C55"
+		(property "Reference" "C54"
 			(at 275.844 97.536 90)
 			(effects
 				(font
@@ -8906,7 +9271,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 276.86 92.71 0)
 			(effects
 				(font
@@ -8942,7 +9307,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "C55")
+					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -9042,7 +9407,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical"
 			(at 250.19 165.1 0)
 			(effects
 				(font
@@ -9206,6 +9571,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 171.45 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ab2971c-73ba-4be2-a4d1-594dc65c6b60")
+		(property "Reference" "#PWR0141"
+			(at 171.45 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 171.45 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 171.45 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0883e084-64fa-4fa2-b071-d24f2311e534")
+		)
+		(instances
+			(project "Toxic_Detection_v4.0"
+				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
+					(reference "#PWR0141")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 209.55 36.83 0)
 		(unit 1)
@@ -9232,7 +9663,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 209.55 36.83 0)
 			(effects
 				(font
@@ -9275,6 +9706,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 269.24 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b7d34de-9afe-4bee-b169-79065e6f07d5")
+		(property "Reference" "#PWR0137"
+			(at 269.24 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_AFE_0"
+			(at 272.796 75.184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 269.24 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6604af6d-7cf1-4e23-9d3b-a807e5660620")
+		)
+		(instances
+			(project "Toxic_Detection_v4.0"
+				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
+					(reference "#PWR0137")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 147.32 110.49 90)
 		(unit 1)
@@ -9284,7 +9780,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1f3977d8-0e3d-418e-9dc7-08ca7d544140")
-		(property "Reference" "C45"
+		(property "Reference" "C44"
 			(at 147.3263 104.14 90)
 			(effects
 				(font
@@ -9300,7 +9796,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 147.32 110.49 0)
 			(effects
 				(font
@@ -9336,7 +9832,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "C45")
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -9485,7 +9981,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28763bb1-56e1-48f9-9a9e-1bc7969d4d83")
-		(property "Reference" "C43"
+		(property "Reference" "C42"
 			(at 139.7 146.0562 0)
 			(effects
 				(font
@@ -9503,7 +9999,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 137.16 147.32 0)
 			(effects
 				(font
@@ -9539,7 +10035,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "C43")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -9637,7 +10133,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DT104202SR7"
+		(property "Footprint" "USB_ESD_protection:DT104202SR7"
 			(at 95.25 184.15 0)
 			(effects
 				(font
@@ -9813,72 +10309,6 @@
 		)
 	)
 	(symbol
-		(lib_id "AirU_Pro:5.0V")
-		(at 90.17 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2d87e406-cba8-4acb-a2ab-69798704f783")
-		(property "Reference" "#U$018"
-			(at 90.17 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "5.0V_FAN"
-			(at 88.646 96.774 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "AirU_v3.0:"
-			(at 90.17 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 90.17 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6f753538-733a-4297-9e14-4010f9ab5149")
-		)
-		(instances
-			(project "Toxic_Detection_v4.0"
-				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#U$018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 147.32 101.6 90)
 		(unit 1)
@@ -9904,7 +10334,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 147.32 101.6 0)
 			(effects
 				(font
@@ -10073,72 +10503,6 @@
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
 					(reference "#PWR0106")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 64.77 19.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "35d6b45c-2313-47d4-8b2f-0a068fee1d95")
-		(property "Reference" "#U$017"
-			(at 64.77 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 63.5 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "AirU_v3.0:"
-			(at 64.77 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 64.77 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 64.77 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "37e00968-1d49-4a9c-b1f6-b63a2ba1def4")
-		)
-		(instances
-			(project "Toxic_Detection_v4.0"
-				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#U$017")
 					(unit 1)
 				)
 			)
@@ -10410,6 +10774,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 152.4 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ca45234-a145-4751-901c-0fbd69469b8a")
+		(property "Reference" "#PWR0142"
+			(at 152.4 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 152.4 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 152.4 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a0c0e2d-41d1-4c69-8840-d4c92682fe2b")
+		)
+		(instances
+			(project "Toxic_Detection_v4.0"
+				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
+					(reference "#PWR0142")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 52.07 133.35 0)
 		(unit 1)
@@ -10484,7 +10914,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5191edb2-ba88-4f43-b427-12696e13bc17")
-		(property "Reference" "C44"
+		(property "Reference" "C43"
 			(at 139.7 182.8862 0)
 			(effects
 				(font
@@ -10502,7 +10932,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 137.16 184.15 0)
 			(effects
 				(font
@@ -10538,7 +10968,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "C44")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -10570,7 +11000,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P600X175-8N"
+		(property "Footprint" "TVS_diodes:SOIC127P600X175-8N"
 			(at 57.15 162.23 0)
 			(effects
 				(font
@@ -10709,7 +11139,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 59.182 26.67 90)
 			(effects
 				(font
@@ -10752,16 +11182,17 @@
 		)
 	)
 	(symbol
-		(lib_id "AirU_Pro:5.0V")
-		(at 279.4 86.36 0)
+		(lib_id "power:+5V")
+		(at 204.47 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5ac9f0d7-d266-4866-a414-bfb3599c3db6")
-		(property "Reference" "#U$024"
-			(at 279.4 86.36 0)
+		(fields_autoplaced yes)
+		(uuid "5f20f70b-5468-4654-b0d7-4bc1fefc93ad")
+		(property "Reference" "#PWR0136"
+			(at 204.47 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10769,17 +11200,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "5.0V_FAN"
-			(at 277.876 85.344 0)
+		(property "Value" "+5V"
+			(at 204.47 73.66 0)
 			(effects
 				(font
-					(size 1.27 1.0795)
+					(size 1.27 1.27)
 				)
-				(justify left bottom)
 			)
 		)
-		(property "Footprint" "AirU_v3.0:"
-			(at 279.4 86.36 0)
+		(property "Footprint" ""
+			(at 204.47 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10788,7 +11218,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 279.4 86.36 0)
+			(at 204.47 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10796,74 +11226,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 279.4 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c673555b-9363-4a69-a9ba-75444efdb570")
-		)
-		(instances
-			(project "Toxic_Detection_v4.0"
-				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#U$024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AirU_Pro:5.0V")
-		(at 269.24 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "60a9d093-f487-4acf-82e7-496a84131077")
-		(property "Reference" "#U$022"
-			(at 269.24 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "5.0V_AFE_0"
-			(at 267.716 75.184 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "AirU_v3.0:"
-			(at 269.24 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 269.24 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 269.24 76.2 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 204.47 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10872,12 +11236,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "01ea77ba-d58e-4ee4-b08e-80f565a8027f")
+			(uuid "677eafb9-da1c-4ff2-ab62-e5744a2506e6")
 		)
 		(instances
-			(project "Toxic_Detection_v4.0"
+			(project ""
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#U$022")
+					(reference "#PWR0136")
 					(unit 1)
 				)
 			)
@@ -10949,6 +11313,72 @@
 		)
 	)
 	(symbol
+		(lib_name "+3V3_2")
+		(lib_id "power:+3V3")
+		(at 64.77 19.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "624ffde9-e79f-4ab1-aa6c-897c613ddcfa")
+		(property "Reference" "#PWR0135"
+			(at 64.77 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 64.77 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 64.77 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66dfa2ff-2e28-427c-8264-03631602948e")
+		)
+		(instances
+			(project "Toxic_Detection_v4.0"
+				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
+					(reference "#PWR0135")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DM3AT-SF-PEJM5:DM3AT-SF-PEJM5")
 		(at 67.31 38.1 0)
 		(unit 1)
@@ -10974,7 +11404,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DM3ATSFPEJM5"
+		(property "Footprint" "SD card holder:DM3ATSFPEJM5"
 			(at 96.52 133.02 0)
 			(effects
 				(font
@@ -11197,7 +11627,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 264.16 36.83 0)
 			(effects
 				(font
@@ -11315,7 +11745,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68d1d8a4-fa67-4b2c-99b6-111feb310135")
-		(property "Reference" "#FLG05"
+		(property "Reference" "#FLG08"
 			(at 257.81 76.835 0)
 			(effects
 				(font
@@ -11365,7 +11795,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#FLG05")
+					(reference "#FLG08")
 					(unit 1)
 				)
 			)
@@ -11571,7 +12001,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 273.05 88.9 0)
+		(at 274.32 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11579,8 +12009,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72f51f5e-6b2d-4d78-a3c5-b27ac6dfdf7e")
-		(property "Reference" "#FLG07"
-			(at 273.05 86.995 0)
+		(property "Reference" "#FLG010"
+			(at 274.32 86.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11589,7 +12019,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 273.05 83.82 0)
+			(at 274.32 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11597,7 +12027,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 273.05 88.9 0)
+			(at 274.32 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11606,7 +12036,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 273.05 88.9 0)
+			(at 274.32 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11615,7 +12045,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 273.05 88.9 0)
+			(at 274.32 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11629,7 +12059,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#FLG07")
+					(reference "#FLG010")
 					(unit 1)
 				)
 			)
@@ -11661,7 +12091,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 44.45 139.7 0)
 			(effects
 				(font
@@ -11794,7 +12224,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DT104202SR7"
+		(property "Footprint" "USB_ESD_protection:DT104202SR7"
 			(at 96.52 153.67 0)
 			(effects
 				(font
@@ -11971,72 +12401,6 @@
 		)
 	)
 	(symbol
-		(lib_id "AirU_Pro:5.0V")
-		(at 171.45 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "820504b2-302b-4888-b3f6-2f7cfb61fb80")
-		(property "Reference" "#U$020"
-			(at 171.45 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "5.0V"
-			(at 169.926 164.084 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "AirU_v3.0:"
-			(at 171.45 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 171.45 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "86744c06-30f1-468e-8734-9edb5ce7b088")
-		)
-		(instances
-			(project "Toxic_Detection_v4.0"
-				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#U$020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 129.54 129.54 0)
 		(unit 1)
@@ -12128,7 +12492,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 48.26 129.54 0)
 			(effects
 				(font
@@ -12179,7 +12543,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "85d1a6fb-75f3-4253-9b92-18388224d65b")
-		(property "Reference" "C53"
+		(property "Reference" "C52"
 			(at 264.414 93.726 90)
 			(effects
 				(font
@@ -12197,7 +12561,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 265.43 88.9 0)
 			(effects
 				(font
@@ -12233,7 +12597,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "C53")
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -12266,7 +12630,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 259.08 154.94 0)
 			(effects
 				(font
@@ -12317,7 +12681,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "88cfb3c7-36ea-4e90-a670-d572d7928cba")
-		(property "Reference" "C52"
+		(property "Reference" "C51"
 			(at 260.604 93.726 90)
 			(effects
 				(font
@@ -12335,7 +12699,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 261.62 88.9 0)
 			(effects
 				(font
@@ -12371,7 +12735,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "C52")
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -12402,7 +12766,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 25.4 86.36 0)
 			(effects
 				(font
@@ -12451,6 +12815,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 279.4 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "89551b62-9ee0-4619-96b1-bd19dbb12529")
+		(property "Reference" "#PWR0139"
+			(at 279.4 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_FAN"
+			(at 280.416 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 279.4 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 279.4 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d73f599-689b-464e-9e94-374f11ea2d20")
+		)
+		(instances
+			(project "Toxic_Detection_v4.0"
+				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
+					(reference "#PWR0139")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "AP7365-33WG-7:AP7365-33WG-7")
 		(at 134.62 129.54 0)
 		(unit 1)
@@ -12476,7 +12905,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT95P285X130-5N"
+		(property "Footprint" "LDO 3.3V:SOT95P285X130-5N"
 			(at 156.21 224.46 0)
 			(effects
 				(font
@@ -12672,7 +13101,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 46.482 26.67 90)
 			(effects
 				(font
@@ -12741,7 +13170,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 274.32 154.94 0)
 			(effects
 				(font
@@ -12810,7 +13239,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 40.132 26.67 90)
 			(effects
 				(font
@@ -12945,7 +13374,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 52.832 26.67 90)
 			(effects
 				(font
@@ -12997,7 +13426,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b007bc8-40f3-4836-971b-f2d47b261286")
-		(property "Reference" "C49"
+		(property "Reference" "C48"
 			(at 170.18 142.2462 0)
 			(effects
 				(font
@@ -13015,7 +13444,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 167.64 143.51 0)
 			(effects
 				(font
@@ -13051,7 +13480,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "C49")
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -13085,7 +13514,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED Green:LEDC2012X120N"
 			(at 238.76 27.94 0)
 			(effects
 				(font
@@ -13228,7 +13657,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 44.45 144.78 0)
 			(effects
 				(font
@@ -13344,7 +13773,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a35024d0-7975-4410-9a49-227846e24b6e")
-		(property "Reference" "C54"
+		(property "Reference" "C53"
 			(at 272.034 97.536 90)
 			(effects
 				(font
@@ -13362,7 +13791,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 273.05 92.71 0)
 			(effects
 				(font
@@ -13398,7 +13827,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "C54")
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -13430,7 +13859,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT95P282X145-5N"
+		(property "Footprint" "LDO 5V:SOT95P282X145-5N"
 			(at 157.48 260.02 0)
 			(effects
 				(font
@@ -13626,7 +14055,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 33.782 26.67 90)
 			(effects
 				(font
@@ -13759,7 +14188,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DT104202SR7"
+		(property "Footprint" "USB_ESD_protection:DT104202SR7"
 			(at 95.25 168.91 0)
 			(effects
 				(font
@@ -13879,7 +14308,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6191267-2052-40f2-8dc0-2381ea131bda")
-		(property "Reference" "#FLG010"
+		(property "Reference" "#FLG07"
 			(at 167.64 165.735 0)
 			(effects
 				(font
@@ -13929,7 +14358,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#FLG010")
+					(reference "#FLG07")
 					(unit 1)
 				)
 			)
@@ -14032,7 +14461,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED Green:LEDC2012X120N"
 			(at 209.55 27.94 0)
 			(effects
 				(font
@@ -14093,7 +14522,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be234df9-eba9-4065-976f-811ce0a7ecc7")
-		(property "Reference" "#FLG08"
+		(property "Reference" "#FLG06"
 			(at 163.83 130.175 0)
 			(effects
 				(font
@@ -14143,7 +14572,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#FLG08")
+					(reference "#FLG06")
 					(unit 1)
 				)
 			)
@@ -14159,7 +14588,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be2594d6-702d-4a26-8dfd-5099ec9ad81c")
-		(property "Reference" "C48"
+		(property "Reference" "C47"
 			(at 166.37 171.4562 0)
 			(effects
 				(font
@@ -14177,7 +14606,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 163.83 172.72 0)
 			(effects
 				(font
@@ -14213,73 +14642,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "C48")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AirU_Pro:5.0V")
-		(at 204.47 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bfb6c31b-4f02-41a1-afc7-196cc2df36bd")
-		(property "Reference" "#U$021"
-			(at 204.47 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "5.0V"
-			(at 202.946 75.184 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "AirU_v3.0:"
-			(at 204.47 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 204.47 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b15ae652-fc1c-40ce-945d-ff5db72e9861")
-		)
-		(instances
-			(project "Toxic_Detection_v4.0"
-				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#U$021")
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -14295,7 +14658,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c01e40b8-0b02-409c-9531-d3da735d8986")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR0109"
 			(at 167.64 135.89 0)
 			(effects
 				(font
@@ -14345,7 +14708,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#PWR0108")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -14376,7 +14739,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 85.09 102.87 0)
 			(effects
 				(font
@@ -14452,7 +14815,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED Green:LEDC2012X120N"
 			(at 264.16 27.94 0)
 			(effects
 				(font
@@ -14504,72 +14867,6 @@
 		)
 	)
 	(symbol
-		(lib_id "AirU_Pro:5.0V")
-		(at 152.4 176.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c7ed9020-a49b-41d4-bb04-1cd631ff8c60")
-		(property "Reference" "#U$019"
-			(at 152.4 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "5.0V"
-			(at 150.876 175.514 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "AirU_v3.0:"
-			(at 152.4 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 152.4 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7f0de7d1-14c2-448c-8a5c-bc1bf73fa2fd")
-		)
-		(instances
-			(project "Toxic_Detection_v4.0"
-				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#U$019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:USB_C_Receptacle")
 		(at 26.67 149.86 0)
 		(unit 1)
@@ -14595,7 +14892,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 30.48 149.86 0)
 			(effects
 				(font
@@ -14732,7 +15029,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 45.72 132.08 0)
 			(effects
 				(font
@@ -14849,7 +15146,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ca75b7df-54a5-49bd-9823-04a49d2da465")
-		(property "Reference" "C51"
+		(property "Reference" "C50"
 			(at 255.524 93.726 90)
 			(effects
 				(font
@@ -14867,7 +15164,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 256.54 88.9 0)
 			(effects
 				(font
@@ -14903,7 +15200,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "C51")
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -14936,7 +15233,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 257.81 128.27 0)
 			(effects
 				(font
@@ -15054,7 +15351,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d34b9edd-3951-49f8-a6ce-72f89054bd5e")
-		(property "Reference" "C46"
+		(property "Reference" "C45"
 			(at 154.94 182.8862 0)
 			(effects
 				(font
@@ -15072,7 +15369,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 152.4 184.15 0)
 			(effects
 				(font
@@ -15108,7 +15405,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "C46")
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -15124,7 +15421,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d747c6b6-056c-4ced-af0b-13ff7ac7c1e2")
-		(property "Reference" "#FLG06"
+		(property "Reference" "#FLG09"
 			(at 262.89 79.375 0)
 			(effects
 				(font
@@ -15174,7 +15471,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#FLG06")
+					(reference "#FLG09")
 					(unit 1)
 				)
 			)
@@ -15272,7 +15569,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P600X175-16N"
+		(property "Footprint" "Power Gating TPS2054BDR:SOIC127P600X175-16N"
 			(at 242.57 171.12 0)
 			(effects
 				(font
@@ -15435,7 +15732,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 238.76 36.83 0)
 			(effects
 				(font
@@ -15544,72 +15841,6 @@
 		)
 	)
 	(symbol
-		(lib_id "AirU_Pro:5.0V")
-		(at 273.05 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e372e814-b56c-4616-b46b-d9b65a287347")
-		(property "Reference" "#U$023"
-			(at 273.05 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "5.0V_AFE_1"
-			(at 271.526 77.724 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "AirU_v3.0:"
-			(at 273.05 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 273.05 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 273.05 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "34a7241d-a1e1-4263-874b-682c90ec5dd1")
-		)
-		(instances
-			(project "Toxic_Detection_v4.0"
-				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#U$023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 161.29 101.6 0)
 		(unit 1)
@@ -15619,7 +15850,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4833367-64c8-4226-9f8c-4a2f40d7cca9")
-		(property "Reference" "#FLG09"
+		(property "Reference" "#FLG05"
 			(at 161.29 99.695 0)
 			(effects
 				(font
@@ -15669,7 +15900,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#FLG09")
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -15880,7 +16111,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f1891543-7890-454b-bd4b-8a51e8e9ce32")
-		(property "Reference" "C50"
+		(property "Reference" "C49"
 			(at 251.714 93.726 90)
 			(effects
 				(font
@@ -15898,7 +16129,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 252.73 88.9 0)
 			(effects
 				(font
@@ -15934,7 +16165,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "C50")
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -16033,7 +16264,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 27.432 26.67 90)
 			(effects
 				(font
@@ -16142,17 +16373,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 134.62 111.76 0)
+		(lib_id "power:+5V")
+		(at 90.17 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f99e292d-5944-4223-b52e-51b89d586eff")
-		(property "Reference" "#PWR099"
-			(at 134.62 118.11 0)
+		(uuid "f4e1dd0d-a730-4532-a3d9-8700e4c5a091")
+		(property "Reference" "#PWR0140"
+			(at 90.17 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16160,8 +16391,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 134.62 116.84 0)
+		(property "Value" "+5V_FAN"
+			(at 90.17 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16169,7 +16400,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 111.76 0)
+			(at 90.17 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16178,7 +16409,73 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 111.76 0)
+			(at 90.17 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 90.17 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c5711a6-61bd-4da0-9bfc-f00abe3bf866")
+		)
+		(instances
+			(project "Toxic_Detection_v4.0"
+				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
+					(reference "#PWR0140")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 135.89 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f99e292d-5944-4223-b52e-51b89d586eff")
+		(property "Reference" "#PWR099"
+			(at 135.89 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16187,7 +16484,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.62 111.76 0)
+			(at 135.89 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
