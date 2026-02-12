@@ -5272,6 +5272,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 168.91) (xy 86.36 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "145d095c-726f-4a6c-a2c3-99c648520606")
+	)
+	(wire
+		(pts
 			(xy 255.27 109.22) (xy 261.62 109.22)
 		)
 		(stroke
@@ -5449,6 +5459,16 @@
 			(type default)
 		)
 		(uuid "2501437b-1ed7-4197-aa14-64eb2eddfa61")
+	)
+	(wire
+		(pts
+			(xy 91.44 168.91) (xy 91.44 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27fa614f-772a-4bb1-8ea3-7c6ad96eb804")
 	)
 	(wire
 		(pts
@@ -5692,6 +5712,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 168.91) (xy 78.74 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42813020-a30b-4a24-a8d0-c68eea553760")
+	)
+	(wire
+		(pts
 			(xy 261.62 38.1) (xy 270.51 38.1)
 		)
 		(stroke
@@ -5802,6 +5832,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 73.66) (xy 160.02 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "557dbf33-9449-495e-95f9-7f4fb76adba6")
+	)
+	(wire
+		(pts
 			(xy 24.13 153.67) (xy 31.75 153.67)
 		)
 		(stroke
@@ -5839,6 +5879,16 @@
 			(type default)
 		)
 		(uuid "5b83221f-25c7-4ca8-8c44-500e771e4f1a")
+	)
+	(wire
+		(pts
+			(xy 91.44 36.83) (xy 91.44 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bf35d30-f12b-4219-b7d3-285da00b4823")
 	)
 	(wire
 		(pts
@@ -5932,6 +5982,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 168.91) (xy 68.58 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66d2e650-d9a5-4ef1-b184-8187404bd60d")
+	)
+	(wire
+		(pts
 			(xy 228.6 29.21) (xy 220.98 29.21)
 		)
 		(stroke
@@ -5942,7 +6002,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 36.83) (xy 99.06 38.1)
+			(xy 99.06 16.51) (xy 99.06 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5969,6 +6029,16 @@
 			(type default)
 		)
 		(uuid "7051d909-2283-4ec5-b69f-0e8a55a48c50")
+	)
+	(wire
+		(pts
+			(xy 81.28 168.91) (xy 81.28 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "735447a7-ad81-4eb4-aab4-45c5df5dd22f")
 	)
 	(wire
 		(pts
@@ -6099,6 +6169,16 @@
 			(type default)
 		)
 		(uuid "7ea36d3e-49e1-43a9-8377-a1653a048635")
+	)
+	(wire
+		(pts
+			(xy 88.9 168.91) (xy 88.9 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fc586d6-2f79-4ebc-b10e-d2a3bfaa96a9")
 	)
 	(wire
 		(pts
@@ -6362,6 +6442,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 168.91) (xy 71.12 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d0f9328-c752-4de7-808d-43650cd28f7c")
+	)
+	(wire
+		(pts
 			(xy 161.29 144.78) (xy 160.02 144.78)
 		)
 		(stroke
@@ -6542,6 +6632,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 58.42) (xy 160.02 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3531140-74ef-4537-847e-ec77dbc51628")
+	)
+	(wire
+		(pts
 			(xy 66.04 38.1) (xy 66.04 36.83)
 		)
 		(stroke
@@ -6569,6 +6669,16 @@
 			(type default)
 		)
 		(uuid "b5a93ee7-802d-4239-aaf2-f49545c85a93")
+	)
+	(wire
+		(pts
+			(xy 88.9 36.83) (xy 88.9 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6bf3fc6-abde-483f-a240-326f54b91678")
 	)
 	(wire
 		(pts
@@ -6619,6 +6729,16 @@
 			(type default)
 		)
 		(uuid "bbcc3353-ee0e-4356-81b8-167abdf5e18b")
+	)
+	(wire
+		(pts
+			(xy 63.5 168.91) (xy 63.5 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbe083f1-eb92-4bc7-9427-83f89eb27298")
 	)
 	(wire
 		(pts
@@ -6892,6 +7012,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 168.91) (xy 83.82 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6c89543-72c0-4566-8e81-2693de6c16bf")
+	)
+	(wire
+		(pts
 			(xy 261.62 104.14) (xy 269.24 104.14)
 		)
 		(stroke
@@ -6902,6 +7032,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 168.91) (xy 66.04 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7db6d66-e3dc-4dfa-8d28-f920ec992831")
+	)
+	(wire
+		(pts
 			(xy 223.52 158.75) (xy 223.52 154.94)
 		)
 		(stroke
@@ -6909,6 +7049,16 @@
 			(type default)
 		)
 		(uuid "f90d16f9-3346-41df-ba6a-81eb0f38c1b8")
+	)
+	(wire
+		(pts
+			(xy 161.29 60.96) (xy 160.02 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb442366-ae14-47b6-9f4e-35d4d8d09043")
 	)
 	(wire
 		(pts
@@ -7422,7 +7572,7 @@
 	)
 	(global_label "SAM_M10Q_EXTINT"
 		(shape input)
-		(at 31.75 7.62 180)
+		(at 71.12 168.91 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7431,7 +7581,7 @@
 		)
 		(uuid "0195baa1-8c23-4c90-a4e5-72849deb889b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.59 7.62 0)
+			(at 71.12 179.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7443,7 +7593,7 @@
 	)
 	(global_label "ESP32_SPI_MISO"
 		(shape input)
-		(at 31.75 26.67 180)
+		(at 83.82 168.91 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7453,7 +7603,7 @@
 		)
 		(uuid "064acba7-a346-4710-9af0-c7130b9b39bd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 13.1016 26.67 0)
+			(at 83.82 187.5584 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7465,7 +7615,7 @@
 	)
 	(global_label "ESP32_SPI_MOSI"
 		(shape input)
-		(at 31.75 24.13 180)
+		(at 86.36 168.91 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7475,7 +7625,7 @@
 		)
 		(uuid "0d9d7656-8dac-4fb8-8826-084d2c83d6f0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 13.1016 24.13 0)
+			(at 86.36 187.5584 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7485,9 +7635,31 @@
 			)
 		)
 	)
+	(global_label "JTAG_TCK"
+		(shape input)
+		(at 161.29 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0f8dc6db-92c4-41d8-9f14-bdab5272d8d9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.0442 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SAM_M10Q_NRST"
 		(shape input)
-		(at 31.75 5.08 180)
+		(at 68.58 168.91 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7496,7 +7668,7 @@
 		)
 		(uuid "10a49074-1374-445c-a304-76d1f83cdbad")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.59 5.08 0)
+			(at 68.58 179.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7530,7 +7702,7 @@
 	)
 	(global_label "SAM_M10Q_UART_RX"
 		(shape input)
-		(at 31.75 12.7 180)
+		(at 66.04 168.91 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7539,7 +7711,7 @@
 		)
 		(uuid "166a8d1b-de4f-41af-8228-05cc49a89aac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.59 12.7 0)
+			(at 66.04 179.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7551,7 +7723,7 @@
 	)
 	(global_label "STM32_ESP32_IRQ_2"
 		(shape input)
-		(at 31.75 20.32 180)
+		(at 91.44 168.91 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7561,7 +7733,7 @@
 		)
 		(uuid "173f6639-3508-4002-bf44-6fca48417fa7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 9.3522 20.32 0)
+			(at 91.44 191.3078 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7573,38 +7745,16 @@
 	)
 	(global_label "I2C_SDA"
 		(shape bidirectional)
-		(at 30.48 48.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1f560362-5b4a-4964-8ef2-0d881089cede")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.32 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "JTAG_TCK"
-		(shape input)
-		(at 161.29 144.78 0)
-		(fields_autoplaced yes)
+		(at 88.9 36.83 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "29849c32-0a03-4310-9c0e-c97e092f7687")
+		(uuid "1f560362-5b4a-4964-8ef2-0d881089cede")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.0442 144.78 0)
+			(at 88.9 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7658,45 +7808,45 @@
 			)
 		)
 	)
-	(global_label "ESP32_SPI_CS"
+	(global_label "STM32_JTAG_TDI"
 		(shape input)
-		(at 31.75 31.75 180)
+		(at 161.29 58.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "4f8df03a-8569-4f3e-8d33-a3d032ec6185")
+		(uuid "4f94aba5-a63f-4f98-a1bf-dbef1406f046")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 15.2183 31.75 0)
+			(at 179.3941 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "PWR_EN_AFE_1"
 		(shape input)
-		(at 30.48 57.15 180)
+		(at 81.28 38.1 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "5bd31e73-cc62-4ad5-8fc2-9f7fcc372c45")
+		(uuid "67c7b02b-050b-4b5a-8328-4fc5a6731131")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.32 57.15 0)
+			(at 81.28 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7714,28 +7864,6 @@
 		(uuid "6db241bf-7576-4e1b-a8f0-1b539bfa13df")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 168.7533 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "STM32_JTAG_TDI"
-		(shape input)
-		(at 161.29 142.24 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7e20abb6-9198-477f-a2c3-bdfe114dd6ea")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.3941 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7813,7 +7941,7 @@
 	)
 	(global_label "STM32_JTAG_TDO__TO__ESP32_JTAG_TDI"
 		(shape input)
-		(at 99.06 36.83 90)
+		(at 99.06 16.51 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7823,29 +7951,7 @@
 		)
 		(uuid "9192fdb4-d80f-4a96-965c-f5fa072880a8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.06 -3.2872 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "JTAG_TMS"
-		(shape input)
-		(at 161.29 147.32 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "91af6f5e-6f0f-4a57-a216-481f4efee22b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.1651 147.32 0)
+			(at 139.1772 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7857,7 +7963,7 @@
 	)
 	(global_label "SAM_M10Q_UART_TX"
 		(shape input)
-		(at 31.75 10.16 180)
+		(at 63.5 168.91 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7866,7 +7972,7 @@
 		)
 		(uuid "93364fd9-6d3e-465d-97e4-6c8b7a2cf6b5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.59 10.16 0)
+			(at 63.5 179.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7878,7 +7984,7 @@
 	)
 	(global_label "STM32_ESP32_IRQ_1"
 		(shape input)
-		(at 31.75 17.78 180)
+		(at 88.9 168.91 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7888,7 +7994,29 @@
 		)
 		(uuid "97cf79eb-dc14-47da-aff0-6b422ec5e16b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 9.3522 17.78 0)
+			(at 88.9 191.3078 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ESP32_SPI_CS"
+		(shape input)
+		(at 78.74 168.91 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9df1e39d-9b82-4fa4-8afd-b1c7d87ae901")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 78.74 185.4417 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7900,42 +8028,42 @@
 	)
 	(global_label "PWR_EN_FAN"
 		(shape input)
-		(at 30.48 59.69 180)
+		(at 78.74 38.1 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "b17b5d13-5f65-4da1-9f55-f10cc7db217d")
+		(uuid "b8cc6769-0e85-4b27-bd58-01b145d6fc4e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.32 59.69 0)
+			(at 78.74 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "I2C_SCL"
 		(shape input)
-		(at 30.48 50.8 180)
+		(at 91.44 36.83 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "b98321aa-7732-45fc-9e75-06d6eaf8c771")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.32 50.8 0)
+			(at 91.44 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7986,7 +8114,7 @@
 	)
 	(global_label "ESP32_SPI_SCLK"
 		(shape input)
-		(at 31.75 29.21 180)
+		(at 81.28 168.91 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7996,12 +8124,55 @@
 		)
 		(uuid "e1442926-1931-411a-a65d-5169fc4adc0a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 12.9202 29.21 0)
+			(at 81.28 187.7398 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PWR_EN_AFE_0"
+		(shape input)
+		(at 83.82 38.1 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e3e06692-ec6f-4de1-bab1-96fec3422828")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.82 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "JTAG_TMS"
+		(shape input)
+		(at 161.29 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e6b1d906-b462-4595-9052-33f042cd500d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.1651 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -8046,27 +8217,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PWR_EN_AFE_0"
-		(shape input)
-		(at 30.48 54.61 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f1b83665-fdc6-46a5-a336-c97c24b7e54c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.32 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
