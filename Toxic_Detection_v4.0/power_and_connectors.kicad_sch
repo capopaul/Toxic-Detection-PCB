@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "8a9f2670-850e-4a9b-9c6a-3860c32f8449")
 	(paper "A4")
+	(title_block
+		(title "Toxic_Detection_PCB")
+		(date "2026-02-12")
+		(rev "4.0")
+		(company "Company: LNIS")
+		(comment 4 "Author: Paul Capgras")
+	)
 	(lib_symbols
 		(symbol "+3V3_2"
 			(power)
@@ -532,6 +539,128 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:Conn_01x01_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1365,6 +1494,113 @@
 						)
 					)
 					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:TestPoint_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Small"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_Small_0_1"
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_Small_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5205,6 +5441,18 @@
 		)
 	)
 	(rectangle
+		(start 190.5 12.7)
+		(end 283.21 60.96)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0884fcf7-8be0-4c4f-8228-cf1e8fdef0f3)
+	)
+	(rectangle
 		(start 63.5 115.57)
 		(end 121.92 196.85)
 		(stroke
@@ -5253,6 +5501,18 @@
 		(uuid 6ed5ee1e-4339-4e5e-a6cd-d23657c37a39)
 	)
 	(rectangle
+		(start 129.54 12.7)
+		(end 190.5 80.01)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9cbae5db-8ee1-4538-acc9-6bd017813225)
+	)
+	(rectangle
 		(start 196.85 60.96)
 		(end 283.21 107.95)
 		(stroke
@@ -5263,6 +5523,18 @@
 			(type none)
 		)
 		(uuid c4353675-ef0f-4152-9836-f0d791a63cf2)
+	)
+	(rectangle
+		(start 63.5 91.44)
+		(end 121.92 115.57)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid cae38d91-e0bb-4881-94df-779b51935417)
 	)
 	(rectangle
 		(start 121.92 91.44)
@@ -5288,9 +5560,19 @@
 		)
 		(uuid e613bfa8-b9f4-4d5f-a357-a2159f596f93)
 	)
+	(text "Chip is powered and no short detected"
+		(exclude_from_sim no)
+		(at 206.756 51.816 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "11cfead8-0f5d-4193-a292-ada47e10ac4e")
+	)
 	(text "2k should lead to a 1.5mA current"
 		(exclude_from_sim no)
-		(at 249.682 40.894 0)
+		(at 245.872 40.894 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -5319,6 +5601,17 @@
 		)
 		(uuid "59b12b51-73b1-4658-a031-e02e22719334")
 	)
+	(text "LEDs"
+		(exclude_from_sim no)
+		(at 192.278 18.288 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c4384a5-44d9-470d-ba83-c412618c4de4")
+	)
 	(text "Protections : ESD, reverse current, short\n* TVS diode protect against ESD\n* Shottky diode protect against reverse current\n* Polyfuse protect against short circuit (current > 1A)"
 		(exclude_from_sim no)
 		(at 64.008 125.222 0)
@@ -5340,9 +5633,30 @@
 		)
 		(uuid "9a194676-8a5d-4f52-9a86-a91c603d0bba")
 	)
+	(text "Fan power"
+		(exclude_from_sim no)
+		(at 70.104 94.996 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a31f9b3f-33bd-4826-a68a-71a87a555ad0")
+	)
+	(text "Debug Headers"
+		(exclude_from_sim no)
+		(at 134.874 17.018 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "a785d221-8047-4ca6-8025-df1c75e95aba")
+	)
 	(text "1k should lead to a 3mA current"
 		(exclude_from_sim no)
-		(at 219.71 40.894 0)
+		(at 215.9 40.894 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -5394,7 +5708,7 @@
 	)
 	(text "2k should lead to a 1.5mA current"
 		(exclude_from_sim no)
-		(at 275.082 40.894 0)
+		(at 271.272 40.894 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -5431,6 +5745,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0ccbc982-b03e-4cca-b6ad-ba13c4d0f978")
+	)
+	(junction
+		(at 25.4 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0cd515f8-646c-4c4f-bf3e-50b9ac229bb8")
 	)
 	(junction
 		(at 128.27 165.1)
@@ -5559,10 +5879,22 @@
 		(uuid "48bae8d9-b73d-4545-919d-8606f03777ac")
 	)
 	(junction
+		(at 88.9 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a98417d-c1f8-4b89-a4f8-d3e306fa19a3")
+	)
+	(junction
 		(at 100.33 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "55f5a206-d1c8-43b1-92e0-e5057b60d733")
+	)
+	(junction
+		(at 25.4 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ff23da0-433a-438d-9fa7-e6bd53b9fa6e")
 	)
 	(junction
 		(at 204.47 78.74)
@@ -5575,6 +5907,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d656d85-e8ac-429d-91ab-a70250607a9b")
+	)
+	(junction
+		(at 25.4 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83e665d1-7764-4eb8-8f23-afe7a11157bd")
+	)
+	(junction
+		(at 25.4 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "882df4ea-d169-4bf7-bd12-1cb277d625c9")
 	)
 	(junction
 		(at 54.61 22.86)
@@ -5649,6 +5993,12 @@
 		(uuid "b8e2e9a0-fc7a-437a-8d58-96e7c276d938")
 	)
 	(junction
+		(at 99.06 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8ef231d-2ebb-4d8d-9b8c-31a8b7181779")
+	)
+	(junction
 		(at 157.48 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5689,6 +6039,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d0010909-bcce-43e0-8a07-468f66fdf8e8")
+	)
+	(junction
+		(at 25.4 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d35c31e7-d6f5-40ed-8b47-493b658e70f5")
 	)
 	(junction
 		(at 41.91 144.78)
@@ -5737,6 +6093,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e711073a-3be9-4b84-926c-9dc852bb27b9")
+	)
+	(junction
+		(at 25.4 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7bf1f90-53a7-4f76-a385-8ba7398a27e9")
 	)
 	(junction
 		(at 54.61 38.1)
@@ -5968,7 +6330,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 22.86) (xy 264.16 24.13)
+			(xy 260.35 22.86) (xy 260.35 24.13)
 		)
 		(stroke
 			(width 0)
@@ -6008,6 +6370,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 43.18) (xy 41.91 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12828583-7c80-4e15-b618-94f7f4ed1fc8")
+	)
+	(wire
+		(pts
 			(xy 55.88 62.23) (xy 55.88 38.1)
 		)
 		(stroke
@@ -6028,7 +6400,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 31.75) (xy 264.16 34.29)
+			(xy 260.35 31.75) (xy 260.35 34.29)
 		)
 		(stroke
 			(width 0)
@@ -6248,7 +6620,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 53.34) (xy 29.21 53.34)
+			(xy 22.86 53.34) (xy 25.4 53.34)
 		)
 		(stroke
 			(width 0)
@@ -6258,7 +6630,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 33.02) (xy 60.96 33.02)
+			(xy 22.86 33.02) (xy 25.4 33.02)
 		)
 		(stroke
 			(width 0)
@@ -6368,7 +6740,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 39.37) (xy 238.76 43.18)
+			(xy 234.95 39.37) (xy 234.95 43.18)
 		)
 		(stroke
 			(width 0)
@@ -6458,7 +6830,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 22.86) (xy 209.55 24.13)
+			(xy 205.74 22.86) (xy 205.74 24.13)
 		)
 		(stroke
 			(width 0)
@@ -6598,6 +6970,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 38.1) (xy 54.61 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54082d8e-bbc1-4afe-ba4e-915c8e9c235e")
+	)
+	(wire
+		(pts
 			(xy 100.33 53.34) (xy 100.33 55.88)
 		)
 		(stroke
@@ -6678,7 +7060,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 22.86) (xy 238.76 24.13)
+			(xy 234.95 22.86) (xy 234.95 24.13)
 		)
 		(stroke
 			(width 0)
@@ -6748,7 +7130,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 48.26) (xy 35.56 48.26)
+			(xy 21.59 48.26) (xy 25.4 48.26)
 		)
 		(stroke
 			(width 0)
@@ -6778,13 +7160,23 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 31.75) (xy 209.55 34.29)
+			(xy 205.74 31.75) (xy 205.74 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6db65041-6b16-4a98-8a1a-feac0ccb21ae")
+	)
+	(wire
+		(pts
+			(xy 25.4 33.02) (xy 60.96 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f69f232-4404-4a79-b808-b5207e95cdb7")
 	)
 	(wire
 		(pts
@@ -7008,7 +7400,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 40.64) (xy 48.26 40.64)
+			(xy 22.86 40.64) (xy 25.4 40.64)
 		)
 		(stroke
 			(width 0)
@@ -7108,6 +7500,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 48.26) (xy 35.56 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94f7068b-ace5-4564-8d09-3487e1f532c2")
+	)
+	(wire
+		(pts
 			(xy 266.7 148.59) (xy 266.7 152.4)
 		)
 		(stroke
@@ -7125,6 +7527,16 @@
 			(type default)
 		)
 		(uuid "958c44c5-3fd1-4f42-b4d3-ee629de991b8")
+	)
+	(wire
+		(pts
+			(xy 25.4 40.64) (xy 48.26 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9682543f-529a-4ed3-a53f-37565e8bc053")
 	)
 	(wire
 		(pts
@@ -7178,6 +7590,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 139.7) (xy 90.17 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a74ac01-4cff-4372-9eb9-4616b58dd3d1")
+	)
+	(wire
+		(pts
 			(xy 261.62 125.73) (xy 254 125.73)
 		)
 		(stroke
@@ -7198,7 +7620,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 39.37) (xy 209.55 43.18)
+			(xy 205.74 39.37) (xy 205.74 43.18)
 		)
 		(stroke
 			(width 0)
@@ -7258,7 +7680,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 139.7) (xy 90.17 139.7)
+			(xy 87.63 139.7) (xy 88.9 139.7)
 		)
 		(stroke
 			(width 0)
@@ -7268,7 +7690,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 38.1) (xy 54.61 38.1)
+			(xy 22.86 38.1) (xy 25.4 38.1)
 		)
 		(stroke
 			(width 0)
@@ -7428,7 +7850,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 43.18) (xy 41.91 43.18)
+			(xy 22.86 43.18) (xy 25.4 43.18)
 		)
 		(stroke
 			(width 0)
@@ -7508,7 +7930,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 139.7) (xy 102.87 139.7)
+			(xy 97.79 139.7) (xy 99.06 139.7)
 		)
 		(stroke
 			(width 0)
@@ -7848,13 +8270,23 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 39.37) (xy 264.16 43.18)
+			(xy 260.35 39.37) (xy 260.35 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e0b24421-660d-4bfb-a66c-2a0dc56da66c")
+	)
+	(wire
+		(pts
+			(xy 99.06 139.7) (xy 102.87 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e40d5bc4-0591-4602-a77d-b29a34db2860")
 	)
 	(wire
 		(pts
@@ -7978,7 +8410,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 31.75) (xy 238.76 34.29)
+			(xy 234.95 31.75) (xy 234.95 34.29)
 		)
 		(stroke
 			(width 0)
@@ -8065,6 +8497,16 @@
 			(type default)
 		)
 		(uuid "fbfd16f1-bb74-4581-894a-55c6608297e9")
+	)
+	(wire
+		(pts
+			(xy 25.4 53.34) (xy 29.21 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcc4b3b6-973c-436f-b92b-9f72e6e5c040")
 	)
 	(wire
 		(pts
@@ -8180,7 +8622,7 @@
 	)
 	(global_label "STM32_LED_0"
 		(shape input)
-		(at 238.76 22.86 180)
+		(at 234.95 22.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8190,7 +8632,7 @@
 		)
 		(uuid "0c1c1853-a507-4c97-bb32-ef5602989dcb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.1355 22.86 0)
+			(at 219.3255 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8268,7 +8710,7 @@
 	)
 	(global_label "ESP32_LED_0"
 		(shape input)
-		(at 264.16 22.86 180)
+		(at 260.35 22.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8278,7 +8720,7 @@
 		)
 		(uuid "1faf6cbd-0f18-4b32-bee6-9a70e633971b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.5355 22.86 0)
+			(at 244.7255 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8618,6 +9060,28 @@
 			)
 		)
 	)
+	(global_label "STM32_JTAG_TDO__TO__ESP32_JTAG_TDI"
+		(shape input)
+		(at 171.45 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9200d53c-2cf5-498e-82f7-a286e5fd53e7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 131.3328 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "POWER_EN_AFE_1"
 		(shape input)
 		(at 215.9 83.82 180)
@@ -8779,7 +9243,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "001e8026-68e2-4fc9-9d06-178ab351192a")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR0112"
 			(at 128.27 116.84 0)
 			(effects
 				(font
@@ -8829,7 +9293,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#PWR094")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -8845,7 +9309,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05114fe6-d1cb-47a0-97ad-ebdb5e5d2ad3")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR0127"
 			(at 163.83 184.15 0)
 			(effects
 				(font
@@ -8895,7 +9359,74 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#PWR0108")
+					(reference "#PWR0127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 25.4 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "07d64481-b9e1-4665-b368-0c416cd3f039")
+		(property "Reference" "TP22"
+			(at 25.908 42.164 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 26.67 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 30.48 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 25.4 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9217470-f051-4c1e-87a1-b1832d2c4c20")
+		)
+		(instances
+			(project "Toxic_Detection_v4.0"
+				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
+					(reference "TP22")
 					(unit 1)
 				)
 			)
@@ -8979,7 +9510,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0ac2f764-22cd-43d1-b1f3-f8e7f36087ea")
-		(property "Reference" "J9"
+		(property "Reference" "J10"
 			(at 22.606 102.616 0)
 			(effects
 				(font
@@ -9037,7 +9568,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "J9")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -9123,7 +9654,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f3ae513-7cbb-4627-8d95-bc5512ab7cb1")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR0104"
 			(at 67.31 80.01 0)
 			(effects
 				(font
@@ -9173,7 +9704,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#PWR087")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -9188,7 +9719,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "10e249ed-a732-4d5d-95fe-5c2804c02279")
-		(property "Reference" "#PWR0138"
+		(property "Reference" "#PWR0144"
 			(at 273.05 85.09 0)
 			(effects
 				(font
@@ -9238,7 +9769,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#PWR0138")
+					(reference "#PWR0144")
 					(unit 1)
 				)
 			)
@@ -9323,7 +9854,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13d986a6-ddf1-49b0-873f-0e1175c18cd8")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR0124"
 			(at 157.48 143.51 0)
 			(effects
 				(font
@@ -9373,7 +9904,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#PWR0105")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -9389,7 +9920,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1890e7d7-34f7-4db0-9cdb-a1c2709bd402")
-		(property "Reference" "J13"
+		(property "Reference" "J19"
 			(at 224.79 137.1599 0)
 			(effects
 				(font
@@ -9498,7 +10029,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "J13")
+					(reference "J19")
 					(unit 1)
 				)
 			)
@@ -9514,7 +10045,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18e65da6-57cc-4729-ac94-b831bc540eed")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR0119"
 			(at 137.16 157.48 0)
 			(effects
 				(font
@@ -9564,7 +10095,72 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#PWR0101")
+					(reference "#PWR0119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 176.53 40.64 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "1a8c4211-51f8-4233-8ad0-23fafa577bf8")
+		(property "Reference" "J15"
+			(at 179.832 40.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 175.895 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical"
+			(at 176.53 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 176.53 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83958c14-c319-4092-8be5-a00c1da9b1e9")
+		)
+		(instances
+			(project "Toxic_Detection_v4.0"
+				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -9580,7 +10176,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ab2971c-73ba-4be2-a4d1-594dc65c6b60")
-		(property "Reference" "#PWR0141"
+		(property "Reference" "#PWR0133"
 			(at 171.45 171.45 0)
 			(effects
 				(font
@@ -9630,7 +10226,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#PWR0141")
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -9638,7 +10234,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 209.55 36.83 0)
+		(at 205.74 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9646,7 +10242,7 @@
 		(dnp no)
 		(uuid "1b5b7b18-0128-4686-8ae6-8fa6488d7fe7")
 		(property "Reference" "R29"
-			(at 211.074 35.56 0)
+			(at 207.264 35.56 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -9655,7 +10251,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 211.074 38.1 0)
+			(at 207.264 38.1 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -9664,7 +10260,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 209.55 36.83 0)
+			(at 205.74 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9673,7 +10269,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 209.55 36.83 0)
+			(at 205.74 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9682,7 +10278,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 209.55 36.83 0)
+			(at 205.74 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9714,7 +10310,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1b7d34de-9afe-4bee-b169-79065e6f07d5")
-		(property "Reference" "#PWR0137"
+		(property "Reference" "#PWR0143"
 			(at 269.24 82.55 0)
 			(effects
 				(font
@@ -9764,7 +10360,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#PWR0137")
+					(reference "#PWR0143")
 					(unit 1)
 				)
 			)
@@ -9915,7 +10511,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20bd3bfe-315b-401b-8fa6-52dbba4cfa26")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR0103"
 			(at 66.04 62.23 0)
 			(effects
 				(font
@@ -9965,7 +10561,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#PWR086")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -10051,7 +10647,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29517ecf-b79a-4b20-8caa-0a855d20d71f")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR0121"
 			(at 137.16 194.31 0)
 			(effects
 				(font
@@ -10101,7 +10697,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#PWR0103")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -10252,7 +10848,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2d117c2f-888c-4b86-bd56-655f9eecb4ef")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR0107"
 			(at 69.85 166.37 0)
 			(effects
 				(font
@@ -10302,7 +10898,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#PWR090")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -10377,6 +10973,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 88.9 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2e3c6eeb-e51b-4bfb-a36a-a20414375595")
+		(property "Reference" "TP25"
+			(at 89.408 138.684 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 90.17 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 93.98 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 88.9 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6459af8-612c-4dbf-8192-1817875222b1")
+		)
+		(instances
+			(project "Toxic_Detection_v4.0"
+				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
+					(reference "TP25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 129.54 173.99 0)
 		(unit 1)
@@ -10386,7 +11049,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2fccd608-00d8-440b-85bb-7bde4c148b9f")
-		(property "Reference" "#PWR097"
+		(property "Reference" "#PWR0115"
 			(at 129.54 180.34 0)
 			(effects
 				(font
@@ -10436,7 +11099,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#PWR097")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -10452,7 +11115,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35bbf59b-d460-4b51-80ac-a0e7b506332c")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR0125"
 			(at 157.48 153.67 0)
 			(effects
 				(font
@@ -10502,7 +11165,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#PWR0106")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -10576,6 +11239,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 99.06 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a294910-f3b9-464d-9200-1cb545f73f11")
+		(property "Reference" "TP26"
+			(at 99.568 138.684 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 100.33 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 104.14 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 99.06 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fbc9d2a0-51f4-4370-aae7-c53c5d181758")
+		)
+		(instances
+			(project "Toxic_Detection_v4.0"
+				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
+					(reference "TP26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 137.16 143.51 0)
 		(unit 1)
@@ -10585,7 +11315,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b5ce66a-b5c3-4fad-ae33-8e00fa550ffc")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR0118"
 			(at 137.16 147.32 0)
 			(effects
 				(font
@@ -10635,7 +11365,72 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#PWR0100")
+					(reference "#PWR0118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 176.53 33.02 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "3c58638c-1995-432b-a5b0-c68625bfeb80")
+		(property "Reference" "J14"
+			(at 179.832 32.766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 175.895 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical"
+			(at 176.53 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 176.53 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "763c5045-3bcf-4c82-b792-85dfd344edc4")
+		)
+		(instances
+			(project ""
+				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -10651,7 +11446,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "412cd38e-f171-473e-b6d5-a9c9732d59d1")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR0113"
 			(at 128.27 168.91 0)
 			(effects
 				(font
@@ -10701,7 +11496,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#PWR095")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -10783,7 +11578,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ca45234-a145-4751-901c-0fbd69469b8a")
-		(property "Reference" "#PWR0142"
+		(property "Reference" "#PWR0122"
 			(at 152.4 182.88 0)
 			(effects
 				(font
@@ -10833,7 +11628,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#PWR0142")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -10848,7 +11643,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4e79b916-c6ab-4fbb-a9e9-eb34440efaeb")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR0101"
 			(at 52.07 139.7 0)
 			(effects
 				(font
@@ -10898,7 +11693,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#PWR085")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -11191,7 +11986,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f20f70b-5468-4654-b0d7-4bc1fefc93ad")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR0134"
 			(at 204.47 82.55 0)
 			(effects
 				(font
@@ -11241,7 +12036,7 @@
 		(instances
 			(project ""
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#PWR0136")
+					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
@@ -11256,7 +12051,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "60da620f-693b-4774-92d3-e1c11f6fc5d4")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR0137"
 			(at 209.55 102.87 0)
 			(effects
 				(font
@@ -11306,7 +12101,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#PWR0112")
+					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
@@ -11322,7 +12117,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "624ffde9-e79f-4ab1-aa6c-897c613ddcfa")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR0102"
 			(at 64.77 22.86 0)
 			(effects
 				(font
@@ -11372,7 +12167,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#PWR0135")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -11388,7 +12183,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63788905-0149-479b-99d9-6666c86a8d61")
-		(property "Reference" "J11"
+		(property "Reference" "J12"
 			(at 83.82 30.48 0)
 			(effects
 				(font
@@ -11528,7 +12323,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "J11")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -11602,7 +12397,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 264.16 36.83 0)
+		(at 260.35 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11610,7 +12405,7 @@
 		(dnp no)
 		(uuid "6590a3b8-f0e7-4244-8a39-838d744f21ff")
 		(property "Reference" "R33"
-			(at 265.684 35.56 0)
+			(at 261.874 35.56 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -11619,7 +12414,7 @@
 			)
 		)
 		(property "Value" "2k"
-			(at 265.684 38.1 0)
+			(at 261.874 38.1 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -11628,7 +12423,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 264.16 36.83 0)
+			(at 260.35 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11637,7 +12432,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 264.16 36.83 0)
+			(at 260.35 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11646,7 +12441,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 264.16 36.83 0)
+			(at 260.35 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11671,7 +12466,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 209.55 43.18 0)
+		(at 205.74 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11679,8 +12474,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66b63272-8c3b-470b-a76f-adbb61c43ae8")
-		(property "Reference" "#PWR0111"
-			(at 209.55 49.53 0)
+		(property "Reference" "#PWR0136"
+			(at 205.74 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11689,7 +12484,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 209.55 48.26 0)
+			(at 205.74 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11697,7 +12492,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 43.18 0)
+			(at 205.74 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11706,7 +12501,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 43.18 0)
+			(at 205.74 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11715,7 +12510,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 209.55 43.18 0)
+			(at 205.74 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11729,7 +12524,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#PWR0111")
+					(reference "#PWR0136")
 					(unit 1)
 				)
 			)
@@ -11803,7 +12598,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 238.76 43.18 0)
+		(at 234.95 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11811,8 +12606,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "698c460a-69b8-4226-8ffc-5aa40b031b67")
-		(property "Reference" "#PWR0114"
-			(at 238.76 49.53 0)
+		(property "Reference" "#PWR0138"
+			(at 234.95 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11821,7 +12616,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 238.76 48.26 0)
+			(at 234.95 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11829,7 +12624,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 43.18 0)
+			(at 234.95 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11838,7 +12633,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 43.18 0)
+			(at 234.95 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11847,7 +12642,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 238.76 43.18 0)
+			(at 234.95 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11861,7 +12656,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#PWR0114")
+					(reference "#PWR0138")
 					(unit 1)
 				)
 			)
@@ -11877,7 +12672,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a5f2c99-fce5-468b-9851-498fc5053ea2")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR0139"
 			(at 236.22 120.65 0)
 			(effects
 				(font
@@ -11927,7 +12722,139 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#PWR0113")
+					(reference "#PWR0139")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 171.45 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c5f20ee-262c-4c72-b554-c87f60842ebc")
+		(property "Reference" "#PWR0131"
+			(at 171.45 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 171.45 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 171.45 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e61d6bb-f4c1-4d2b-80ab-24daea2d6d3b")
+		)
+		(instances
+			(project "Toxic_Detection_v4.0"
+				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
+					(reference "#PWR0131")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 171.45 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c7ce253-e934-460f-8b93-5dc8af864902")
+		(property "Reference" "#PWR0130"
+			(at 171.45 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 171.45 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 171.45 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9f3a38a-7339-461f-a141-98937ced24de")
+		)
+		(instances
+			(project "Toxic_Detection_v4.0"
+				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -11943,7 +12870,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72928d2b-70d8-4093-b3e9-455113fe5c68")
-		(property "Reference" "#PWR0118"
+		(property "Reference" "#PWR0145"
 			(at 274.32 102.87 0)
 			(effects
 				(font
@@ -11993,7 +12920,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#PWR0118")
+					(reference "#PWR0145")
 					(unit 1)
 				)
 			)
@@ -12060,6 +12987,71 @@
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
 					(reference "#FLG010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 176.53 64.77 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "73af3cf3-97f2-4bd9-be27-ae8eb378ab2e")
+		(property "Reference" "J18"
+			(at 179.832 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 175.895 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical"
+			(at 176.53 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 176.53 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "714825c2-94b4-4984-9a0a-ce27124c05ac")
+		)
+		(instances
+			(project "Toxic_Detection_v4.0"
+				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
+					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -12142,7 +13134,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "78277029-b2b6-4a42-9e8b-0a0396cdc262")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR0106"
 			(at 68.58 196.85 0)
 			(effects
 				(font
@@ -12192,7 +13184,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#PWR089")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -12410,7 +13402,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82b2b718-6c64-41c9-8407-8977382d0a3c")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR0114"
 			(at 129.54 133.35 0)
 			(effects
 				(font
@@ -12460,7 +13452,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#PWR096")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -12750,7 +13742,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "893b7977-c579-4130-8293-77efd2ac8120")
-		(property "Reference" "J8"
+		(property "Reference" "J9"
 			(at 22.606 86.106 0)
 			(effects
 				(font
@@ -12808,7 +13800,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "J8")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -12823,7 +13815,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "89551b62-9ee0-4619-96b1-bd19dbb12529")
-		(property "Reference" "#PWR0139"
+		(property "Reference" "#PWR0146"
 			(at 279.4 92.71 0)
 			(effects
 				(font
@@ -12873,7 +13865,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#PWR0139")
+					(reference "#PWR0146")
 					(unit 1)
 				)
 			)
@@ -13018,7 +14010,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e49910b-055b-4d5b-80f5-981a7cd7848c")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR0111"
 			(at 110.49 143.51 0)
 			(effects
 				(font
@@ -13068,7 +14060,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#PWR093")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -13291,7 +14283,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95b01f85-bc67-4007-ae86-a10a6314e389")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR0126"
 			(at 161.29 118.11 0)
 			(effects
 				(font
@@ -13341,7 +14333,74 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#PWR0107")
+					(reference "#PWR0126")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 25.4 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9602ddcd-540a-4bd5-86a5-923bf287e894")
+		(property "Reference" "TP20"
+			(at 25.908 39.624 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 26.67 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 30.48 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 25.4 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97c88f7b-cadd-429f-a1f7-b132fff707fc")
+		)
+		(instances
+			(project "Toxic_Detection_v4.0"
+				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
+					(reference "TP20")
 					(unit 1)
 				)
 			)
@@ -13488,7 +14547,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 238.76 27.94 90)
+		(at 234.95 27.94 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13497,7 +14556,7 @@
 		(fields_autoplaced yes)
 		(uuid "9b5202dd-2415-42f8-9ec7-2757e95d4de2")
 		(property "Reference" "D7"
-			(at 242.57 28.2574 90)
+			(at 238.76 28.2574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13506,7 +14565,7 @@
 			)
 		)
 		(property "Value" "GREEN_LED_2mA"
-			(at 242.57 30.7974 90)
+			(at 238.76 30.7974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13515,7 +14574,7 @@
 			)
 		)
 		(property "Footprint" "LED Green:LEDC2012X120N"
-			(at 238.76 27.94 0)
+			(at 234.95 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13524,7 +14583,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 27.94 0)
+			(at 234.95 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13533,7 +14592,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 238.76 27.94 0)
+			(at 234.95 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13542,7 +14601,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 238.76 27.94 0)
+			(at 234.95 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13575,7 +14634,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c115608-68b7-4cbf-9636-e6b06d59665b")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR098"
 			(at 22.86 196.85 0)
 			(effects
 				(font
@@ -13625,7 +14684,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#PWR082")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -13708,7 +14767,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a0814afe-7a27-49a6-b95f-b3f513ae3336")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR0140"
 			(at 254 102.87 0)
 			(effects
 				(font
@@ -13758,7 +14817,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#PWR0115")
+					(reference "#PWR0140")
 					(unit 1)
 				)
 			)
@@ -13972,7 +15031,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a769a5df-4acf-4773-bb73-eaf4933d06ec")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR0141"
 			(at 255.27 165.1 0)
 			(effects
 				(font
@@ -14022,7 +15081,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#PWR0116")
+					(reference "#PWR0141")
 					(unit 1)
 				)
 			)
@@ -14106,7 +15165,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "add05227-1455-4f33-8398-e8433264582a")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR099"
 			(at 34.29 100.33 0)
 			(effects
 				(font
@@ -14156,7 +15215,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#PWR083")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -14435,7 +15494,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 209.55 27.94 90)
+		(at 205.74 27.94 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14444,7 +15503,7 @@
 		(fields_autoplaced yes)
 		(uuid "bcec9f83-5994-45ae-b20b-240fbfc8d776")
 		(property "Reference" "D6"
-			(at 213.36 28.2574 90)
+			(at 209.55 28.2574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14453,7 +15512,7 @@
 			)
 		)
 		(property "Value" "RED_LED_5mA"
-			(at 213.36 30.7974 90)
+			(at 209.55 30.7974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14462,7 +15521,7 @@
 			)
 		)
 		(property "Footprint" "LED Green:LEDC2012X120N"
-			(at 209.55 27.94 0)
+			(at 205.74 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14471,7 +15530,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 209.55 27.94 0)
+			(at 205.74 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14480,7 +15539,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 209.55 27.94 0)
+			(at 205.74 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14489,7 +15548,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 209.55 27.94 0)
+			(at 205.74 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14658,7 +15717,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c01e40b8-0b02-409c-9531-d3da735d8986")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR0128"
 			(at 167.64 135.89 0)
 			(effects
 				(font
@@ -14708,7 +15767,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#PWR0109")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -14723,7 +15782,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c33b69f9-5829-48bd-9059-5bcccfdc7aa5")
-		(property "Reference" "J12"
+		(property "Reference" "J13"
 			(at 82.296 102.616 0)
 			(effects
 				(font
@@ -14781,42 +15840,42 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "J12")
+					(reference "J13")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 264.16 27.94 90)
+		(lib_id "Connector:TestPoint_Small")
+		(at 25.4 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c6ef2c29-54d4-485a-8540-13533410d787")
-		(property "Reference" "D8"
-			(at 267.97 28.2574 90)
+		(uuid "c6226365-9203-4440-8917-6b03af0d9409")
+		(property "Reference" "TP23"
+			(at 25.908 47.244 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 26.67 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "GREEN_LED_2mA"
-			(at 267.97 30.7974 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED Green:LEDC2012X120N"
-			(at 264.16 27.94 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 30.48 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14825,7 +15884,74 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 264.16 27.94 0)
+			(at 30.48 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 25.4 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7d3e530-3dc7-4eb8-814a-c5aca6336562")
+		)
+		(instances
+			(project "Toxic_Detection_v4.0"
+				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
+					(reference "TP23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 260.35 27.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6ef2c29-54d4-485a-8540-13533410d787")
+		(property "Reference" "D8"
+			(at 264.16 28.2574 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GREEN_LED_2mA"
+			(at 264.16 30.7974 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED Green:LEDC2012X120N"
+			(at 260.35 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 260.35 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14834,7 +15960,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 264.16 27.94 0)
+			(at 260.35 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14843,7 +15969,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 264.16 27.94 0)
+			(at 260.35 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14867,6 +15993,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 171.45 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6f1f756-b3fe-43a0-9db7-675dc250e9c6")
+		(property "Reference" "#PWR0129"
+			(at 171.45 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 171.45 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 171.45 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4787e200-809f-4654-84ef-ff73e51a18da")
+		)
+		(instances
+			(project "Toxic_Detection_v4.0"
+				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
+					(reference "#PWR0129")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:USB_C_Receptacle")
 		(at 26.67 149.86 0)
 		(unit 1)
@@ -14876,7 +16068,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7f56eaf-6084-43f7-acb1-aa284ad81434")
-		(property "Reference" "J10"
+		(property "Reference" "J11"
 			(at 26.67 116.84 0)
 			(effects
 				(font
@@ -14997,7 +16189,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "J10")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -15072,17 +16264,24 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 264.16 43.18 0)
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 176.53 54.61 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c9f933e2-e7c2-437d-b0c8-7e982eb1d1cd")
-		(property "Reference" "#PWR0117"
-			(at 264.16 49.53 0)
+		(dnp yes)
+		(uuid "c86f9340-a890-4bd5-b4bf-99bcfa758812")
+		(property "Reference" "J17"
+			(at 179.832 54.356 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 175.895 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15090,8 +16289,66 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 264.16 48.26 0)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical"
+			(at 176.53 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 176.53 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c518c28-2026-4e09-8ef6-55ec70ae62ea")
+		)
+		(instances
+			(project "Toxic_Detection_v4.0"
+				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
+					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 171.45 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c88a4602-c861-4876-9ff0-dc7f7028e341")
+		(property "Reference" "#PWR0132"
+			(at 171.45 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 171.45 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15099,7 +16356,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 264.16 43.18 0)
+			(at 171.45 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15108,7 +16365,73 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 43.18 0)
+			(at 171.45 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 171.45 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6bd9f4ab-3ca9-4235-80c2-6fbbe798c35b")
+		)
+		(instances
+			(project "Toxic_Detection_v4.0"
+				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
+					(reference "#PWR0132")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 260.35 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9f933e2-e7c2-437d-b0c8-7e982eb1d1cd")
+		(property "Reference" "#PWR0142"
+			(at 260.35 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 260.35 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15117,7 +16440,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 264.16 43.18 0)
+			(at 260.35 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15131,7 +16454,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#PWR0117")
+					(reference "#PWR0142")
 					(unit 1)
 				)
 			)
@@ -15285,7 +16608,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfc6b014-7c65-4473-b5d5-f4e1f951b53c")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR0120"
 			(at 137.16 184.15 0)
 			(effects
 				(font
@@ -15335,7 +16658,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#PWR0102")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -15707,7 +17030,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 238.76 36.83 0)
+		(at 234.95 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15715,7 +17038,7 @@
 		(dnp no)
 		(uuid "e10b44cf-953d-44a6-8cef-5cd0c1068faa")
 		(property "Reference" "R30"
-			(at 240.284 35.56 0)
+			(at 236.474 35.56 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -15724,7 +17047,7 @@
 			)
 		)
 		(property "Value" "2k"
-			(at 240.284 38.1 0)
+			(at 236.474 38.1 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -15733,7 +17056,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 238.76 36.83 0)
+			(at 234.95 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15742,7 +17065,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 36.83 0)
+			(at 234.95 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15751,7 +17074,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 238.76 36.83 0)
+			(at 234.95 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15784,7 +17107,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1d12e4b-056f-4851-a6c7-7eb8666b82cf")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR0109"
 			(at 93.98 114.3 0)
 			(effects
 				(font
@@ -15834,7 +17157,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#PWR091")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -15907,6 +17230,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 25.4 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e7b3c333-35e7-4bb2-89de-a7e76633fe48")
+		(property "Reference" "TP19"
+			(at 25.908 37.084 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 26.67 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 30.48 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 25.4 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80c17c72-ff10-424c-8547-4f84df38529c")
+		)
+		(instances
+			(project "Toxic_Detection_v4.0"
+				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
+					(reference "TP19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 68.58 175.26 0)
 		(unit 1)
@@ -15915,7 +17305,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ec647d03-9369-4fac-abec-a3a0d85e0219")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR0105"
 			(at 68.58 181.61 0)
 			(effects
 				(font
@@ -15965,7 +17355,74 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#PWR088")
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 25.4 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec82d20f-35c1-496f-816b-e8f7fcd04c82")
+		(property "Reference" "TP21"
+			(at 25.908 32.004 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 26.67 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 30.48 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 25.4 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eaea1084-900f-4aa2-8461-2260e32923db")
+		)
+		(instances
+			(project ""
+				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
+					(reference "TP21")
 					(unit 1)
 				)
 			)
@@ -15981,7 +17438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee852ee0-029e-400b-b0b4-f904f5c10ba4")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR0110"
 			(at 100.33 62.23 0)
 			(effects
 				(font
@@ -16031,7 +17488,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#PWR092")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -16046,7 +17503,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ef47b3ca-0fc2-4bcd-b7c4-3b7bad065d0c")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR0100"
 			(at 34.29 116.84 0)
 			(effects
 				(font
@@ -16096,7 +17553,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#PWR084")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -16181,7 +17638,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f19c5950-3129-4def-adf8-61c8cd3dfb32")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR0116"
 			(at 132.08 144.78 0)
 			(effects
 				(font
@@ -16231,7 +17688,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#PWR098")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -16308,7 +17765,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 209.55 22.86 0)
+		(at 205.74 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16316,8 +17773,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f43ace23-4799-48eb-b083-dace03b338e3")
-		(property "Reference" "#PWR0110"
-			(at 209.55 26.67 0)
+		(property "Reference" "#PWR0135"
+			(at 205.74 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16326,7 +17783,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 209.55 17.78 0)
+			(at 205.74 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16334,7 +17791,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 22.86 0)
+			(at 205.74 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16343,7 +17800,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 22.86 0)
+			(at 205.74 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16352,7 +17809,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 209.55 22.86 0)
+			(at 205.74 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16366,7 +17823,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#PWR0110")
+					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
@@ -16382,7 +17839,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4e1dd0d-a730-4532-a3d9-8700e4c5a091")
-		(property "Reference" "#PWR0140"
+		(property "Reference" "#PWR0108"
 			(at 90.17 104.14 0)
 			(effects
 				(font
@@ -16432,7 +17889,72 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#PWR0140")
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 176.53 48.26 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "f64c37f2-1102-450b-a958-10d3c70891f9")
+		(property "Reference" "J16"
+			(at 179.832 48.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 175.895 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical"
+			(at 176.53 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 176.53 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0e0b4cb-7a25-4720-98ae-43815fd86c5d")
+		)
+		(instances
+			(project "Toxic_Detection_v4.0"
+				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -16448,7 +17970,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f99e292d-5944-4223-b52e-51b89d586eff")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR0117"
 			(at 135.89 118.11 0)
 			(effects
 				(font
@@ -16498,7 +18020,74 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#PWR099")
+					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 25.4 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe95cccb-ceb3-4870-a138-f00b318ca7ae")
+		(property "Reference" "TP24"
+			(at 25.908 52.324 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 26.67 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 30.48 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 25.4 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43e8c43f-9731-4b78-b213-fddb5a8bbf72")
+		)
+		(instances
+			(project "Toxic_Detection_v4.0"
+				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
+					(reference "TP24")
 					(unit 1)
 				)
 			)
@@ -16514,7 +18103,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff8f4b96-2c61-4b1f-9168-5a87806e8eca")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR0123"
 			(at 152.4 195.58 0)
 			(effects
 				(font
@@ -16564,7 +18153,7 @@
 		(instances
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#PWR0104")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)

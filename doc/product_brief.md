@@ -6,6 +6,7 @@
 | -------- | ------ | ------------ | ----------- |
 | v4.0     | 2025, Oct 16 | Paul Capgras | First draft |
 | v4.1     | 2025, Nov 10 | Paul Capgras | Take into account review from Tharnath, Raven and PE. |
+| v4.2     | 2026, Feb 12 | Paul Capgras | Update architecture diagrams |
 
 ---
 
@@ -82,7 +83,7 @@ Additional features:
 
 ## 6. System Block Diagram
 
-![Block diagram](images/AirU_System_Diagram.jpg)
+![Block diagram](images/architecture_simplified.png)
 
 ---
 

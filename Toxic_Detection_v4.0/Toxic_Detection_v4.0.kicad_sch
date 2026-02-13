@@ -6,6 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Toxic_Detection_PCB")
+		(date "2026-02-12")
 		(rev "4.0")
 		(company "Company: LNIS")
 		(comment 4 "Author: Paul Capgras")
