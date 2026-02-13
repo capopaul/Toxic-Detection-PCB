@@ -13,3 +13,8 @@ As this project aims to create the revision 4, all documentation documents will 
 `./doc` -> documentations, components datasheets and libraries
 
 `./Toxic_Detection_v4.0` -> Kicad files
+
+## Next Steps
+
+- [ ] Schematic under review
+- [ ] Layout
