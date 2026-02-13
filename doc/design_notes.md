@@ -16,6 +16,8 @@
 
 The purpose of *Toxic Detection PCB - Schematic design notes* is to document the design choices and provide details on the project.
 
+---
+
 ## Table of Content
 
 1. [Features](#1-features)
@@ -42,6 +44,8 @@ The purpose of *Toxic Detection PCB - Schematic design notes* is to document the
     9. [Shematic Revision 4.0](#49-schematic-revision-40)
 5. [Layout](#5-layout)
 
+---
+
 ## 1. Features
 
 - Toxic-Detection-PCB supports 2 sets of 4 chemical sensors from Alphasense.
@@ -58,6 +62,8 @@ The purpose of *Toxic Detection PCB - Schematic design notes* is to document the
 - Toxic-Detection-PCB includes 1 red and 2 green LEDs. The red led indicates the board is powered and there are no short circuit detected. The 1rst green led is controlled by the ESP32, the 2nd by the STM32. It is up to the user to define their meaning.
 - Unused GPIOs of STM32, ESP32 and channels of ADCs are routed to headers.
 
+---
+
 ## 2. Architecture
 
 Simplified architecture diagram:
@@ -66,6 +72,8 @@ Simplified architecture diagram:
 Complete architecture diagram:
 ![Architecture Complete](images/architecture_complete.png)
 
+---
+
 ## 3. Component choice
 
 Many components are based on the previous board design: Revision 3.3 (April 2024) and Revision 3.3.1 (August 2024).
@@ -73,6 +81,8 @@ Many components are based on the previous board design: Revision 3.3 (April 2024
 - MCU: STM32H755ZIT3 is chosen as the Machine Learning applications have been tested on the Nucleo-h755zi development board which contains the STM32H755ZIT3.
 - WIFI: ESP32-WROOM-32E is picked because it is easy to use.
 - GNSS: SAM-M10Q is selected because it includes both GNSS module and antenna.
+
+---
 
 ## 4. Schematic
 
@@ -294,5 +304,7 @@ Optional 2.54mm Header have added to:
 ### 4.9 Schematic Revision 4.0
 
 [Schematic Revision 4.0](schematic_v4.0/Toxic_Detection_v4.0.pdf)
+
+---
 
 ## 5. Layout
