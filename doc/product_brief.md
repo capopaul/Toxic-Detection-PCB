@@ -61,8 +61,8 @@ Additional features:
 
 ## 4. Mechanical and Form Factor
 
-* **Board dimensions:** Must fit within the predefined box (TBD).
-* **Mounting holes:** Yes (4 total, size TBD).
+* **Board dimensions:** Must fit within the predefined box (Lxl < 15x6.7mm).
+* **Mounting holes:** Yes (4 total, size 3.5mm).
 * **Connector placement constraints:** None.
 * **Other mechanical constraints:** None.
 

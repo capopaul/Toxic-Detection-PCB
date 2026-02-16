@@ -308,3 +308,17 @@ Optional 2.54mm Header have added to:
 ---
 
 ## 5. Layout
+
+### 5.1 Placement
+
+First idea:
+![Placement 1](images/placement_1.png)
+![Placement 1 3D](images/placement_1_3d.png)
+
+Second idea:
+![Pacement 2](images/placement_2.png)
+![Placement 2 3D](images/placement_2_3d.png)
+
+Third (and final) idea:
+![Placement 3](images/placement_3.png)
+![Placement 3 3D](images/placement_3_3d.png)
