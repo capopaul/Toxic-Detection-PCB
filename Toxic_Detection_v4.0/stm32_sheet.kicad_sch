@@ -464,7 +464,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7531,6 +7531,12 @@
 		(uuid "3886878c-addd-4c7f-8ada-cd8979869fb8")
 	)
 	(junction
+		(at 144.78 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "388e17c9-e177-4303-8fb8-64fa9a9a2d5f")
+	)
+	(junction
 		(at 254 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7603,10 +7609,22 @@
 		(uuid "78597f55-969a-4413-b5d1-51e3f23292c8")
 	)
 	(junction
+		(at 184.15 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7baaea63-9fb7-4f64-91e5-9b7da6b45182")
+	)
+	(junction
 		(at 257.81 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7eee24db-1347-4526-a01d-d144733f1d7b")
+	)
+	(junction
+		(at 149.86 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8044640e-e00a-4cc0-9489-024aaabf1c0c")
 	)
 	(junction
 		(at 129.54 31.75)
@@ -7679,6 +7697,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a5b7823c-3957-4f55-8af8-321aaf687c68")
+	)
+	(junction
+		(at 184.15 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6152e1f-5fa3-4536-87ab-a158067dc90a")
 	)
 	(junction
 		(at 274.32 80.01)
@@ -8200,6 +8224,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 184.15) (xy 144.78 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31c611ec-9f4d-403f-8008-5f9380127526")
+	)
+	(wire
+		(pts
 			(xy 149.86 179.07) (xy 149.86 167.64)
 		)
 		(stroke
@@ -8387,6 +8421,16 @@
 			(type default)
 		)
 		(uuid "3d8a3507-ddbc-4260-9d89-ada2422af669")
+	)
+	(wire
+		(pts
+			(xy 144.78 184.15) (xy 149.86 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f742bbb-1904-40b0-902d-ebca71c86037")
 	)
 	(wire
 		(pts
@@ -9780,7 +9824,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 167.64) (xy 144.78 185.42)
+			(xy 144.78 167.64) (xy 144.78 184.15)
 		)
 		(stroke
 			(width 0)
@@ -10158,16 +10202,6 @@
 		)
 		(uuid "383c61a2-6614-4cc9-a630-e9ef731f792a")
 	)
-	(label "STM32_PC6"
-		(at 204.47 58.42 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3c28d533-f45e-444c-8c4b-d74b81e56168")
-	)
 	(label "STM32_PB0"
 		(at 93.98 167.64 270)
 		(effects
@@ -10508,6 +10542,16 @@
 		)
 		(uuid "767ed9ff-3aad-4f61-8678-c818994fb133")
 	)
+	(label "STM32_PA8"
+		(at 204.47 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "783f07b7-58d6-44bb-878a-90248e7dacea")
+	)
 	(label "STM32_PB0"
 		(at 44.45 157.48 180)
 		(effects
@@ -10738,16 +10782,6 @@
 		)
 		(uuid "9e2071b7-b6af-40e2-be9f-69ab25852778")
 	)
-	(label "STM32_PA8"
-		(at 204.47 53.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9e862ef1-2032-4eb5-b17d-6dd9739a248d")
-	)
 	(label "STM32_PG12"
 		(at 29.21 29.21 180)
 		(effects
@@ -10767,6 +10801,16 @@
 			(justify left bottom)
 		)
 		(uuid "a0118d38-3282-4502-8af1-e80835c81d2c")
+	)
+	(label "STM32_PG8"
+		(at 204.47 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a03ce68a-48e6-466a-83fe-79976b4b758c")
 	)
 	(label "STM32_PD12"
 		(at 204.47 76.2 180)
@@ -10887,16 +10931,6 @@
 			(justify right bottom)
 		)
 		(uuid "ad7d5fb4-1982-4440-a91c-756ab6e33856")
-	)
-	(label "STM32_PC7"
-		(at 204.47 55.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ada74609-0e3b-4e26-8bc1-7f1402fefc0c")
 	)
 	(label "STM32_PD13"
 		(at 204.47 73.66 180)
@@ -11068,16 +11102,6 @@
 		)
 		(uuid "c5569a2c-060c-4147-9c2a-fc2a4d3794b7")
 	)
-	(label "STM32_PG8"
-		(at 204.47 60.96 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c6343652-2b87-4018-b413-c1d6aa106956")
-	)
 	(label "STM32_PD13"
 		(at 160.02 121.92 0)
 		(effects
@@ -11167,6 +11191,16 @@
 			(justify left bottom)
 		)
 		(uuid "cfd5069a-1f93-4a29-831e-7c0f85234fe8")
+	)
+	(label "STM32_PC6"
+		(at 204.47 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d082cb71-3257-49db-ab56-f010f36b7955")
 	)
 	(label "STM32_PB2"
 		(at 44.45 162.56 180)
@@ -11328,6 +11362,16 @@
 		)
 		(uuid "ea059f80-bde1-4dbe-b554-dd67ff8c1eeb")
 	)
+	(label "STM32_PC7"
+		(at 204.47 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "eaa15746-682c-4b36-b487-9974595fdb8d")
+	)
 	(label "STM32_PB14"
 		(at 204.47 91.44 180)
 		(effects
@@ -11448,27 +11492,6 @@
 		)
 		(uuid "fcc74d1a-08f2-4ba3-8771-bc7089e72a29")
 	)
-	(global_label "SAM_M10Q_EXTINT"
-		(shape input)
-		(at 71.12 168.91 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0195baa1-8c23-4c90-a4e5-72849deb889b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.12 179.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "ESP32_SPI_MISO"
 		(shape input)
 		(at 83.82 168.91 270)
@@ -11531,27 +11554,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SAM_M10Q_NRST"
-		(shape input)
-		(at 68.58 168.91 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "10a49074-1374-445c-a304-76d1f83cdbad")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 68.58 179.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -11638,6 +11640,27 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SAM_M10Q_NRST"
+		(shape input)
+		(at 71.12 168.91 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "31bc84ac-94e6-4165-938b-52c3fbacf1fc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.12 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -11835,6 +11858,27 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SAM_M10Q_EXTINT"
+		(shape input)
+		(at 68.58 168.91 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8507dca2-5efd-4ac0-bb5d-c73a4bfc5ea6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 68.58 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -12633,6 +12677,75 @@
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/8cf4a9a8-5e05-43e1-a28a-857e9901ce9a"
 					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 184.15 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0fc25683-a571-43de-bcbc-7d98501a578d")
+		(property "Reference" "C13"
+			(at 186.436 65.278 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 186.436 67.31 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 184.15 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 184.15 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e85fe6c-9950-4ffe-87e0-98bffc8a616e")
+		)
+		(pin "2"
+			(uuid "247a497f-b6e3-4991-b9d5-b6a2a853b14c")
+		)
+		(instances
+			(project "Toxic_Detection_v4.0"
+				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/8cf4a9a8-5e05-43e1-a28a-857e9901ce9a"
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -15754,6 +15867,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 149.86 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6e4bfb78-325f-44ae-992e-fc20fa304329")
+		(property "Reference" "C55"
+			(at 152.146 180.848 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 152.146 182.88 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 149.86 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 149.86 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1358272a-8263-44dd-9ff3-b09fbd60e0ff")
+		)
+		(pin "2"
+			(uuid "24745901-a45a-4660-8408-af0d76cb8dd7")
+		)
+		(instances
+			(project "Toxic_Detection_v4.0"
+				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/8cf4a9a8-5e05-43e1-a28a-857e9901ce9a"
+					(reference "C55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 256.54 38.1 0)
 		(unit 1)
@@ -16528,7 +16710,7 @@
 				(hide yes)
 			)
 		)
-		(pin ""
+		(pin "1"
 			(uuid "51a6792c-2312-46b2-8d30-0da589ad24fa")
 		)
 		(pin "2"

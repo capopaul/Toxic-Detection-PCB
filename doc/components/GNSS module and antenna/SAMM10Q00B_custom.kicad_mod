@@ -1,0 +1,466 @@
+(footprint "SAMM10Q00B_custom"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SAM-M10Q-00B-2")
+	(tags "Antenna")
+	(property "Reference" "ANT1"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "f72673a7-60bc-421a-919d-e19a446a907a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SAM-M10Q-00B"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0459a0bd-dabd-4f3d-b9ed-c6190b85aa5d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://content.u-blox.com/sites/default/files/documents/SAM-M10Q_DataSheet_UBX-22013293.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "181f894e-9e77-4525-90f8-c052afd37137")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "GNSS / GPS Modules M10 precision GNSS patch antenna module"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bfd31fb3-54a1-431f-b6ae-90139d7052b0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "6.8"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "742546cb-dd02-472b-b16a-b2534cc43ac8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "377-SAM-M10Q-00B"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4c9301f4-90ca-49e8-914b-3bff04d746d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/u-blox/SAM-M10Q-00B?qs=vvQtp7zwQdOaA6LplTUKjg%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "83630954-239a-4312-9caa-5c1bc9be1121")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "u-blox"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b3e53f28-658b-4a80-a308-e2e0d601c9a7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "SAM-M10Q-00B"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "085db4a2-5065-47a3-9565-5b39e835e023")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -8.35 -5.45)
+		(end -8.35 -5.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1839d615-1b22-4cc9-89fc-ef60d8489b1f")
+	)
+	(fp_line
+		(start -8.25 -5.45)
+		(end -8.25 -5.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "82ff581e-bd30-4f32-bcda-75839512564b")
+	)
+	(fp_line
+		(start -7.75 -7.75)
+		(end -4.8 -7.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0ec6058a-58a2-455a-b671-4c71c51c88ca")
+	)
+	(fp_line
+		(start -7.75 -4.8)
+		(end -7.75 -7.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4974b0e6-9005-490e-a580-e80948e2fb84")
+	)
+	(fp_line
+		(start -7.75 4.8)
+		(end -7.75 7.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "34bceef6-fda5-4882-b327-3321ff63923d")
+	)
+	(fp_line
+		(start -7.75 7.75)
+		(end -4.8 7.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "de42793a-8934-47f0-9ec4-1ff50fe77a7c")
+	)
+	(fp_line
+		(start 4.8 -7.75)
+		(end 7.75 -7.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aaaba6c3-5c17-409b-8a9d-c4bc049b86ce")
+	)
+	(fp_line
+		(start 7.75 -7.75)
+		(end 7.75 -4.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "731dc1d8-f0f4-42de-95a3-d62af5dad1e8")
+	)
+	(fp_line
+		(start 7.75 4.8)
+		(end 7.75 7.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eca9506d-7f76-46e5-9593-73307560ad69")
+	)
+	(fp_line
+		(start 7.75 7.75)
+		(end 4.8 7.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "437f9baa-c51f-4aa0-9a67-9fb2431eac1c")
+	)
+	(fp_arc
+		(start -8.35 -5.45)
+		(mid -8.3 -5.5)
+		(end -8.25 -5.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c47dbb34-7fd6-4996-a6fb-04818e2ce468")
+	)
+	(fp_arc
+		(start -8.25 -5.45)
+		(mid -8.3 -5.4)
+		(end -8.35 -5.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4ea74d54-aed4-47b6-832a-02d33c9c06bf")
+	)
+	(fp_line
+		(start -10 -10)
+		(end 10 -10)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e5fbe2c3-9ea5-4d2c-bacc-6a31c9a6157e")
+	)
+	(fp_line
+		(start -10 10)
+		(end -10 -10)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b00019b5-d066-4abd-b28e-1fba8bb84eaa")
+	)
+	(fp_line
+		(start 10 -10)
+		(end 10 10)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "835637f9-ec93-4572-aee3-9aa7f5c93e2a")
+	)
+	(fp_line
+		(start 10 10)
+		(end -10 10)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "56c8b2aa-d2e8-4fdf-9162-bacb52062a2b")
+	)
+	(fp_line
+		(start -7.75 -7.75)
+		(end 7.75 -7.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f9ad3d20-9d1f-4412-b6b1-6b2f69cd3c16")
+	)
+	(fp_line
+		(start -7.75 7.75)
+		(end -7.75 -7.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "47de4ecf-fd0d-4e8e-9e87-bcd0b4116c18")
+	)
+	(fp_line
+		(start 7.75 -7.75)
+		(end 7.75 7.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e40d9647-af77-4f22-b103-5ba52f24ef1f")
+	)
+	(fp_line
+		(start 7.75 7.75)
+		(end -7.75 7.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "32f74a5d-7981-4d02-943d-b139c8425eef")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "5bc0c153-c5ca-44a2-b9ca-cd9d39decf7e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -7.85 -3.8 90)
+		(size 1.5 4.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0a3af084-3bc0-424c-87cf-241dcf1bf030")
+	)
+	(pad "2" smd rect
+		(at -7.85 -1.9 90)
+		(size 1.5 4.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e9c9558e-318a-4351-b714-cbcc3c849cf5")
+	)
+	(pad "3" smd rect
+		(at -7.85 0 90)
+		(size 1.5 4.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c5d17d25-8a55-4912-903a-a21a44a0ccfc")
+	)
+	(pad "4" smd rect
+		(at -7.85 1.9 90)
+		(size 1.5 4.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cd5e5606-c9e2-4ac1-9778-827adf6c36d8")
+	)
+	(pad "5" smd rect
+		(at -7.85 3.8 90)
+		(size 1.5 4.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d359c604-a86f-44a5-9331-4963ddc9c36d")
+	)
+	(pad "6" smd rect
+		(at -3.8 7.85)
+		(size 1.5 4.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bd9cdd3d-c134-479d-bbe2-5559c2bb108a")
+	)
+	(pad "7" smd rect
+		(at -1.9 7.85)
+		(size 1.5 4.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "447ce65d-eef3-498f-99d8-19bd1ba54945")
+	)
+	(pad "8" smd rect
+		(at 0 7.85)
+		(size 1.5 4.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c78e5898-1973-42cd-9b2d-c0f1404943d6")
+	)
+	(pad "9" smd rect
+		(at 1.9 7.85)
+		(size 1.5 4.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fa1442d5-895b-407d-9a4d-2aeb142d29bd")
+	)
+	(pad "10" smd rect
+		(at 3.8 7.85)
+		(size 1.5 4.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "54a5fa8d-8f4f-49dc-84d1-2e8906ecad69")
+	)
+	(pad "11" smd rect
+		(at 7.85 3.8 90)
+		(size 1.5 4.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5995d30a-b486-4882-ba20-600322de60c0")
+	)
+	(pad "12" smd rect
+		(at 7.85 1.9 90)
+		(size 1.5 4.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4e5c3afb-ef1f-4490-af6f-dd5cc71f89fc")
+	)
+	(pad "13" smd rect
+		(at 7.85 0 90)
+		(size 1.5 4.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d2f3f311-c676-4d72-a3af-ed753bd1f84b")
+	)
+	(pad "14" smd rect
+		(at 7.85 -1.9 90)
+		(size 1.5 4.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "55742507-ee88-4607-8630-493defa21e16")
+	)
+	(pad "15" smd rect
+		(at 7.85 -3.8 90)
+		(size 1.5 4.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c6439a61-d9c8-4c51-b859-a21f5f3b2a05")
+	)
+	(pad "16" smd rect
+		(at 3.8 -7.85)
+		(size 1.5 4.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "33bf8dc0-c94c-4e67-82a4-6236679b7175")
+	)
+	(pad "17" smd rect
+		(at 1.9 -7.85)
+		(size 1.5 4.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "84edeb32-73a9-4884-b1ff-d95e95ce2f2e")
+	)
+	(pad "18" smd rect
+		(at 0.000001 -7.85)
+		(size 1.499998 4.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "51881983-badf-4499-b457-716279512cef")
+	)
+	(pad "19" smd rect
+		(at -1.9 -7.85)
+		(size 1.5 4.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "30846fb2-f2c0-4c3e-8759-50ad24d92dc0")
+	)
+	(pad "20" smd rect
+		(at -3.8 -7.85)
+		(size 1.5 4.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8049eef1-c4a9-43b9-b893-d691e562ce93")
+	)
+	(embedded_fonts no)
+	(model "SAM-M10Q-00B.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

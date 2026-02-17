@@ -1,0 +1,290 @@
+(footprint "ECS2501836B2CTYTR_custom"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "ECS-250-18-36B2-CTY-TR-1")
+	(tags "Crystal or Oscillator")
+	(property "Reference" "Y1"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "2dd43d41-614d-4eb2-9f0c-dc2f968f80ba")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "ECS-250-18-36B2-CTY-TR"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "05e8572e-a229-4b96-97f0-83402f328de3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.mouser.in/datasheet/2/122/ECX_2236B2-2400583.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d7ecb8ee-ee78-40e6-9e97-1596dcdc5b37")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Crystals ESR 50,FREQ 25,STABILITY +/-30ppm,TOLERANCE +/-10ppm,CL 18pF,AGING +/-2 ppm ,-30 C 85 C,100uW in typical (Max 200uW), 2.50mm x 2.00mm"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b55f67ca-8b84-4431-9468-2e70f57d9710")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "0.6"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a4703cb0-a3b7-4628-af24-95e181a1ef9c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "520-250-18-36B2CTYTR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8078bd2e-3fe9-4db8-9bf3-c952cf439eb6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ECS/ECS-250-18-36B2-CTY-TR?qs=aP1CjGhiNiFniXuPEM212w%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7396c324-8302-4692-9e40-df677f9f3a99")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "ECS"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "22f0ac75-8e51-4f0d-95e0-5c284611ed60")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "ECS-250-18-36B2-CTY-TR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a5914c98-6dd8-48d3-94a0-58f309f305bc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.85 1.5)
+		(end -0.85 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "64e0484b-6cdf-45c3-ada3-60938f016d5c")
+	)
+	(fp_line
+		(start -0.85 1.6)
+		(end -0.85 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "40080f6f-075d-4616-be32-42f79c721749")
+	)
+	(fp_arc
+		(start -0.85 1.5)
+		(mid -0.8 1.55)
+		(end -0.85 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5d113bed-7013-4674-869e-64c17ec6e715")
+	)
+	(fp_arc
+		(start -0.85 1.6)
+		(mid -0.9 1.55)
+		(end -0.85 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5cc200a9-f924-43bf-8642-acd4e4e950ea")
+	)
+	(fp_line
+		(start -2.45 -2.15)
+		(end 2.45 -2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "710a598d-63f0-48be-9190-08c1a0fdf905")
+	)
+	(fp_line
+		(start -2.45 2.15)
+		(end -2.45 -2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "50fe2710-9ed1-40cd-86a4-404c775af716")
+	)
+	(fp_line
+		(start 2.45 -2.15)
+		(end 2.45 2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4ad0e58d-e3e8-4590-83e5-2a261b84082b")
+	)
+	(fp_line
+		(start 2.45 2.15)
+		(end -2.45 2.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4b9db294-c998-4105-8275-f68cab43ae46")
+	)
+	(fp_line
+		(start -1.25 -1)
+		(end -1.25 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f548f55d-79e3-4bf2-8574-94d9398af5bd")
+	)
+	(fp_line
+		(start -1.25 1)
+		(end 1.25 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bcdfe204-c03c-46a6-b1e5-bb16b43f4b6c")
+	)
+	(fp_line
+		(start 1.25 -1)
+		(end -1.25 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b38f2df4-f0c0-4e65-9e80-a11c4a3829a6")
+	)
+	(fp_line
+		(start 1.25 1)
+		(end 1.25 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "acd4dedb-1bc6-4de9-ba3c-e067122da416")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "f37f4d50-338f-408a-8111-a6dbe65996ea")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.125 0.65 90)
+		(size 1 1.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a4a7cd59-a8b0-459e-be07-14763e004055")
+	)
+	(pad "2" smd rect
+		(at 1.125 0.65 90)
+		(size 1 1.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d6247475-4666-41f7-a9eb-f8a1d5fe5ba7")
+	)
+	(pad "3" smd rect
+		(at 1.125 -0.65 90)
+		(size 1 1.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "39a89cd4-60f7-470f-a3b2-ad4cd3b65d26")
+	)
+	(pad "4" smd rect
+		(at -1.125 -0.65 90)
+		(size 1 1.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "25365c60-942d-415c-be5f-40d6ec2d82d1")
+	)
+	(embedded_fonts no)
+	(model "ECS-250-18-36B2-CTY-TR.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

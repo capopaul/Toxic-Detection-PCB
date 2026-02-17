@@ -4064,16 +4064,6 @@
 		)
 		(uuid "098cab09-db24-4b56-b6c4-464ff511e467")
 	)
-	(label "ESP32_IO27"
-		(at 31.75 118.11 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "15d0acee-9c2e-481f-886b-1369f0537c86")
-	)
 	(label "ESP32_I34"
 		(at 31.75 128.27 180)
 		(effects
@@ -4083,16 +4073,6 @@
 			(justify right bottom)
 		)
 		(uuid "1ede0f63-4352-437f-b94b-e820ad8c804f")
-	)
-	(label "ESP32_IO21"
-		(at 31.75 113.03 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "20c58d64-67f5-400a-ad45-733890023975")
 	)
 	(label "ESP32_SEN_VN"
 		(at 71.12 45.72 180)
@@ -4104,6 +4084,16 @@
 		)
 		(uuid "2528a1f7-2e1b-4e0b-81b8-8b3d752f0e1e")
 	)
+	(label "ESP32_IO26"
+		(at 71.12 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "379bc0ec-1e62-4fb6-85eb-236e3d68ca67")
+	)
 	(label "ESP32_IO32"
 		(at 31.75 123.19 180)
 		(effects
@@ -4113,16 +4103,6 @@
 			(justify right bottom)
 		)
 		(uuid "39558607-b1d3-48b3-a88b-be63888d2b72")
-	)
-	(label "ESP32_IO4"
-		(at 31.75 107.95 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "443c81d1-ca2d-49e7-97ed-d3adcf0a2942")
 	)
 	(label "ESP32_SEN_VN"
 		(at 31.75 130.81 180)
@@ -4134,6 +4114,16 @@
 		)
 		(uuid "4a20f74b-776d-4062-80db-991b3f6edad5")
 	)
+	(label "ESP32_IO22"
+		(at 31.75 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4ad4dadf-bffd-4527-a507-7c2b9aee9d35")
+	)
 	(label "ESP32_EN"
 		(at 71.12 40.64 180)
 		(effects
@@ -4143,26 +4133,6 @@
 			(justify right bottom)
 		)
 		(uuid "557dc3b4-f1e3-40d5-bba8-93eaeb56722d")
-	)
-	(label "ESP32_IO33"
-		(at 31.75 120.65 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5b132451-37d2-4cf4-914c-fbcb254830e0")
-	)
-	(label "ESP32_IO17"
-		(at 31.75 110.49 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "64c045e9-432c-4733-b489-ae682c44de28")
 	)
 	(label "ESP32_IO32"
 		(at 71.12 53.34 180)
@@ -4214,15 +4184,25 @@
 		)
 		(uuid "7d0d62bf-39a4-45c4-bf53-095f7a71f7e8")
 	)
-	(label "ESP32_IO4"
-		(at 109.22 38.1 0)
+	(label "ESP32_IO25"
+		(at 31.75 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "8cb78915-c38d-4060-a3f8-97d3b89584e8")
+		(uuid "7d466f38-c2e7-4673-978e-a2fae3907cc1")
+	)
+	(label "ESP32_IO33"
+		(at 31.75 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7dbb36ff-e2e0-45c2-a830-fe2a83796b8a")
 	)
 	(label "ESP32_I35"
 		(at 71.12 50.8 180)
@@ -4234,6 +4214,16 @@
 		)
 		(uuid "a06461c1-4a2f-4a4f-b0cb-e9c3d6e96da7")
 	)
+	(label "ESP32_IO27"
+		(at 31.75 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a6c854b9-bc19-425c-a645-8695dbf3625e")
+	)
 	(label "ESP32_BOOT"
 		(at 39.37 83.82 0)
 		(effects
@@ -4243,16 +4233,6 @@
 			(justify left bottom)
 		)
 		(uuid "a8f427b6-d3ca-4a2c-ae03-2f74734ba444")
-	)
-	(label "ESP32_IO17"
-		(at 109.22 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b4947822-900a-44a2-ab7c-9120ea7a4ea5")
 	)
 	(label "ESP32_IO27"
 		(at 71.12 63.5 180)
@@ -4274,6 +4254,16 @@
 		)
 		(uuid "cce35d9a-c366-43ee-a1a2-b2a26a86c1e4")
 	)
+	(label "ESP32_IO26"
+		(at 31.75 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dbeb4e99-5069-4bbf-a7de-70e3e412f580")
+	)
 	(label "ESP32_BOOT"
 		(at 109.22 35.56 0)
 		(effects
@@ -4294,15 +4284,15 @@
 		)
 		(uuid "e2bdaa9b-7887-4fd4-8b92-7741eb366878")
 	)
-	(label "ESP32_IO22"
-		(at 31.75 115.57 180)
+	(label "ESP32_IO25"
+		(at 71.12 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "f33fac41-0e7d-4b4d-8b79-7bfba56397ce")
+		(uuid "ec1178e2-5a72-4d0c-b797-1645e64b33ef")
 	)
 	(label "ESP32_IO22"
 		(at 109.22 63.5 0)
@@ -4313,6 +4303,38 @@
 			(justify left bottom)
 		)
 		(uuid "f4c6c683-b11d-4a23-83eb-2f34556b7ade")
+	)
+	(label "ESP32_IO21"
+		(at 31.75 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fe00831e-e0a1-483b-88e0-cdac66b26d55")
+	)
+	(global_label "STM32_ESP32_IRQ_1"
+		(shape input)
+		(at 109.22 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "03f09164-0dfb-4380-b7c9-6fa1b4f68125")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 131.6178 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "ESP32_UART_RX"
 		(shape input)
@@ -4327,6 +4349,28 @@
 		(uuid "36d588d7-c31a-416e-930a-776ea5084420")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 127.3241 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "STM32_ESP32_IRQ_2"
+		(shape input)
+		(at 109.22 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "396fe312-579d-4621-b8db-e07d61c1d687")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 131.6178 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4375,50 +4419,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "STM32_ESP32_IRQ_1"
-		(shape input)
-		(at 71.12 58.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4d643093-e761-4468-95e7-e8f1a6daec5d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 48.7222 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "STM32_ESP32_IRQ_2"
-		(shape input)
-		(at 71.12 60.96 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5222a9e8-e0e2-446d-b09a-214cfa7bfec3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 48.7222 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)

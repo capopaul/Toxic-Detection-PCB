@@ -246,22 +246,22 @@ This table contains all the pin assignments. It was updated during layout to mak
 | IO1 TXD0       | I/O |                   | esp32_uart_tx |
 | IO2            | I/O |                   | booting       |
 | IO3 RXD0       | I/O |                   | esp32_uart_rx |
-| IO4            | I/O |                   |               |
+| IO4            | I/O | stm32_esp32_irq_2 |               |
 | IO5            | I/O | esp32_spi_cs      |               |
 | IO12           | I/O |                   | jtag_tdi      |
 | IO13           | I/O |                   | jtag_tck      |
 | IO14           | I/O |                   | jtag_tms      |
 | IO15           | I/O |                   | jtag_tdo      |
 | IO16           | I/O | esp32_led_0       |               |
-| IO17           | I/O |                   |               |
+| IO17           | I/O | stm32_esp32_irq_1 |               |
 | IO18           | I/O | esp32_spi_sclk    |               |
 | IO19           | I/O | esp32_spi_miso    |               |
 | IO21           | I/O |                   |               |
 | IO22           | I/O |                   |               |
 | IO23           | I/O | esp32_spi_mosi    |               |
 | IO25           | I/O |                   |               |
-| IO26           | I/O | stm32_esp32_irq_1 |               |
-| IO27           | I/O | stm32_esp32_irq_2 |               |
+| IO26           | I/O |                   |               |
+| IO27           | I/O |                   |               |
 | IO32           | I/O |                   |               |
 | IO33           | I/O |                   |               |
 | IO34           | I   |                   |               |
@@ -322,3 +322,28 @@ Second idea:
 Third (and final) idea:
 ![Placement 3](images/placement_3.png)
 ![Placement 3 3D](images/placement_3_3d.png)
+
+### 5.2 Routing
+
+The following design was made so that all QSPI have a length around 27mm.
+![Routing QSPI](images/routing_qspi.png)
+
+Same for SPI between STM32 and ESP32
+![Routing SPI](images/routing_spi.png)
+
+Same for SDMMC
+![Routing SDMMC](images/routing_sdmmc.png)
+
+Finally all the other lines are routed.
+
+### 5.3 Update footprints for debug
+
+The goal here is to edit some footprints to make rework easier.
+![Quartz 25MHz footprinf before](images/quartz_25_footprint_before.png)
+![Quartz 25MHz footprint after](images/quartz_25_footprint_after.png)
+
+![Quartz 32kHz footprint before](images/quartz_32_footprint_before.png)
+![Quartz 32KHz footprint after](images/quartz_32_footprint_after.png)
+
+![GNSS footprint before](images/gnss_footprint_before.png)
+![GNSS footprint after](images/gnss_footprint_after.png)
