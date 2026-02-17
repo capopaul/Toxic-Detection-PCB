@@ -5812,7 +5812,7 @@
 				)
 			)
 		)
-		(property "Footprint" "GNSS module and antenna:SAMM10Q00B"
+		(property "Footprint" "GNSS module and antenna:SAMM10Q00B_custom"
 			(at 247.65 140.64 0)
 			(effects
 				(font

@@ -17894,7 +17894,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Quartz 25MHz:ECS2501836B2CTYTR"
+		(property "Footprint" "Quartz 25MHz:ECS2501836B2CTYTR_custom"
 			(at 269.24 177.47 0)
 			(effects
 				(font

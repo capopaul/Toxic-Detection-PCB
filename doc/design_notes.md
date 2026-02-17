@@ -5,6 +5,7 @@
 | Revision | Date        | Author       | Comment                  |
 | -------- | ----------- | ------------ | ------------------------ |
 | v4.0     | 2026 Feb 12 | Paul Capgras | First draft : Pre-Layout |
+| v4.1     | 2026 Feb 17 | Paul Capgras | Post-Layout              |
 
 ## Related Documents
 
@@ -347,3 +348,11 @@ The goal here is to edit some footprints to make rework easier.
 
 ![GNSS footprint before](images/gnss_footprint_before.png)
 ![GNSS footprint after](images/gnss_footprint_after.png)
+
+### 5.4 Final Layout
+
+Layout so far:
+
+![3D front](images/3d_front.png)
+![3D back](images/3d_back.png)
+![Layout](images/layout.png)

@@ -2,6 +2,9 @@
 
 This project contains the Revision 4 for the PCB design of the AirU, ChemAirU, Toxic-Detection project.
 
+![3D view of the PCB (front)](doc/images/3d_front.png)
+![3D view of the PCB (back)](doc/images/3d_back.png)
+
 As this project aims to create the revision 4, all documentation documents will starts at revision 4.0.
 
 1. [Product Brief](/doc/product_brief.md)
@@ -18,3 +21,4 @@ As this project aims to create the revision 4, all documentation documents will 
 
 - [ ] Schematic under review
 - [ ] Layout
+- [ ] USB tuning
