@@ -20,5 +20,5 @@ As this project aims to create the revision 4, all documentation documents will 
 ## Next Steps
 
 - [ ] Schematic under review
-- [ ] Layout
-- [ ] USB tuning
+- [ ] Layout under review
+- [ ] PCB order

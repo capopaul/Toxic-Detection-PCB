@@ -349,6 +349,14 @@ The goal here is to edit some footprints to make rework easier.
 ![GNSS footprint before](images/gnss_footprint_before.png)
 ![GNSS footprint after](images/gnss_footprint_after.png)
 
+### 5.4 Impedance matching
+
+![USB impendance matching](images/usb_impedance.png)
+
+USB lines should be 50 Ohms. The differential pair is then routed with a gap of 0.2mm and a width of 0.4486mm.
+
+A length matching was also required to have a total length of each lines of 95mm.
+
 ### 5.4 Final Layout
 
 Layout so far:
