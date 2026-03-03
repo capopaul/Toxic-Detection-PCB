@@ -4,8 +4,9 @@
 
 | Revision | Date        | Author       | Comment                  |
 | -------- | ----------- | ------------ | ------------------------ |
-| v4.0     | 2026 Feb 12 | Paul Capgras | First draft : Pre-Layout |
+| v4.0     | 2026 Feb 12 | Paul Capgras | First draft : Pre-Layout             |
 | v4.1     | 2026 Feb 17 | Paul Capgras | Post-Layout              |
+| v4.2     | 2026 Mar 3  | Paul Capgras | Take into account PE's feedback    |
 
 ## Related Documents
 
@@ -164,7 +165,9 @@ JTAG interface:
 ![Diagram JTAG](images/diagram_jtag.png)
 
 Schematic:
-![Schematic JTAG for STM32 debug](images/schematic_jtag.png)
+<!-- ![Schematic JTAG for STM32 debug 20 pin header](images/schematic_jtag.png) -->
+An FTSH 105 01 L DV K connector is used.
+![Schematic JTAG for STM32 debug 10 pin header](images/schematic_jtag_10pin.png)
 References:
 ![STM32 Debug JTAG interface](images/stm32_jtag_debug.png)
 ![STM32 Debug JTAG interface 2](images/stm32_jtag_debug_2.png)

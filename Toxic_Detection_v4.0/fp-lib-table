@@ -19,4 +19,5 @@
   (lib (name "TVS_diodes")(type "KiCad")(uri "/Users/Paul/Documents/Mes-Projets/2026/Toxic_Detection_PCB/doc/components/TVS_diodes")(options "")(descr ""))
   (lib (name "USB_ESD_protection")(type "KiCad")(uri "/Users/Paul/Documents/Mes-Projets/2026/Toxic_Detection_PCB/doc/components/USB_ESD_protection")(options "")(descr ""))
   (lib (name "USB-C connector")(type "KiCad")(uri "/Users/Paul/Documents/Mes-Projets/2026/Toxic_Detection_PCB/doc/components/USB-C connector")(options "")(descr ""))
+  (lib (name "jtag connector")(type "KiCad")(uri "/Users/Paul/Documents/Mes-Projets/2026/Toxic_Detection_PCB/doc/components/jtag connector")(options "")(descr ""))
 )
