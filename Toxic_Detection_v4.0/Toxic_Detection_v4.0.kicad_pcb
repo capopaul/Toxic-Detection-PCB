@@ -110,7 +110,7 @@
 		(tenting front back)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
-			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
+			(plot_on_all_layers_selection 0x00000000_00000000_00000080_02000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
 			(usegerberattributes yes)
@@ -32980,7 +32980,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Toxic Detection, Rev 4.0\nLNIS\nPaul Capgras"
+	(gr_text "Toxic Detection, Rev 4.1\nLNIS\nPaul Capgras"
 		(at 64.25 79.5 0)
 		(layer "F.SilkS" knockout)
 		(uuid "8eca077f-7db1-47e1-b889-68f73a020027")
