@@ -4,9 +4,10 @@
 
 | Revision | Date        | Author       | Comment                  |
 | -------- | ----------- | ------------ | ------------------------ |
-| v4.0     | 2026 Feb 12 | Paul Capgras | First draft : Pre-Layout             |
+| v4.0     | 2026 Feb 12 | Paul Capgras | First draft : Pre-Layout |
 | v4.1     | 2026 Feb 17 | Paul Capgras | Post-Layout              |
-| v4.2     | 2026 Mar 3  | Paul Capgras | Take into account PE's feedback    |
+| v4.2     | 2026 Mar 3  | Paul Capgras | Take into account PE's feedback |
+| v4.3.    | 2026 Mar 17 | Paul Capgras | Take into account all reviews : Change 3.3V LDO and add anti-aliasing filters |
 
 ## Related Documents
 
@@ -25,6 +26,7 @@ The purpose of *Toxic Detection PCB - Schematic design notes* is to document the
 1. [Features](#1-features)
 2. [Architecture](#2-architecture)
 3. [Component choice](#3-component-choice)
+    1. [Power Consumption Evaluation](#31-power-consumption-evaluation)
 4. [Schematic](#4-schematic)
     1. [Microcontroller - STM32H755ZIT3](#41-microcontroller---stm32h755zit3)
         1. [STM32 - Power Supply](#411-stm32---power-supply)
@@ -85,6 +87,15 @@ Many components are based on the previous board design: Revision 3.3 (April 2024
 - GNSS: SAM-M10Q is selected because it includes both GNSS module and antenna.
 
 ---
+
+### 3.1 Power consumption Evaluation
+
+| Component   | Current (mA) |
+|-------------|--------------|
+| STM         | 500          |
+| ESP32       | 380          |
+
+Target 1A.
 
 ## 4. Schematic
 
@@ -189,14 +200,14 @@ This design is based on the previous board revision (3.3), on [AFE Datasheet](ex
 
 ### 4.3 LDOs
 
+The 3.3V LDO must support 1A and to have margin, an LDO with a current above 2A is selected.
+
 Schematic:
 ![Scheamtic LDO](images/schematic_ldo.png)
 
 References:
+![Datasheet LDO 3V3](images/datasheet_ldo_3V3.png)
 ![Datasheet LDO 5V](images/datasheet_ldo_5v.png)
-![Datasheet LDO 3.3V](images/datasheet_ldo_3V3.png)
-
-Note [Datasheet LDO 3.3V](components/LDO%203.3V/DIOD-S-A0003512613-1.pdf) says that pin 4 should be unconnected when using a fix LDO.
 
 ### 4.4 Power Gating
 

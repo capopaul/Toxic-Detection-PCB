@@ -7,7 +7,7 @@
 	(title_block
 		(title "Toxic_Detection_PCB")
 		(date "2026-02-12")
-		(rev "4.2")
+		(rev "4.3")
 		(company "Company: LNIS")
 		(comment 4 "Author: Paul Capgras")
 	)
@@ -4445,27 +4445,6 @@
 			)
 		)
 	)
-	(global_label "SAM_M10Q_UART_RX"
-		(shape input)
-		(at 259.08 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "64837c7b-dac4-4f92-8cf7-4f32a1c5a3ff")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 269.24 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "JTAG_TMS"
 		(shape input)
 		(at 71.12 66.04 180)
@@ -4578,16 +4557,16 @@
 	)
 	(global_label "SAM_M10Q_UART_TX"
 		(shape input)
-		(at 259.08 63.5 0)
+		(at 259.08 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "8bfb0a02-a42b-48e0-9381-498046237ab9")
+		(uuid "af4b51a0-22d4-4b32-9f73-27e009dd19bc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 269.24 63.5 0)
+			(at 269.24 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4609,6 +4588,27 @@
 		(uuid "c34ffd2f-e4c7-4057-bdb9-a3baa3127667")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 231.14 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SAM_M10Q_UART_RX"
+		(shape input)
+		(at 259.08 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cbfa57b4-f5dc-4a9e-b04c-ae6f911d5fe8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.24 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)

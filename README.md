@@ -9,8 +9,8 @@ As this project aims to create the revision 4, all documentation documents will 
 
 1. [Product Brief](/doc/product_brief.md)
 2. [Design Notes](/doc/design_notes.md)
-3. [Schematic v4.0](/doc/schematic_v4.2.pdf)
-4. [Layout v4.1](/doc/layout_v4.1.pdf)
+3. [Schematic v4.3](/doc/schematic_v4.3.pdf)
+4. [Layout v4.2](/doc/layout_v4.2.pdf)
 
 ## Repo Organization
 

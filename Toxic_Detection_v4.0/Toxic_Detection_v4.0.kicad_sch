@@ -7,9 +7,10 @@
 	(title_block
 		(title "Toxic_Detection_PCB")
 		(date "2026-02-12")
-		(rev "4.2")
+		(rev "4.3")
 		(company "Company: LNIS")
-		(comment 3 "Rev 4.0 (= Pre-layout), Rev 4.1 (= Post-layout), Rev 4.2 (=Post PE's review)")
+		(comment 2 "Rev 4.3 (=Post review)")
+		(comment 3 "Rev 4.0 (=Pre-layout), Rev 4.1 (=Post-layout), Rev 4.2 (=Post PE's review)")
 		(comment 4 "Author: Paul Capgras")
 	)
 	(lib_symbols)

@@ -7,7 +7,7 @@
 	(title_block
 		(title "Toxic_Detection_PCB")
 		(date "2026-02-12")
-		(rev "4.2")
+		(rev "4.3")
 		(company "Company: LNIS")
 		(comment 4 "Author: Paul Capgras")
 	)
@@ -343,12 +343,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "AP7365-33WG-7:AP7365-33WG-7"
+		(symbol "AZ1084CD-3_3TRG1:AZ1084CD-3.3TRG1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "IC"
-				(at 21.59 7.62 0)
+				(at 29.21 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -356,8 +356,8 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "AP7365-33WG-7"
-				(at 21.59 5.08 0)
+			(property "Value" "AZ1084CD-3.3TRG1"
+				(at 29.21 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -365,18 +365,8 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "SOT95P285X130-5N"
-				(at 21.59 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/AP7365-33WG-7.pdf"
-				(at 21.59 -194.92 0)
+			(property "Footprint" "AZ1084CD33TRG1"
+				(at 29.21 -94.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -385,7 +375,17 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "DiodesZetex AP7365-33WG-7, LDO Voltage Regulator, 600mA, 3.3 V +/-2%, 2  6 Vin, 5-Pin SOT-25"
+			(property "Datasheet" "https://www.digikey.ph/en/products/detail/diodes-incorporated/AZ1084CD-3-3TRG1/4470961?srsltid=AfmBOopHKpQDr1--fC31y6FAwBHJJ5UmydOlv9Ayr0_tlEGtFgmjfgKq"
+				(at 29.21 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "DiodesZetex AZ1084CD-3.3TRG1, LDO Voltage Regulator, 5A, 3.3 V, Maximum of 12 Vin, 3-Pin T0-252"
 				(at 0 0 0)
 				(effects
 					(font
@@ -394,8 +394,8 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "1.3"
-				(at 21.59 -394.92 0)
+			(property "Height" "2.527"
+				(at 29.21 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -404,8 +404,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "621-AP7365-33WG-7"
-				(at 21.59 -494.92 0)
+			(property "Mouser Part Number" "621-AZ1084CD-3.3TRG1"
+				(at 29.21 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -414,8 +414,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP7365-33WG-7?qs=abZ1nkZpTuOZFvxvoFPL0w%3D%3D"
-				(at 21.59 -594.92 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AZ1084CD-3.3TRG1?qs=FKu9oBikfSkIi2fxMEvJQA%3D%3D"
+				(at 29.21 -594.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -425,7 +425,7 @@
 				)
 			)
 			(property "Manufacturer_Name" "Diodes Incorporated"
-				(at 21.59 -694.92 0)
+				(at 29.21 -694.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -434,8 +434,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "AP7365-33WG-7"
-				(at 21.59 -794.92 0)
+			(property "Manufacturer_Part_Number" "AZ1084CD-3.3TRG1"
+				(at 29.21 -794.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -444,10 +444,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "AP7365-33WG-7_1_1"
+			(symbol "AZ1084CD-3.3TRG1_1_1"
 				(rectangle
 					(start 5.08 2.54)
-					(end 20.32 -7.62)
+					(end 27.94 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -459,7 +459,7 @@
 				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
-					(name "IN"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -477,25 +477,7 @@
 				(pin passive line
 					(at 0 -2.54 0)
 					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "EN"
+					(name "INPUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -511,34 +493,16 @@
 					)
 				)
 				(pin passive line
-					(at 25.4 0 180)
+					(at 33.02 0 180)
 					(length 5.08)
-					(name "ADJ"
+					(name "OUTPUT"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -2.54 180)
-					(length 5.08)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6015,12 +5979,6 @@
 		(uuid "b8e2e9a0-fc7a-437a-8d58-96e7c276d938")
 	)
 	(junction
-		(at 157.48 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bac4ff3f-8fac-4ed2-b86c-8a1b1552caa1")
-	)
-	(junction
 		(at 22.86 190.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6033,13 +5991,7 @@
 		(uuid "c33d7e86-745f-4d44-8fbd-65b25c909128")
 	)
 	(junction
-		(at 157.48 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c542c383-7085-4c7e-9999-c82545750323")
-	)
-	(junction
-		(at 163.83 132.08)
+		(at 167.64 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf8d40dd-1397-49d1-8f83-3ef446042c48")
@@ -6135,12 +6087,6 @@
 		(uuid "f82556c7-d407-4ae3-9d37-c444f6046998")
 	)
 	(junction
-		(at 129.54 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f86bd68e-539e-4d8f-ad8b-63ae2d8ad494")
-	)
-	(junction
 		(at 274.32 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6187,10 +6133,6 @@
 	(no_connect
 		(at 41.91 157.48)
 		(uuid "6d4a2a73-0278-4b39-a469-50ce44eef596")
-	)
-	(no_connect
-		(at 160.02 129.54)
-		(uuid "79611c14-8c33-4b73-a3f5-0baf56156e1f")
 	)
 	(no_connect
 		(at 41.91 152.4)
@@ -6303,6 +6245,16 @@
 			(type default)
 		)
 		(uuid "0ec55feb-6a22-4ac0-b430-81df37e1294a")
+	)
+	(wire
+		(pts
+			(xy 125.73 127) (xy 125.73 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f4da1ec-5ba8-4fbe-917b-dffa533ee0da")
 	)
 	(wire
 		(pts
@@ -6426,16 +6378,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 129.54) (xy 134.62 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fbc57df-0e58-4b3e-a65b-e532debe471a")
-	)
-	(wire
-		(pts
 			(xy 34.29 91.44) (xy 34.29 93.98)
 		)
 		(stroke
@@ -6486,7 +6428,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 132.08) (xy 163.83 132.08)
+			(xy 163.83 130.81) (xy 167.64 130.81)
 		)
 		(stroke
 			(width 0)
@@ -6726,7 +6668,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 140.97) (xy 157.48 139.7)
+			(xy 166.37 143.51) (xy 166.37 142.24)
 		)
 		(stroke
 			(width 0)
@@ -6766,16 +6708,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 146.05) (xy 167.64 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b0691a1-bf6f-4fd7-bb54-9eda2749c0aa")
-	)
-	(wire
-		(pts
 			(xy 64.77 19.05) (xy 64.77 22.86)
 		)
 		(stroke
@@ -6803,16 +6735,6 @@
 			(type default)
 		)
 		(uuid "4f1b8ad3-b02c-4306-b43b-b579b5959732")
-	)
-	(wire
-		(pts
-			(xy 132.08 132.08) (xy 134.62 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f3d43d1-147a-423e-ba14-38a24968a69b")
 	)
 	(wire
 		(pts
@@ -7206,7 +7128,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 132.08) (xy 167.64 132.08)
+			(xy 167.64 130.81) (xy 171.45 130.81)
 		)
 		(stroke
 			(width 0)
@@ -7293,16 +7215,6 @@
 			(type default)
 		)
 		(uuid "968b1033-4488-4d86-af20-386e4e7b9731")
-	)
-	(wire
-		(pts
-			(xy 134.62 134.62) (xy 129.54 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "974dc006-1de5-447c-8ca7-ca1fe934045b")
 	)
 	(wire
 		(pts
@@ -7396,7 +7308,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 147.32) (xy 157.48 146.05)
+			(xy 166.37 149.86) (xy 166.37 148.59)
 		)
 		(stroke
 			(width 0)
@@ -7486,16 +7398,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 134.62) (xy 129.54 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0333a2c-9178-4708-9a78-568f12663212")
-	)
-	(wire
-		(pts
 			(xy 257.81 78.74) (xy 256.54 78.74)
 		)
 		(stroke
@@ -7536,13 +7438,13 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 140.97) (xy 167.64 140.97)
+			(xy 128.27 130.81) (xy 130.81 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b4018f15-0868-47b7-b506-ab40d279d0ae")
+		(uuid "b3e3ab8d-d167-42cd-94a1-2595222bb5d0")
 	)
 	(wire
 		(pts
@@ -7623,6 +7525,16 @@
 			(type default)
 		)
 		(uuid "be2654ee-d569-47f5-ac19-a89cf48665a0")
+	)
+	(wire
+		(pts
+			(xy 125.73 133.35) (xy 130.81 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfaa4d19-9ce5-4784-b4e7-e5c2f6b373ac")
 	)
 	(wire
 		(pts
@@ -7986,16 +7898,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 138.43) (xy 132.08 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef9f9127-c399-4b00-9179-f1637b5a22e8")
-	)
-	(wire
-		(pts
 			(xy 161.29 165.1) (xy 163.83 165.1)
 		)
 		(stroke
@@ -8113,6 +8015,16 @@
 			(type default)
 		)
 		(uuid "fe5dc32e-e2ee-4034-ba20-f3c57827a8af")
+	)
+	(wire
+		(pts
+			(xy 128.27 137.16) (xy 128.27 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff9391d7-3da6-477e-8b02-eb3b4ee1a555")
 	)
 	(label "VBUS_UART"
 		(at 76.2 132.08 180)
@@ -9355,7 +9267,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 157.48 143.51 0)
+		(at 166.37 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9364,7 +9276,7 @@
 		(fields_autoplaced yes)
 		(uuid "0e15bb1a-1287-4568-ae73-f3c2ff8d34c5")
 		(property "Reference" "C46"
-			(at 160.02 142.2462 0)
+			(at 168.91 144.7862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9372,8 +9284,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
-			(at 160.02 144.7862 0)
+		(property "Value" "22uF"
+			(at 168.91 147.3262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9382,7 +9294,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 157.48 143.51 0)
+			(at 166.37 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9391,7 +9303,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 157.48 143.51 0)
+			(at 166.37 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9400,7 +9312,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 157.48 143.51 0)
+			(at 166.37 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9625,7 +9537,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 157.48 139.7 0)
+		(at 166.37 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9634,7 +9546,7 @@
 		(fields_autoplaced yes)
 		(uuid "13d986a6-ddf1-49b0-873f-0e1175c18cd8")
 		(property "Reference" "#PWR0124"
-			(at 157.48 143.51 0)
+			(at 166.37 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9643,7 +9555,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 157.48 134.62 0)
+			(at 166.37 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9651,7 +9563,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 139.7 0)
+			(at 166.37 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9660,7 +9572,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 139.7 0)
+			(at 166.37 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9669,7 +9581,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 157.48 139.7 0)
+			(at 166.37 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11107,7 +11019,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 157.48 147.32 0)
+		(at 166.37 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11116,7 +11028,7 @@
 		(fields_autoplaced yes)
 		(uuid "35bbf59b-d460-4b51-80ac-a0e7b506332c")
 		(property "Reference" "#PWR0125"
-			(at 157.48 153.67 0)
+			(at 166.37 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11125,7 +11037,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 157.48 152.4 0)
+			(at 166.37 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11133,7 +11045,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 147.32 0)
+			(at 166.37 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11142,7 +11054,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 147.32 0)
+			(at 166.37 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11151,7 +11063,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.48 147.32 0)
+			(at 166.37 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13391,7 +13303,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 129.54 129.54 0)
+		(at 125.73 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13400,7 +13312,7 @@
 		(fields_autoplaced yes)
 		(uuid "82b2b718-6c64-41c9-8407-8977382d0a3c")
 		(property "Reference" "#PWR0114"
-			(at 129.54 133.35 0)
+			(at 125.73 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13409,7 +13321,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 129.54 124.46 0)
+			(at 125.73 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13417,7 +13329,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 129.54 0)
+			(at 125.73 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13426,7 +13338,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 129.54 0)
+			(at 125.73 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13435,7 +13347,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 129.54 129.54 0)
+			(at 125.73 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13794,135 +13706,6 @@
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
 					(reference "#PWR0146")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AP7365-33WG-7:AP7365-33WG-7")
-		(at 134.62 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8b0570e0-d4c1-42a6-a0e3-9dc71360f446")
-		(property "Reference" "IC8"
-			(at 147.32 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AP7365-33WG-7"
-			(at 147.32 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LDO 3.3V:SOT95P285X130-5N"
-			(at 156.21 224.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/AP7365-33WG-7.pdf"
-			(at 156.21 324.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "DiodesZetex AP7365-33WG-7, LDO Voltage Regulator, 600mA, 3.3 V +/-2%, 2  6 Vin, 5-Pin SOT-25"
-			(at 134.62 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.3"
-			(at 156.21 524.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "621-AP7365-33WG-7"
-			(at 156.21 624.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP7365-33WG-7?qs=abZ1nkZpTuOZFvxvoFPL0w%3D%3D"
-			(at 156.21 724.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 156.21 824.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AP7365-33WG-7"
-			(at 156.21 924.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d9932c60-797f-49ad-bb34-a7b50aac12ec")
-		)
-		(pin "4"
-			(uuid "438f38e8-d448-4172-acc7-f86f279b97ba")
-		)
-		(pin "5"
-			(uuid "ba75a34d-bf34-4a72-8f34-ffa5c2b7a570")
-		)
-		(pin "3"
-			(uuid "165fe38c-12d3-463f-bbb0-a9f22b10de20")
-		)
-		(pin "1"
-			(uuid "f3e70dc8-5f65-4227-af61-33c358a72a34")
-		)
-		(instances
-			(project "Toxic_Detection_v4.0"
-				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "IC8")
 					(unit 1)
 				)
 			)
@@ -14396,76 +14179,6 @@
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
 					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 167.64 143.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b007bc8-40f3-4836-971b-f2d47b261286")
-		(property "Reference" "C48"
-			(at 170.18 142.2462 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 170.18 144.7862 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 167.64 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 167.64 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 167.64 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "eeae06c6-2c2f-426e-a8e1-1122887c464d")
-		)
-		(pin "1"
-			(uuid "66ded423-6bb0-478e-837f-060dd00564ba")
-		)
-		(instances
-			(project "Toxic_Detection_v4.0"
-				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -15433,7 +15146,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 163.83 132.08 0)
+		(at 167.64 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15442,7 +15155,7 @@
 		(fields_autoplaced yes)
 		(uuid "be234df9-eba9-4065-976f-811ce0a7ecc7")
 		(property "Reference" "#FLG06"
-			(at 163.83 130.175 0)
+			(at 167.64 128.905 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15451,7 +15164,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 163.83 127 0)
+			(at 167.64 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15459,7 +15172,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 132.08 0)
+			(at 167.64 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15468,7 +15181,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 132.08 0)
+			(at 167.64 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15477,7 +15190,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 163.83 132.08 0)
+			(at 167.64 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15569,7 +15282,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 167.64 132.08 0)
+		(at 171.45 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15578,7 +15291,7 @@
 		(fields_autoplaced yes)
 		(uuid "c01e40b8-0b02-409c-9531-d3da735d8986")
 		(property "Reference" "#PWR0128"
-			(at 167.64 135.89 0)
+			(at 171.45 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15587,7 +15300,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 167.64 127 0)
+			(at 171.45 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15595,7 +15308,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 132.08 0)
+			(at 171.45 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15604,7 +15317,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 132.08 0)
+			(at 171.45 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15613,7 +15326,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 167.64 132.08 0)
+			(at 171.45 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16045,137 +15758,6 @@
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
 					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 176.53 54.61 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "c86f9340-a890-4bd5-b4bf-99bcfa758812")
-		(property "Reference" "J17"
-			(at 179.832 54.356 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 175.895 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical"
-			(at 176.53 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 176.53 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 176.53 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7c518c28-2026-4e09-8ef6-55ec70ae62ea")
-		)
-		(instances
-			(project "Toxic_Detection_v4.0"
-				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "J17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 171.45 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c88a4602-c861-4876-9ff0-dc7f7028e341")
-		(property "Reference" "#PWR0132"
-			(at 171.45 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 171.45 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 171.45 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6bd9f4ab-3ca9-4235-80c2-6fbbe798c35b")
-		)
-		(instances
-			(project "Toxic_Detection_v4.0"
-				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
-					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -17414,7 +16996,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 132.08 138.43 0)
+		(at 128.27 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17423,7 +17005,7 @@
 		(fields_autoplaced yes)
 		(uuid "f19c5950-3129-4def-adf8-61c8cd3dfb32")
 		(property "Reference" "#PWR0116"
-			(at 132.08 144.78 0)
+			(at 128.27 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17432,7 +17014,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 132.08 143.51 0)
+			(at 128.27 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17440,7 +17022,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 138.43 0)
+			(at 128.27 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17449,7 +17031,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 138.43 0)
+			(at 128.27 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17458,7 +17040,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 132.08 138.43 0)
+			(at 128.27 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17805,6 +17387,129 @@
 			(project "Toxic_Detection_v4.0"
 				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
 					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AZ1084CD-3_3TRG1:AZ1084CD-3.3TRG1")
+		(at 130.81 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fda76a29-c6bc-4921-975e-8a64784f7182")
+		(property "Reference" "IC8"
+			(at 147.32 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AZ1084CD-3.3TRG1"
+			(at 147.32 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LDO 3.3V:AZ1084CD33TRG1"
+			(at 160.02 225.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ph/en/products/detail/diodes-incorporated/AZ1084CD-3-3TRG1/4470961?srsltid=AfmBOopHKpQDr1--fC31y6FAwBHJJ5UmydOlv9Ayr0_tlEGtFgmjfgKq"
+			(at 160.02 325.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "DiodesZetex AZ1084CD-3.3TRG1, LDO Voltage Regulator, 5A, 3.3 V, Maximum of 12 Vin, 3-Pin T0-252"
+			(at 130.81 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.527"
+			(at 160.02 525.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-AZ1084CD-3.3TRG1"
+			(at 160.02 625.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AZ1084CD-3.3TRG1?qs=FKu9oBikfSkIi2fxMEvJQA%3D%3D"
+			(at 160.02 725.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 160.02 825.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AZ1084CD-3.3TRG1"
+			(at 160.02 925.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "00dc11a8-2543-4643-b96b-3fdfe0f0d65d")
+		)
+		(pin "1"
+			(uuid "9f8b3daf-65c8-4e1a-a908-5b387057f77e")
+		)
+		(pin "3"
+			(uuid "7122aac1-34c8-4de1-b59f-65f7b3d734bb")
+		)
+		(instances
+			(project ""
+				(path "/db15616c-1ab1-46ed-81e3-12c994fbb457/cdc94fa3-b749-4315-ad45-c9b116ac9c9a"
+					(reference "IC8")
 					(unit 1)
 				)
 			)
