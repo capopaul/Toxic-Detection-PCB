@@ -5682,9 +5682,9 @@
 		)
 		(uuid "a785d221-8047-4ca6-8025-df1c75e95aba")
 	)
-	(text "1k should lead to a 3mA current"
+	(text "2k should lead to a 1.5mA current"
 		(exclude_from_sim no)
-		(at 215.9 40.894 0)
+		(at 216.916 40.894 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -9816,7 +9816,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2k"
 			(at 207.264 38.1 0)
 			(effects
 				(font
@@ -15084,7 +15084,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RED_LED_5mA"
+		(property "Value" "RED_LED_2mA"
 			(at 209.55 30.7974 90)
 			(effects
 				(font

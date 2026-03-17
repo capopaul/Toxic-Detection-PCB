@@ -8984,7 +8984,7 @@
 				)
 			)
 		)
-		(property "Value" "4K"
+		(property "Value" "10k"
 			(at 189.23 21.59 90)
 			(effects
 				(font
@@ -10948,7 +10948,7 @@
 				)
 			)
 		)
-		(property "Value" "4K"
+		(property "Value" "10k"
 			(at 189.23 50.8 90)
 			(effects
 				(font
@@ -11657,7 +11657,7 @@
 				)
 			)
 		)
-		(property "Value" "4K"
+		(property "Value" "10k"
 			(at 209.55 50.8 90)
 			(effects
 				(font
@@ -12195,7 +12195,7 @@
 				)
 			)
 		)
-		(property "Value" "4K"
+		(property "Value" "10k"
 			(at 209.55 21.59 90)
 			(effects
 				(font
