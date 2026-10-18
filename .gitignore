@@ -45,4 +45,5 @@ fp-info-cache
 
 .DS_Store
 doc/external/
-SW/
+sdkconfig
+build/
