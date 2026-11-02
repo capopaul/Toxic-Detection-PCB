@@ -47,3 +47,4 @@ fp-info-cache
 doc/external/
 sdkconfig
 build/
+doc/components/STM32H755/dev_board_nucleo/STM32Cube_FW_H7_V1.13.0/
