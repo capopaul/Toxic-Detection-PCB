@@ -59,45 +59,10 @@ int main(void)
   /* Clear HSEM flag */
   __HAL_HSEM_CLEAR_FLAG(__HAL_HSEM_SEMID_TO_MASK(HSEM_ID_0));
 
- /* STM32H7xx HAL library initialization:
-       - Systick timer is configured by default as source of time base, but user 
-         can eventually implement his proper time base source (a general purpose 
-         timer for example or other time source), keeping in mind that Time base 
-         duration should be kept 1ms since PPP_TIMEOUT_VALUEs are defined and 
-         handled in milliseconds basis.
-       - Set NVIC Group Priority to 4
-       - Low Level Initialization
-     */
-  HAL_Init();
-  
-  /* -1- Initialize LEDs mounted on STM32H745ZI-Nucleo board */
-  BSP_LED_Init(LED2);
-  
-  /* Enable and set EXTI lines 15 to 10 Interrupt to the lowest priority */
-  HAL_NVIC_SetPriority(EXTI15_10_IRQn, 2, 0);
-  HAL_NVIC_EnableIRQ(EXTI15_10_IRQn); 
-
-
-  /* Infinite loop */
+  /* CM4 has no application work. Stay asleep after the required boot handshake. */
   while (1)
   {
-  }
-}
-
-
-
-
-/**
-  * @brief EXTI line detection callbacks
-  * @param GPIO_Pin: Specifies the pins connected EXTI line
-  * @retval None
-  */
-void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
-{  
-  if (GPIO_Pin == GPIO_PIN_13)
-  {
-    /* Toggle LED2 */
-    BSP_LED_Toggle(LED2);
+    __WFI();
   }
 }
 
